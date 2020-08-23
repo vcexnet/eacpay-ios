@@ -1,15 +1,22 @@
 version: 2.1
-jobs: # a basic unit of work in a run
-  build: # runs not using `Workflows` must have a `build` job as entry point
-    macos:  # indicate that we are using the macOS executor
-      xcode: 11.6.0 # indicate our selected version of Xcode
-    steps: # a series of commands to run
-      - checkout  # pull down code from your version control system.
+jobs:
+  build:
+
+    # Specify the Xcode version to use
+    macos:
+      xcode: "11.6.0"
+
+    steps:
+      - checkout
+
+    # Install CocoaPods
+      - run:
+          name: Install CocoaPods
+          command: pod install
+
+    # Run scheme and project
       - run:
           # run our tests using xcode's cli tool `xcodebuild`
           name: Run Unit Tests
-          command: xcodebuild loafwallet -scheme loafwallet
-      - run:
-          # build our application
-          name: Build Application
-          command: xcodebuild
+          command: xcodebuild -sdk iphonesimulator -workspace loafwallet.xcworkspace/ -scheme "loafwallet" clean build SL_RUN_UNIT_TESTS=YES
+
