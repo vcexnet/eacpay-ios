@@ -25,11 +25,7 @@ target 'loafwallet' do
   
   target 'loafwalletTests' do
     inherit! :search_paths
-  end
-  
-  target 'loafwalletUITests' do
-    inherit! :search_paths
-  end
+  end 
   
 end
  
