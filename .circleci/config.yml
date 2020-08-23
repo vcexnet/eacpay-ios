@@ -4,7 +4,7 @@ jobs:
 
     # Specify the Xcode version to use
     macos:
-      xcode: "11.6.0"
+      xcode: "11.5.0"
 
     steps:
       - checkout
