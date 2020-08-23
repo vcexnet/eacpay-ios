@@ -18,5 +18,4 @@ jobs:
       - run:
           # run our tests using xcode's cli tool `xcodebuild`
           name: Run Unit Tests
-          command: xcodebuild -sdk iphonesimulator -workspace loafwallet.xcworkspace/ -scheme "loafwallet" clean build SL_RUN_UNIT_TESTS=YES
-
+          command: xcodebuild   -workspace loafwallet.xcworkspace   -scheme loafwallet   -destination "platform=iOS Simulator,name=iPhone 8"   clean test
