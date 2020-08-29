@@ -4,6 +4,6 @@
 [submodule "Modules/nettle"]
 	path = Modules/nettle
 	url = https://github.com/breadwallet/nettle.git
-[submodule "Modules/loafwallet-core"]
-	path = Modules/loafwallet-core
-	url = https://github.com/litecoin-foundation/loafwallet-core.git
+[submodule "Modules/eacpay-core"]
+	path = Modules/eacpay-core
+	url = https://github.com/vcexnet/eacpay-core.git
