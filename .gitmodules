@@ -1,0 +1,3 @@
+[submodule "Modules/eacpay-core"]
+	path = Modules/eacpay-core
+	url = https://github.com/vcexnet/eacpay-core-ios.git
