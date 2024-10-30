@@ -1,0 +1,45 @@
+## Litewallet related
+eacpay/partner-keys.plist
+eacpay/GoogleService-Info.plist
+
+## Build generated
+build/
+DerivedData/
+
+## OS Related
+.DS_Store
+
+## Various settings
+*.moved-aside
+
+## Xcode related
+*.xcuserstate
+xcuserdata/
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager 
+Packages/
+Package.pins
+Package.resolved
+.build/
+
+# Add this line if you want to avoid checking in Xcode SPM integration.
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+ 
+
+# SwiftFormat
+BuildTools/.build
+BuildTools/.swiftpm
+
+# Sensitive Partner API 
+Modules/litewallet-partner-api-ios
+litewallet-partner-api-ios
+/partner-keys.plist
+partner-keys.plist
+GoogleService-Info.plist
+*.gpx

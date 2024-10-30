@@ -266,7 +266,7 @@
 		C3423C422B796D820051BD6D /* coinflip.aiff in Resources */ = {isa = PBXBuildFile; fileRef = C3423C342B796D820051BD6D /* coinflip.aiff */; settings = {ASSET_TAGS = ("initial-resources", ); }; };
 		C3423C432B796D820051BD6D /* Uk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C3423C352B796D820051BD6D /* Uk.mp3 */; settings = {ASSET_TAGS = (speakTag, ); }; };
 		C3423C442B796D820051BD6D /* Fr.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C3423C362B796D820051BD6D /* Fr.mp3 */; settings = {ASSET_TAGS = (speakTag, ); }; };
-		C3423C452B796D820051BD6D /* 中國人.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C3423C372B796D820051BD6D /* 中國人.mp3 */; settings = {ASSET_TAGS = (speakTag, ); }; };
+		C3423C452B796D820051BD6D /* 中文.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C3423C372B796D820051BD6D /* 中文.mp3 */; settings = {ASSET_TAGS = (speakTag, ); }; };
 		C3423C462B796D820051BD6D /* Id.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C3423C382B796D820051BD6D /* Id.mp3 */; settings = {ASSET_TAGS = (speakTag, ); }; };
 		C3423C472B796D820051BD6D /* Tr.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C3423C392B796D820051BD6D /* Tr.mp3 */; settings = {ASSET_TAGS = (speakTag, ); }; };
 		C3423C482B796D820051BD6D /* Es.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C3423C3A2B796D820051BD6D /* Es.mp3 */; settings = {ASSET_TAGS = (speakTag, ); }; };
@@ -1380,7 +1380,7 @@
 		75A2A83F1DA59B4500A983D8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/MainInterface.strings; sourceTree = "<group>"; };
 		75A2A84E1DA59B5700A983D8 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/MainInterface.strings; sourceTree = "<group>"; };
 		75A2A8671DA59BFB00A983D8 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/MainInterface.strings; sourceTree = "<group>"; };
-		75A2A87C1DA59E4E00A983D8 /* litewallet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = litewallet.entitlements; sourceTree = "<group>"; };
+		75A2A87C1DA59E4E00A983D8 /* eacpay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = eacpay.entitlements; sourceTree = "<group>"; };
 		75C735AF1DAA1C9F00251ECF /* libnettle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libnettle.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		75FEFD1B1DAED56E00203D3A /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		C30029E125D0185500F08C2B /* StandardDividerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardDividerView.swift; sourceTree = "<group>"; };
@@ -1413,7 +1413,7 @@
 		C3423C342B796D820051BD6D /* coinflip.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = coinflip.aiff; sourceTree = "<group>"; };
 		C3423C352B796D820051BD6D /* Uk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Uk.mp3; sourceTree = "<group>"; };
 		C3423C362B796D820051BD6D /* Fr.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Fr.mp3; sourceTree = "<group>"; };
-		C3423C372B796D820051BD6D /* 中國人.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "中國人.mp3"; sourceTree = "<group>"; };
+		C3423C372B796D820051BD6D /* 中文.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "中文.mp3"; sourceTree = "<group>"; };
 		C3423C382B796D820051BD6D /* Id.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Id.mp3; sourceTree = "<group>"; };
 		C3423C392B796D820051BD6D /* Tr.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Tr.mp3; sourceTree = "<group>"; };
 		C3423C3A2B796D820051BD6D /* Es.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Es.mp3; sourceTree = "<group>"; };
@@ -2870,7 +2870,7 @@
 				C3055B662B8E593A002A0882 /* LaunchDataResources */,
 				C3423C2F2B796D820051BD6D /* Sounds */,
 				C35ABD07257404C6002BB9BB /* SwiftUI+UIKit */,
-				75A2A87C1DA59E4E00A983D8 /* litewallet.entitlements */,
+				75A2A87C1DA59E4E00A983D8 /* eacpay.entitlements */,
 				75A2A7931DA5934300A983D8 /* AppDelegate.swift */,
 				CE20C8F11DBAF71500C8397A /* ApplicationController.swift */,
 				754AE0BB1DFE8A46007FD001 /* BRCore.swift */,
@@ -3003,7 +3003,7 @@
 				C3423C342B796D820051BD6D /* coinflip.aiff */,
 				C3423C352B796D820051BD6D /* Uk.mp3 */,
 				C3423C362B796D820051BD6D /* Fr.mp3 */,
-				C3423C372B796D820051BD6D /* 中國人.mp3 */,
+				C3423C372B796D820051BD6D /* 中文.mp3 */,
 				C3423C382B796D820051BD6D /* Id.mp3 */,
 				C3423C392B796D820051BD6D /* Tr.mp3 */,
 				C3423C3A2B796D820051BD6D /* Es.mp3 */,
@@ -3733,7 +3733,7 @@
 				C3423C482B796D820051BD6D /* Es.mp3 in Resources */,
 				C3423C4A2B796D820051BD6D /* It.mp3 in Resources */,
 				CE5E6C9A1EB9135000A476DB /* Icon.xcassets in Resources */,
-				C3423C452B796D820051BD6D /* 中國人.mp3 in Resources */,
+				C3423C452B796D820051BD6D /* 中文.mp3 in Resources */,
 				24D5F25022599C0B00225462 /* BarlowSemiCondensed-Light.ttf in Resources */,
 				C3423C472B796D820051BD6D /* Tr.mp3 in Resources */,
 				C3F8F1442C04F6BE006C3211 /* Dakar, Senegal.gpx in Resources */,
