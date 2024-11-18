@@ -122,20 +122,20 @@ class StartViewModel: ObservableObject {
 	///  Set these to the bottom to make the others more readable
 	///   These are semi-hardcoded because the state is in flux
 	let taglines: [String] = [
-		"The most secure and easiest way to use Litecoin.",
-		"使用莱特币最安全、最简单的方式。",
-		"使用莱特币最安全、最简单的方式",
-		"La manière la plus sûre et la plus simple d'utiliser Litecoin.",
-		"Die sicherste Option zur Nutzung von Litecoin.",
-		"Cara paling aman dan termudah untuk menggunakan Litecoin.",
-		"Il modo più sicuro e semplice per utilizzare Litecoin.",
+		"The most secure and easiest way to use Earthcoin.",
+		"使用地球币最安全、最简单的方式。",
+		"使用地球幣最安全、最簡單的方式",
+		"La manière la plus sûre et la plus simple d'utiliser Earthcoin.",
+		"Die sicherste Option zur Nutzung von Earthcoin.",
+		"Cara paling aman dan termudah untuk menggunakan Earthcoin.",
+		"Il modo più sicuro e semplice per utilizzare Earthcoin.",
 		"最も安全にリテコインを使う手段。",
 		"라이트코인을 사용하는 가장 안전하고 쉬운 방법입니다.",
-		"A maneira mais segura e fácil de usar Litecoin.",
-		"Самый безопасный и простой способ использовать Litecoin",
-		"La forma más segura y sencilla de utilizar Litecoin",
-		"Litecoin kullanmanın en güvenli ve en kolay yolu.",
-		"Найбезпечніший і найпростіший спосіб використання Litecoin",
+		"A maneira mais segura e fácil de usar Earthcoin.",
+		"Самый безопасный и простой способ использовать Earthcoin",
+		"La forma más segura y sencilla de utilizar Earthcoin",
+		"Earthcoin kullanmanın en güvenli ve en kolay yolu.",
+		"Найбезпечніший і найпростіший спосіб використання Earthcoin",
 	]
 
 	let alertMessage: [String] = [

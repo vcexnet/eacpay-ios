@@ -1,7 +1,7 @@
 import UIKit
 
 let π: CGFloat = .pi
-let customUserAgent: String = "Eacpay-ios"
+let customUserAgent: String = "eacpay-ios"
 let swiftUICellPadding = 12.0
 let bigButtonCornerRadius = 15.0
 

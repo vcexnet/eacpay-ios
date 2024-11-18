@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "755CD9C31DAA18420075898E"
-               BuildableName = "libunbound.a"
-               BlueprintName = "unbound"
-               ReferencedContainer = "container:litewallet.xcodeproj">
+               BlueprintIdentifier = "75C735AE1DAA1C9F00251ECF"
+               BuildableName = "libnettle.a"
+               BlueprintName = "nettle"
+               ReferencedContainer = "container:eacpay.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -49,10 +49,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "755CD9C31DAA18420075898E"
-            BuildableName = "libunbound.a"
-            BlueprintName = "unbound"
-            ReferencedContainer = "container:litewallet.xcodeproj">
+            BlueprintIdentifier = "75C735AE1DAA1C9F00251ECF"
+            BuildableName = "libnettle.a"
+            BlueprintName = "nettle"
+            ReferencedContainer = "container:eacpay.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

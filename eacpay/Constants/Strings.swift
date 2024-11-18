@@ -5,7 +5,7 @@ enum S {
 		enum MainTitle {
 			static let intro = Localization(key: "MainTitle.intro", value: "Quick Start", comment: "Eacpay Quick Start")
 			static let checkboxes = Localization(key: "MainTitle.checkboxes", value: "Stay Connected", comment: "Stay Connected")
-			static let seedPhrase = Localization(key: "MainTitle.seedPhrase", value: "Protect your Litecoin!", comment: "Protect your Earthcoin!")
+			static let seedPhrase = Localization(key: "MainTitle.seedPhrase", value: "Protect your Earthcoin!", comment: "Protect your Earthcoin!")
 			static let finished = Localization(key: "MainTitle.finished", value: "Confirm and Go", comment: "Confirm and Go")
 		}
 
@@ -470,7 +470,7 @@ enum S {
 	}
 
 	enum RequestAnAmount {
-		static let title = Localization(key: "RequestAnAmount.title", value: "Request an Amount", comment: "Request a specific amount of Litecoin")
+		static let title = Localization(key: "RequestAnAmount.title", value: "Request an Amount", comment: "Request a specific amount of Earthcoin")
 		static let noAmount = Localization(key: "RequestAnAmount.noAmount", value: "Please enter an amount first.", comment: "No amount entered error message.")
 	}
 

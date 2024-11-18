@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "75A2A78F1DA5934300A983D8"
-               BuildableName = "Litewallet.app"
-               BlueprintName = "litewallet"
-               ReferencedContainer = "container:litewallet.xcodeproj">
+               BuildableName = "Eacpay.app"
+               BlueprintName = "eacpay"
+               ReferencedContainer = "container:eacpay.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -41,9 +41,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "75A2A78F1DA5934300A983D8"
-            BuildableName = "Litewallet.app"
-            BlueprintName = "litewallet"
-            ReferencedContainer = "container:litewallet.xcodeproj">
+            BuildableName = "Eacpay.app"
+            BlueprintName = "eacpay"
+            ReferencedContainer = "container:eacpay.xcodeproj">
          </BuildableReference>
       </CodeCoverageTargets>
       <Testables>
@@ -53,9 +53,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2465873523A5AAD000A32E9E"
-               BuildableName = "litewalletTests.xctest"
-               BlueprintName = "litewalletTests"
-               ReferencedContainer = "container:litewallet.xcodeproj">
+               BuildableName = "eacpayTests.xctest"
+               BlueprintName = "eacpayTests"
+               ReferencedContainer = "container:eacpay.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "75A2A78F1DA5934300A983D8"
-            BuildableName = "Litewallet.app"
-            BlueprintName = "litewallet"
-            ReferencedContainer = "container:litewallet.xcodeproj">
+            BuildableName = "Eacpay.app"
+            BlueprintName = "eacpay"
+            ReferencedContainer = "container:eacpay.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <LocationScenarioReference
@@ -98,9 +98,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "75A2A78F1DA5934300A983D8"
-            BuildableName = "Litewallet.app"
-            BlueprintName = "litewallet"
-            ReferencedContainer = "container:litewallet.xcodeproj">
+            BuildableName = "Eacpay.app"
+            BlueprintName = "eacpay"
+            ReferencedContainer = "container:eacpay.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
