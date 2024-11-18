@@ -1,5 +1,5 @@
 import UIKit
 
 protocol AnimatableIcon {
-	func animate()
+    func animate()
 }

@@ -3,84 +3,84 @@ import BRCore
 import XCTest
 
 class BRReplicatedKVStoreTestAdapter: BRRemoteKVStoreAdaptor {
-	let testCase: XCTestCase
-	var db = [String: (UInt64, Date, [UInt8], Bool)]()
+    let testCase: XCTestCase
+    var db = [String: (UInt64, Date, [UInt8], Bool)]()
 
-	init(testCase: XCTestCase) {
-		self.testCase = testCase
-	}
+    init(testCase: XCTestCase) {
+        self.testCase = testCase
+    }
 
-	func keys(_ completionFunc: @escaping ([(String, UInt64, Date, BRRemoteKVStoreError?)], BRRemoteKVStoreError?) -> Void) {
-		print("[TestRemoteKVStore] KEYS")
-		DispatchQueue.main.async {
-			let res = self.db.map { t -> (String, UInt64, Date, BRRemoteKVStoreError?) in
-				(t.0, t.1.0, t.1.1, t.1.3 ? BRRemoteKVStoreError.tombstone : nil)
-			}
-			completionFunc(res, nil)
-		}
-	}
+    func keys(_ completionFunc: @escaping ([(String, UInt64, Date, BRRemoteKVStoreError?)], BRRemoteKVStoreError?) -> Void) {
+        print("[TestRemoteKVStore] KEYS")
+        DispatchQueue.main.async {
+            let res = self.db.map { t -> (String, UInt64, Date, BRRemoteKVStoreError?) in
+                (t.0, t.1.0, t.1.1, t.1.3 ? BRRemoteKVStoreError.tombstone : nil)
+            }
+            completionFunc(res, nil)
+        }
+    }
 
-	func ver(key: String, completionFunc: @escaping (UInt64, Date, BRRemoteKVStoreError?) -> Void) {
-		print("[TestRemoteKVStore] VER \(key)")
-		DispatchQueue.main.async {
-			guard let obj = self.db[key]
-			else {
-				return completionFunc(0, Date(), .notFound)
-			}
-			completionFunc(obj.0, obj.1, obj.3 ? .tombstone : nil)
-		}
-	}
+    func ver(key: String, completionFunc: @escaping (UInt64, Date, BRRemoteKVStoreError?) -> Void) {
+        print("[TestRemoteKVStore] VER \(key)")
+        DispatchQueue.main.async {
+            guard let obj = self.db[key]
+            else {
+                return completionFunc(0, Date(), .notFound)
+            }
+            completionFunc(obj.0, obj.1, obj.3 ? .tombstone : nil)
+        }
+    }
 
-	func get(_ key: String, version: UInt64, completionFunc: @escaping (UInt64, Date, [UInt8], BRRemoteKVStoreError?) -> Void) {
-		print("[TestRemoteKVStore] GET \(key) \(version)")
-		DispatchQueue.main.async {
-			guard let obj = self.db[key]
-			else {
-				return completionFunc(0, Date(), [], .notFound)
-			}
-			if version != obj.0 {
-				return completionFunc(0, Date(), [], .conflict)
-			}
-			completionFunc(obj.0, obj.1, obj.2, obj.3 ? .tombstone : nil)
-		}
-	}
+    func get(_ key: String, version: UInt64, completionFunc: @escaping (UInt64, Date, [UInt8], BRRemoteKVStoreError?) -> Void) {
+        print("[TestRemoteKVStore] GET \(key) \(version)")
+        DispatchQueue.main.async {
+            guard let obj = self.db[key]
+            else {
+                return completionFunc(0, Date(), [], .notFound)
+            }
+            if version != obj.0 {
+                return completionFunc(0, Date(), [], .conflict)
+            }
+            completionFunc(obj.0, obj.1, obj.2, obj.3 ? .tombstone : nil)
+        }
+    }
 
-	func put(_ key: String, value: [UInt8], version: UInt64, completionFunc: @escaping (UInt64, Date, BRRemoteKVStoreError?) -> Void) {
-		print("[TestRemoteKVStore] PUT \(key) \(version)")
-		DispatchQueue.main.async {
-			guard let obj = self.db[key]
-			else {
-				if version != 1 {
-					return completionFunc(1, Date(), .notFound)
-				}
-				let newObj = (UInt64(1), Date(), value, false)
-				self.db[key] = newObj
-				return completionFunc(1, newObj.1, nil)
-			}
-			if version != obj.0 {
-				return completionFunc(0, Date(), .conflict)
-			}
-			let newObj = (obj.0 + 1, Date(), value, false)
-			self.db[key] = newObj
-			completionFunc(newObj.0, newObj.1, nil)
-		}
-	}
+    func put(_ key: String, value: [UInt8], version: UInt64, completionFunc: @escaping (UInt64, Date, BRRemoteKVStoreError?) -> Void) {
+        print("[TestRemoteKVStore] PUT \(key) \(version)")
+        DispatchQueue.main.async {
+            guard let obj = self.db[key]
+            else {
+                if version != 1 {
+                    return completionFunc(1, Date(), .notFound)
+                }
+                let newObj = (UInt64(1), Date(), value, false)
+                self.db[key] = newObj
+                return completionFunc(1, newObj.1, nil)
+            }
+            if version != obj.0 {
+                return completionFunc(0, Date(), .conflict)
+            }
+            let newObj = (obj.0 + 1, Date(), value, false)
+            self.db[key] = newObj
+            completionFunc(newObj.0, newObj.1, nil)
+        }
+    }
 
-	func del(_ key: String, version: UInt64, completionFunc: @escaping (UInt64, Date, BRRemoteKVStoreError?) -> Void) {
-		print("[TestRemoteKVStore] DEL \(key) \(version)")
-		DispatchQueue.main.async {
-			guard let obj = self.db[key]
-			else {
-				return completionFunc(0, Date(), .notFound)
-			}
-			if version != obj.0 {
-				return completionFunc(0, Date(), .conflict)
-			}
-			let newObj = (obj.0 + 1, Date(), obj.2, true)
-			self.db[key] = newObj
-			completionFunc(newObj.0, newObj.1, nil)
-		}
-	}
+    func del(_ key: String, version: UInt64, completionFunc: @escaping (UInt64, Date, BRRemoteKVStoreError?) -> Void) {
+        print("[TestRemoteKVStore] DEL \(key) \(version)")
+        DispatchQueue.main.async {
+            guard let obj = self.db[key]
+            else {
+                return completionFunc(0, Date(), .notFound)
+            }
+            if version != obj.0 {
+                return completionFunc(0, Date(), .conflict)
+            }
+            let newObj = (obj.0 + 1, Date(), obj.2, true)
+            self.db[key] = newObj
+            completionFunc(newObj.0, newObj.1, nil)
+        }
+    }
 }
 
 // DEV: Retained for debugging.  This code is designed for BTC not LTC. It needs to be refactored.

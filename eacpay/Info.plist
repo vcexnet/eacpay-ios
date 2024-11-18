@@ -78,7 +78,7 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>com.litecoin.loafwallet</string>
+			<string>com.earthcoin.eacpay</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>loaf</string>

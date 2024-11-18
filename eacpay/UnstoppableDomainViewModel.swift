@@ -4,120 +4,120 @@ import SwiftUI
 import UnstoppableDomainsResolution
 
 class UnstoppableDomainViewModel: ObservableObject {
-	// MARK: - Combine Variables
+    // MARK: - Combine Variables
 
-	@Published
-	var searchString: String = ""
+    @Published
+    var searchString: String = ""
 
-	@Published
-	var placeholderString: String = S.Send.UnstoppableDomains.simplePlaceholder.localize()
+    @Published
+    var placeholderString: String = S.Send.UnstoppableDomains.simplePlaceholder.localize()
 
-	@Published
-	var isDomainResolving: Bool = false
+    @Published
+    var isDomainResolving: Bool = false
 
-	// MARK: - Public Variables
+    // MARK: - Public Variables
 
-	var didResolveUDAddress: ((String) -> Void)?
+    var didResolveUDAddress: ((String) -> Void)?
 
-	var didFailToResolve: ((String) -> Void)?
+    var didFailToResolve: ((String) -> Void)?
 
-	var domains: [String] = [".bitcoin", ".blockchain", ".crypto", ".coin", ".dao", ".nft", ".wallet", ".x", ".zil", ".888"]
+    var domains: [String] = [".bitcoin", ".blockchain", ".crypto", ".coin", ".dao", ".nft", ".wallet", ".x", ".zil", ".888"]
 
-	private var domainIndex: Int = 0
+    private var domainIndex: Int = 0
 
-	@Published
-	var currentDomain: String = ""
+    @Published
+    var currentDomain: String = ""
 
-	// MARK: - Private Variables
+    // MARK: - Private Variables
 
-	private var ltcAddress = ""
-	private var dateFormatter: DateFormatter? {
-		didSet {
-			dateFormatter = DateFormatter()
-			dateFormatter?.dateFormat = "yyyy-MM-dd hh:mm:ss"
-		}
-	}
+    private var ltcAddress = ""
+    private var dateFormatter: DateFormatter? {
+        didSet {
+            dateFormatter = DateFormatter()
+            dateFormatter?.dateFormat = "yyyy-MM-dd hh:mm:ss"
+        }
+    }
 
-	init() {
-		currentDomain = "\(domains[domainIndex])"
-		animateDomain()
-	}
+    init() {
+        currentDomain = "\(domains[domainIndex])"
+        animateDomain()
+    }
 
-	private func animateDomain() {
-		delay(2.0) {
-			if self.domainIndex < self.domains.count {
-				self.currentDomain = "\(self.domains[self.domainIndex])"
-				self.domainIndex += 1
-			} else {
-				self.domainIndex = 0
-			}
-			self.animateDomain()
-		}
-	}
+    private func animateDomain() {
+        delay(2.0) {
+            if self.domainIndex < self.domains.count {
+                self.currentDomain = "\(self.domains[self.domainIndex])"
+                self.domainIndex += 1
+            } else {
+                self.domainIndex = 0
+            }
+            self.animateDomain()
+        }
+    }
 
-	func resolveDomain() {
-		isDomainResolving = true
+    func resolveDomain() {
+        isDomainResolving = true
 
-		// Added timing peroformance probes to see what the average time is
-		let timestamp: String = dateFormatter?.string(from: Date()) ?? ""
+        // Added timing peroformance probes to see what the average time is
+        let timestamp: String = dateFormatter?.string(from: Date()) ?? ""
 
-		LWAnalytics.logEventWithParameters(itemName:
-			CustomEvent._20201121_SIL,
-			properties:
-			["start_time": timestamp])
+        LWAnalytics.logEventWithParameters(itemName:
+            CustomEvent._20201121_SIL,
+            properties:
+            ["start_time": timestamp])
 
-		resolveUDAddress(domainName: searchString)
-	}
+        resolveUDAddress(domainName: searchString)
+    }
 
-	private func resolveUDAddress(domainName: String) {
-		// This group is created to allow the threads to complete.
-		// Otherwise, we may never get in the callback relative to UDR v4.0.0
-		let group = DispatchGroup()
+    private func resolveUDAddress(domainName: String) {
+        // This group is created to allow the threads to complete.
+        // Otherwise, we may never get in the callback relative to UDR v4.0.0
+        let group = DispatchGroup()
 
-		guard let resolution = try? Resolution(apiKey: Partner.partnerKeyPath(name: .infura))
-		else {
-			print("Init of Resolution instance with default parameters failed...")
-			return
-		}
+        guard let resolution = try? Resolution(apiKey: Partner.partnerKeyPath(name: .infura))
+        else {
+            print("Init of Resolution instance with default parameters failed...")
+            return
+        }
 
-		group.enter()
+        group.enter()
 
-		resolution.addr(domain: domainName, ticker: "ltc") { result in
-			switch result {
-			case let .success(returnValue):
+        resolution.addr(domain: domainName, ticker: "ltc") { result in
+            switch result {
+            case let .success(returnValue):
 
-				let timestamp: String = self.dateFormatter?.string(from: Date()) ?? ""
+                let timestamp: String = self.dateFormatter?.string(from: Date()) ?? ""
 
-				LWAnalytics.logEventWithParameters(itemName:
-					CustomEvent._20201121_DRIA,
-					properties:
-					["success_time": timestamp])
-				/// Quicker resolution: When the resolution is done, the activity indicatior stops and the address is  updated
-				DispatchQueue.main.async {
-					self.ltcAddress = returnValue
-					self.didResolveUDAddress?(self.ltcAddress)
-					self.isDomainResolving = false
-				}
+                LWAnalytics.logEventWithParameters(itemName:
+                    CustomEvent._20201121_DRIA,
+                    properties:
+                    ["success_time": timestamp])
+                /// Quicker resolution: When the resolution is done, the activity indicatior stops and the address is  updated
+                DispatchQueue.main.async {
+                    self.ltcAddress = returnValue
+                    self.didResolveUDAddress?(self.ltcAddress)
+                    self.isDomainResolving = false
+                }
 
-			case let .failure(error):
-				let errorMessage = DomainResolutionFailure().messageWith(error: error)
-				let timestamp: String = self.dateFormatter?.string(from: Date()) ?? ""
+            case let .failure(error):
+                let errorMessage = DomainResolutionFailure().messageWith(error: error)
+                let timestamp: String = self.dateFormatter?.string(from: Date()) ?? ""
 
-				LWAnalytics.logEventWithParameters(itemName:
-					CustomEvent._20201121_FRIA,
-					properties:
-					["failure_time": timestamp,
-					 "error_message": errorMessage,
-					 "error": error.localizedDescription])
+                LWAnalytics.logEventWithParameters(itemName:
+                    CustomEvent._20201121_FRIA,
+                    properties:
+                    ["failure_time": timestamp,
+                     "error_message": errorMessage,
+                     "error": error.localizedDescription])
 
-				DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-					self.didFailToResolve?(error.localizedDescription)
-					self.didFailToResolve?(errorMessage)
-					self.isDomainResolving = false
-				}
-			}
-			group.leave()
-		}
-		group.wait()
-	}
+                DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                    self.didFailToResolve?(error.localizedDescription)
+                    self.didFailToResolve?(errorMessage)
+                    self.isDomainResolving = false
+                }
+            }
+            group.leave()
+        }
+        group.wait()
+    }
 }

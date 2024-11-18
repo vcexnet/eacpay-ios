@@ -2,7 +2,7 @@
 import XCTest
 
 class ConstantsTests: XCTestCase {
-	func testLFDonationAddressPage() throws {
-		XCTAssertTrue(FoundationSupport.dashboard == "https://support.litewallet.io/")
-	}
+    func testLFDonationAddressPage() throws {
+        XCTAssertTrue(FoundationSupport.dashboard == "https://support.litewallet.io/")
+    }
 }

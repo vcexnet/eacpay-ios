@@ -9,6 +9,6 @@ import Combine
 import Foundation
 
 class SignupWebViewModel: ObservableObject {
-	var showLoader = PassthroughSubject<Bool, Never>()
-	var valuePublisher = PassthroughSubject<String, Never>()
+    var showLoader = PassthroughSubject<Bool, Never>()
+    var valuePublisher = PassthroughSubject<String, Never>()
 }
