@@ -131,13 +131,13 @@
 "BuyCenter.BitrefillTitle" = "ビットリフィル";
 
 /* Changelly buy financial details */
-"BuyCenter.changellyFinancialDetails" = "•他の暗号のLitecoinを変更  \n•IDは不要\n•クレジットカードで購入 \n•グローバルな補償範囲";
+"BuyCenter.changellyFinancialDetails" = "•他の暗号のEarthcoinを変更  \n•IDは不要\n•クレジットカードで購入 \n•グローバルな補償範囲";
 
 /* Changelly Title */
 "BuyCenter.changellyTitle" = "Changelly";
 
 /* Buy Modal Title */
-"BuyCenter.ModalTitle" = "Litecoin を購入する";
+"BuyCenter.ModalTitle" = "Earthcoin を購入する";
 
 /* Moonpay buy financial details */
 "BuyCenter.moonpayFinancialDetails" = "•多くの法定紙幣ペアでLTCを購入する\n•複数の方法で支払う\n•グローバル決済プロバイダー";
@@ -146,13 +146,13 @@
 "BuyCenter.moonpayTitle" = "Moonpay";
 
 /* Simplex buy financial details */
-"BuyCenter.simplexFinancialDetails" = "•5分でLitecoinを入手！\n •クレジットカードでLitecoinを購入 \n•パスポートまたは州ID";
+"BuyCenter.simplexFinancialDetails" = "•5分でEarthcoinを入手！\n •クレジットカードでEarthcoinを購入 \n•パスポートまたは州ID";
 
 /* Simplex Title */
 "BuyCenter.simplexTitle" = "シンプレックス";
 
 /* Buy Center Title */
-"BuyCenter.title" = "Litecoin を購入する";
+"BuyCenter.title" = "Earthcoin を購入する";
 
 /* Camera plugin instruction */
 "CameraPlugin.centerInstruction" = "ご自身のIDをこのボックス内で中央に配置してください";
@@ -206,7 +206,7 @@
 "Copy" = "コピー";
 
 /* Litecoin denomination picker label */
-"DefaultCurrency.bitcoinLabel" = "リテコインの表示単位";
+"DefaultCurrency.bitcoinLabel" = "アースコイン表示単位";
 
 /* Label to pick fiat */
 "DefaultCurrency.chooseFiatLabel" = "選ぶ:";
@@ -293,7 +293,7 @@
 "History.barItemTitle" = "歴史";
 
 /* History Current Litecoin Value */
-"History.currentLitecoinValue" = "現在のLTC値";
+"History.currentLitecoinValue" = "現在のEAC値";
 
 /* Checking private key balance progress view text */
 "Import.checking" = "秘密鍵の残高確認中...";
@@ -386,13 +386,13 @@
 "LitecoinCard.cardBalanceOnlyDescription" = "ログアウトして2FAを有効にし、転送を許可します";
 
 /* Features and limitations */
-"LitecoinCard.Disclaimer.bullets" = "-登録とログイン\n-利用可能なカード残高\n- パスワードを再設定する\n-Litewalletへの転送なし\n-米国のみ";
+"LitecoinCard.Disclaimer.bullets" = "-登録とログイン\n-利用可能なカード残高\n- パスワードを再設定する\n-Eacpayへの転送なし\n-米国のみ";
 
 /* Description of the status */
 "LitecoinCard.Disclaimer.description" = "ライトコインカードは現在、ライトウォレットの機能が制限されています。";
 
 /* Referral to the website */
-"LitecoinCard.Disclaimer.referral" = "フルアクセスについては、litecoin.getblockcard.comにアクセスしてください";
+"LitecoinCard.Disclaimer.referral" = "フルアクセスについては、earthcoin.getblockcard.comにアクセスしてください";
 
 /* Beta Testing Litecoin Card */
 "LitecoinCard.Disclaimer.title" = "ライトコインカードベータ";
@@ -512,7 +512,7 @@
 "LitecoinCard.Transfer.amountToCard" = "カードに転送";
 
 /* Transfer to Litewallet label */
-"LitecoinCard.Transfer.amountToLitewallet" = "Litewalletに転送";
+"LitecoinCard.Transfer.amountToLitewallet" = "Eacpayに転送";
 
 /* Description of action */
 "LitecoinCard.Transfer.description" = "転送ウォレットを選択します。";
@@ -521,7 +521,7 @@
 "LitecoinCard.Transfer.destinationAddress" = "住所";
 
 /* Litewallet balance label */
-"LitecoinCard.Transfer.litewalletBalance" = "Litewalletバランス";
+"LitecoinCard.Transfer.litewalletBalance" = "Eacpayバランス";
 
 /* Set transfer amount label */
 "LitecoinCard.Transfer.setAmount" = "スライドして転送量を設定";
@@ -542,10 +542,10 @@
 "LitecoinCard.twoFAOn" = "2FA対応";
 
 /* Litecoin card visit */
-"LitecoinCard.visit.toReset" = "https://litecoin.dashboard.getblockcard.com/password/forgot にアクセスしてパスワードをリセットしてください。";
+"LitecoinCard.visit.toReset" = "https://earthcoin.dashboard.getblockcard.com/password/forgot にアクセスしてパスワードをリセットしてください。";
 
 /* Litewallet name */
-"Litewallet.name" = "Litewallet";
+"Litewallet.name" = "Eacpay";
 
 /* Location services disabled error */
 "LocationPlugin.disabled" = "位置情報サービスが無効化されています。";
@@ -698,7 +698,7 @@
 "Prompts.SetPin.title" = "PINコードを更新する";
 
 /* Share data prompt body */
-"Prompts.ShareData.body" = "匿名のデータを共有してLitewalletの機能向上に役立てる";
+"Prompts.ShareData.body" = "匿名のデータを共有してEacpayの機能向上に役立てる";
 
 /* Share data prompt title */
 "Prompts.ShareData.title" = "匿名のデータを共有する";
@@ -710,7 +710,7 @@
 "Prompts.TouchId.title" = "Touch IDを有効化する";
 
 /* Notifications will be added later but users can set their preferences now, which is why we specify "in the future". */
-"PushNotifications.body" = "今後、Litewalletからの特別なメッセージを受け取るために通知をオンにしてください。";
+"PushNotifications.body" = "今後、Eacpayからの特別なメッセージを受け取るために通知をオンにしてください。";
 
 /* Push notifications toggle switch label */
 "PushNotifications.label" = "プッシュ通知";
@@ -800,7 +800,7 @@
 "ReScan.body1" = "20〜45分";
 
 /* Syncing explanation */
-"ReScan.body2" = "リテコインネットワークでトランザクションが完了したと表示されているが、Litewallet上では完了と表示されない場合。";
+"ReScan.body2" = "リテコインネットワークでトランザクションが完了したと表示されているが、Eacpay上では完了と表示されない場合。";
 
 /* Syncing explanation */
 "ReScan.body3" = "送金しているが、拒否され続けている場合。";
@@ -824,7 +824,7 @@
 "resetButton" = "はい、ウォレットをリセットします";
 
 /* Warning Empty Wipe title */
-"resetTitle" = "Litewalletを削除します";
+"resetTitle" = "Eacpayを削除します";
 
 /* Scan bitcoin address camera flash toggle */
 "Scanner.flashButtonLabel" = "カメラのフラッシュ";
@@ -863,7 +863,7 @@
 "SecurityCenter.title" = "セキュリティセンター";
 
 /* Touch ID button description */
-"SecurityCenter.touchIdDescription" = "Litewalletロック解除の他、設定した限度額までの送金も指紋認証で出来ます。";
+"SecurityCenter.touchIdDescription" = "Eacpayロック解除の他、設定した限度額までの送金も指紋認証で出来ます。";
 
 /* Touch ID button title */
 "SecurityCenter.touchIdTitle" = "Touch ID";
@@ -899,7 +899,7 @@
 "Send.emptyPasteboard" = "ペーストボードが空です";
 
 /* Enter LTC Address */
-"Send.enterLTCAddress" = "Litecoinのアドレスを入力してください。";
+"Send.enterLTCAddress" = "Earthcoinのアドレスを入力してください。";
 
 /* Fees: $0.01*/
 "Send.fee" = "料金: %1$@";
@@ -1025,10 +1025,10 @@
 "Settings.litewallet.environment" = "環境：";
 
 /* Litewallet Partners */
-"Settings.litewallet.partners" = "Litewalletパートナー";
+"Settings.litewallet.partners" = "Eacpayパートナー";
 
 /* Litewallet version */
-"Settings.litewallet.version" = "Litewalletバージョン：";
+"Settings.litewallet.version" = "Eacpayバージョン：";
 
 /* Manage settings section header */
 "Settings.manage" = "管理";
@@ -1091,7 +1091,7 @@
 "StartViewController.tagline" = "最も安全にリテコインを使う手段。";
 
 /* Support the Litecoin Foundation */
-"SupportTheFoundation.title" = "Litecoin基金を支援する";
+"SupportTheFoundation.title" = "Earthcoin基金を支援する";
 
 /* Syncing view connection state header text */
 "SyncingHeader.connecting" = "接続しています...";
@@ -1370,7 +1370,7 @@
 "VerifyPin.touchIdMessage" = "このトランザクションを認証する";
 
 /* 'No wallet' warning for watch app */
-"Watch.noWalletWarning" = "LitewalletのiPhoneアプリを開き、ウォレットをセットアップする";
+"Watch.noWalletWarning" = "EacpayのiPhoneアプリを開き、ウォレットをセットアップする";
 
 /* Dismiss button label */
 "Webview.dismiss" = "解除";
@@ -1382,10 +1382,10 @@
 "Webview.updating" = "更新中...";
 
 /* Welcome screen text. (?) will be replaced with the help icon users should look for. */
-"Welcome.body" = "Litewalletへようこそ！";
+"Welcome.body" = "Eacpayへようこそ！";
 
 /* Top title of welcome screen */
-"Welcome.title" = "Litewalletへようこそ！";
+"Welcome.title" = "Eacpayへようこそ！";
 
 /* Delete database title */
 "WipeWallet.alertDeleteTitle" = "データベースを削除";
@@ -1418,19 +1418,19 @@
 "WipeWallet.instruction" = "ウォレットを消去し、新しいウォレットを作成したり、復元したりしたい場合は復旧フレーズを入力してください。この段階では残高は残っています。";
 
 /* Start wipe wallet view message */
-"WipeWallet.startMessage" = "別のウォレットを開設するか復元することにより、このデバイス上で異なるLitewalletウォレットへのアクセスと管理ができるようになります。";
+"WipeWallet.startMessage" = "別のウォレットを開設するか復元することにより、このデバイス上で異なるEacpayウォレットへのアクセスと管理ができるようになります。";
 
 /* Start wipe wallet view warning */
-"WipeWallet.startWarning" = "このデバイスから現在使用中のLitewalletウォレットへのアクセスはできなくなります。残高はフレーズに残されます。";
+"WipeWallet.startWarning" = "このデバイスから現在使用中のEacpayウォレットへのアクセスはできなくなります。残高はフレーズに残されます。";
 
 /* Wipe wallet navigation item title. */
 "WipeWallet.title" = "別のウォレットを作成、または復元する";
 
 /* Warning Alert */
-"WipeWallet.warningAlert" = "このアクションにより、Litewalletがワイプされます。";
+"WipeWallet.warningAlert" = "このアクションにより、Eacpayがワイプされます。";
 
 /* Warning description */
-"WipeWallet.warningDescription" = "ウォレットを削除すると、秘密鍵とアプリデータのワイプが失われます。 あなたはライトコインを永遠に失うかもしれません！ \ n \ n \ nLitewalletチームの誰もこのシードを取得できません。 この警告に注意を怠った場合、当社は責任を負いません";
+"WipeWallet.warningDescription" = "ウォレットを削除すると、秘密鍵とアプリデータのワイプが失われます。 あなたはライトコインを永遠に失うかもしれません！ \ n \ n \ nEacpayチームの誰もこのシードを取得できません。 この警告に注意を怠った場合、当社は責任を負いません";
 
 /* Warning title */
 "WipeWallet.warningTitle" = "読んでください！";

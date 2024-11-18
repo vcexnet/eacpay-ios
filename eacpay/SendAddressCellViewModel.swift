@@ -1,17 +1,17 @@
 import Foundation
 
 class SendAddressCellViewModel: ObservableObject {
-    // MARK: - Combine Variables
+	// MARK: - Combine Variables
 
-    @Published
-    var addressString: String = ""
+	@Published
+	var addressString: String = ""
 
-    // MARK: - Public Variables
+	// MARK: - Public Variables
 
-    var shouldPasteAddress: (() -> Void)?
+	var shouldPasteAddress: (() -> Void)?
 
-    var shouldScanAddress: (() -> Void)?
+	var shouldScanAddress: (() -> Void)?
 
-    init()
-    {}
+	init()
+	{}
 }

@@ -2,7 +2,7 @@
 "About.blog" = "Blogue";
 
 /* About screen footer */
-"About.footer" = "Fait par l'équipe mondiale de Litewallet. Version %1$@";
+"About.footer" = "Fait par l'équipe mondiale de Eacpay. Version %1$@";
 
 /* Privay Policy button label */
 "About.privacy" = "Politique de confidentialité";
@@ -26,7 +26,7 @@
 "Account.loadingMessage" = "Chargement du portefeuille";
 
 /* Default wallet name */
-"AccountHeader.defaultWalletName" = "Mon Litewallet";
+"AccountHeader.defaultWalletName" = "Mon Eacpay";
 
 /* Manage wallet button title */
 "AccountHeader.manageButtonName" = "GÉRER";
@@ -131,28 +131,28 @@
 "BuyCenter.BitrefillTitle" = "Bitrefill";
 
 /* Changelly buy financial details */
-"BuyCenter.changellyFinancialDetails" = "• Changer Litecoin pour d'autres cryptos \n • Aucun ID requis \n • Acheter par carte de crédit \n • Couverture mondiale";
+"BuyCenter.changellyFinancialDetails" = "• Changer Earthcoin pour d'autres cryptos \n • Aucun ID requis \n • Acheter par carte de crédit \n • Couverture mondiale";
 
 /* Changelly Title */
 "BuyCenter.changellyTitle" = "Changelly";
 
 /* Buy Modal Title */
-"BuyCenter.ModalTitle" = "Acheter Litecoin";
+"BuyCenter.ModalTitle" = "Acheter Єarthcoin";
 
 /* Moonpay buy financial details */
-"BuyCenter.moonpayFinancialDetails" = "• Achetez des LTC avec de nombreuses paires de fiat\n• Payez avec plusieurs méthodes\n• Fournisseur de paiement mondial";
+"BuyCenter.moonpayFinancialDetails" = "• Achetez des EAC avec de nombreuses paires de fiat\n• Payez avec plusieurs méthodes\n• Fournisseur de paiement mondial";
 
 /* Moonpay Title */
 "BuyCenter.moonpayTitle" = "Moonpay";
 
 /* Simplex buy financial details */
-"BuyCenter.simplexFinancialDetails" = "• Obtenez du Litecoin en 5 minutes! \n • Achetez du Litecoin par carte de crédit \n • Passeport ou identifiant d'État";
+"BuyCenter.simplexFinancialDetails" = "• Obtenez du Earthcoin en 5 minutes! \n • Achetez du Earthcoin par carte de crédit \n • Passeport ou identifiant d'État";
 
 /* Simplex Title */
 "BuyCenter.simplexTitle" = "Simplex";
 
 /* Buy Center Title */
-"BuyCenter.title" = "Acheter Litecoin";
+"BuyCenter.title" = "Acheter Єarthcoin";
 
 /* Camera plugin instruction */
 "CameraPlugin.centerInstruction" = "Centrez votre identifiant dans le champ";
@@ -203,7 +203,7 @@
 "Copy" = "Copie";
 
 /* Litecoin denomination picker label */
-"DefaultCurrency.bitcoinLabel" = "Litecoin Display Unit";
+"DefaultCurrency.bitcoinLabel" = "Earthcoin Display Unit";
 
 /* Label to pick fiat */
 "DefaultCurrency.chooseFiatLabel" = "Choisir:";
@@ -290,7 +290,7 @@
 "History.barItemTitle" = "HISTOIRE";
 
 /* History Current Litecoin Value */
-"History.currentLitecoinValue" = "Valeur LTC actuelle en";
+"History.currentLitecoinValue" = "Valeur EAC actuelle en";
 
 /* Checking private key balance progress view text */
 "Import.checking" = "Vérification du solde des clés privées...";
@@ -323,7 +323,7 @@
 "Import.leftCaption" = "Portefeuille à importer";
 
 /* Import wallet intro screen message */
-"Import.message" = "L'importation d'un portefeuille transfère tout l'argent de votre autre portefeuille vers votre portefeuille Litewallet avec une seule transaction.";
+"Import.message" = "L'importation d'un portefeuille transfère tout l'argent de votre autre portefeuille vers votre portefeuille Eacpay avec une seule transaction.";
 
 /* Enter password alert view title */
 "Import.password" = "Cette clé privée est protégée par mot de passe.";
@@ -332,7 +332,7 @@
 "Import.passwordPlaceholder" = "mot de passe";
 
 /* Caption for graphics */
-"Import.rightCaption" = "Votre portefeuille de Litewallet";
+"Import.rightCaption" = "Votre portefeuille de Eacpay";
 
 /* Scan Private key button label */
 "Import.scan" = "Scanner la clé privée";
@@ -362,10 +362,10 @@
 "JailbreakWarnings.ignore" = "Ignorer";
 
 /* Jailbreak warning message */
-"JailbreakWarnings.messageWithBalance" = "SÉCURITÉ DU DISPOSITIF COMPROMISE\n  Toute application « évasive » peut accéder aux données du porte-clé de Litewallet et voler vos Litecoins ! Détruisez ce portefeuille immédiatement et restaurez-le sur un appareil sécurisé.";
+"JailbreakWarnings.messageWithBalance" = "SÉCURITÉ DU DISPOSITIF COMPROMISE\n  Toute application « évasive » peut accéder aux données du porte-clé de Eacpay et voler vos Earthcoins ! Détruisez ce portefeuille immédiatement et restaurez-le sur un appareil sécurisé.";
 
 /* Jailbreak warning message */
-"JailbreakWarnings.messageWithoutBalance" = "SÉCURITÉ DU DISPOSITIF COMPROMISE\n  Toute application « évasive » peut accéder aux données du porte-clé de Litewallet et voler vos Litecoins. N'utilisez Litewallet que sur un appareil non évasif.";
+"JailbreakWarnings.messageWithoutBalance" = "SÉCURITÉ DU DISPOSITIF COMPROMISE\n  Toute application « évasive » peut accéder aux données du porte-clé de Eacpay et voler vos Earthcoins. N'utilisez Eacpay que sur un appareil non évasif.";
 
 /* Jailbreak warning title */
 "JailbreakWarnings.title" = "AVERTISSEMENT";
@@ -374,13 +374,13 @@
 "JailbreakWarnings.wipe" = "Supprimer";
 
 /* Litewallet name */
-"Litewallet.name" = "Litewallet";
+"Litewallet.name" = "Eacpay";
 
 /* Location services disabled error */
 "LocationPlugin.disabled" = "Les services de localisation sont désactivés.";
 
 /* No permissions for location services */
-"LocationPlugin.notAuthorized" = "Litewallet n'a pas l'autorisation d'accéder aux services de localisation.";
+"LocationPlugin.notAuthorized" = "Eacpay n'a pas l'autorisation d'accéder aux services de localisation.";
 
 /* No comment provided by engineer. */
 "Malformed URI" = "URI mal formé";
@@ -401,7 +401,7 @@
 "ManageWallet.title" = "Gérer le portefeuille";
 
 /* Buy Litecoin title */
-"MenuButton.buy" = "Acheter des Litecoins";
+"MenuButton.buy" = "Acheter des Earthcoins";
 
 /* Menu button title */
 "MenuButton.customer.support" = "Service client";
@@ -455,7 +455,7 @@
 "NodeSelector.statusLabel" = "Statut de connexion du nœud";
 
 /* Node Selector view title */
-"NodeSelector.title" = "Nœud litecoin";
+"NodeSelector.title" = "Nœud Earthcoin";
 
 /* "Email address label" */
 "Notifications.emailLabel" = "Adresse e-mail";
@@ -494,7 +494,7 @@
 "PaymentProtocol.Errors.smallPayment" = "Les paiements par Litecoin ne peuvent être inférieurs à %1$@.";
 
 /* Output too small error message. */
-"PaymentProtocol.Errors.smallTransaction" = "Les résultats des transactions de Litecoin ne peuvent pas être inférieurs à $@.";
+"PaymentProtocol.Errors.smallTransaction" = "Les résultats des transactions de Earthcoin ne peuvent pas être inférieurs à $@.";
 
 /* Unsupported signature type payment protocol error message */
 "PaymentProtocol.Errors.unsupportedSignatureType" = "type de signature non pris en charge";
@@ -545,7 +545,7 @@
 "Prompts.SetPin.title" = "Mettre à jour le code PIN";
 
 /* Share data prompt body */
-"Prompts.ShareData.body" = "Aidez à améliorer Litewallet en partageant vos données anonymes avec nous";
+"Prompts.ShareData.body" = "Aidez à améliorer Eacpay en partageant vos données anonymes avec nous";
 
 /* Share data prompt title */
 "Prompts.ShareData.title" = "Partager les données anonymes";
@@ -590,7 +590,7 @@
 "RecoverWallet.instruction" = "Entrez la clé de papier";
 
 /* Recover wallet intro */
-"RecoverWallet.intro" = "Récupérez votre Litewallet avec votre clé de papier.";
+"RecoverWallet.intro" = "Récupérez votre Eacpay avec votre clé de papier.";
 
 /* Invalid paper key message */
 "RecoverWallet.invalid" = "La clé de papier saisie n'est pas valide. Revérifiez chaque mot et réessayez.";
@@ -632,7 +632,7 @@
 "ReScan.body1" = "20-45 minutes";
 
 /* Syncing explanation */
-"ReScan.body2" = "Si une transaction apparaît comme achevée sur le réseau de Litecoin mais pas dans votre Litewallet.";
+"ReScan.body2" = "Si une transaction apparaît comme achevée sur le réseau de Earthcoin mais pas dans votre Eacpay.";
 
 /* Syncing explanation */
 "ReScan.body3" = "Vous recevez de manière répétée un message d'erreur vous informant du rejet de votre transaction.";
@@ -656,7 +656,7 @@
 "resetButton" = "Oui, réinitialiser le portefeuille";
 
 /* Warning Empty Wipe title */
-"resetTitle" = "Supprimer mon Litewallet";
+"resetTitle" = "Supprimer mon Eacpay";
 
 /* Scan Litecoin address camera flash toggle */
 "Scanner.flashButtonLabel" = "Flash d'appareil photo";
@@ -680,13 +680,13 @@
 "SecurityCenter.info" = "Activez toutes les fonctionnalités de sécurité pour une protection maximale.";
 
 /* Paper Key button description */
-"SecurityCenter.paperKeyDescription" = "La seule façon d'accéder à votre Litecoin si vous perdez ou mettez à niveau votre téléphone.";
+"SecurityCenter.paperKeyDescription" = "La seule façon d'accéder à votre Earthcoin si vous perdez ou mettez à niveau votre téléphone.";
 
 /* Paper Key button title */
 "SecurityCenter.paperKeyTitle" = "Clé de papier";
 
 /* PIN button description */
-"SecurityCenter.pinDescription" = "Protège votre Litewallet contre les utilisateurs non autorisés.";
+"SecurityCenter.pinDescription" = "Protège votre Eacpay contre les utilisateurs non autorisés.";
 
 /* PIN button title */
 "SecurityCenter.pinTitle" = "PIN à six chiffres";
@@ -695,7 +695,7 @@
 "SecurityCenter.title" = "Centre de sécurité";
 
 /* Touch ID button description */
-"SecurityCenter.touchIdDescription" = "Débloquez convenablement votre Litewallet et envoyez de l'argent jusqu'à une limite définie.";
+"SecurityCenter.touchIdDescription" = "Débloquez convenablement votre Eacpay et envoyez de l'argent jusqu'à une limite définie.";
 
 /* Touch ID button title */
 "SecurityCenter.touchIdTitle" = "Touch ID";
@@ -716,7 +716,7 @@
 "Send.cameraunavailableMessage" = "Accédez à Paramètres pour autoriser l'accès à la caméra.";
 
 /* Camera not allowed alert title */
-"Send.cameraUnavailableTitle" = "Litewallet n'est pas autorisé à accéder à la caméra";
+"Send.cameraUnavailableTitle" = "Eacpay n'est pas autorisé à accéder à la caméra";
 
 /* Warning when sending to self. */
 "Send.containsAddress" = "La destination est votre propre adresse. Vous ne pouvez pas envoyer à vous même.";
@@ -731,7 +731,7 @@
 "Send.emptyPasteboard" = "Le tableau d'affichage est vide.";
 
 /* Enter LTC Address */
-"Send.enterLTCAddress" = "Entrez une adresse Litecoin";
+"Send.enterLTCAddress" = "Entrez une adresse Earthcoin";
 
 /* Fees: $0.01*/
 "Send.fee" = "Frais: %1$@";
@@ -746,10 +746,10 @@
 "Send.insufficientFunds" = "Fonds insuffisants";
 
 /* Invalid address alert message */
-"Send.invalidAddressMessage" = "L'adresse de destination n'est pas une adresse Litecoin valide.";
+"Send.invalidAddressMessage" = "L'adresse de destination n'est pas une adresse Earthcoin valide.";
 
 /* Invalid address on pasteboard message */
-"Send.invalidAddressOnPasteboard" = "Le tableau d'affichage ne contient aucune adresse Litecoin valide.";
+"Send.invalidAddressOnPasteboard" = "Le tableau d'affichage ne contient aucune adresse Earthcoin valide.";
 
 /* Invalid address alert title */
 "Send.invalidAddressTitle" = "Adresse non valide";
@@ -818,7 +818,7 @@
 "Send.UnstoppableDomains.udSystemError" = "Problème de recherche système. [Erreur: %2$d]";
 
 /* Adress already used alert message - first part */
-"Send.UsedAddress.firstLine" = "Les adresses Litecoin sont destinées à une utilisation unique.";
+"Send.UsedAddress.firstLine" = "Les adresses Earthcoin sont destinées à une utilisation unique.";
 
 /* Adress already used alert message - second part */
 "Send.UsedAddress.secondLIne" = "La réutilisation réduit la confidentialité pour vous et le destinataire et peut entraîner une perte si le destinataire ne contrôle pas directement l'adresse.";
@@ -848,7 +848,7 @@
 "Settings.earlyAccess" = "Rejoignez l'accès anticipé";
 
 /* Are you enjoying Litewallet alert message body */
-"Settings.enjoying" = "Vous aimez Litewallet ?";
+"Settings.enjoying" = "Vous aimez Eacpay ?";
 
 /* Face ID spending limit label */
 "Settings.faceIdLimit" = "PLACEHOLDER";
@@ -863,10 +863,10 @@
 "Settings.litewallet.environment" = "Environnement:";
 
 /* Litewallet Partners */
-"Settings.litewallet.partners" = "Partenaires Litewallet";
+"Settings.litewallet.partners" = "Partenaires Eacpay";
 
 /* Litewallet version */
-"Settings.litewallet.version" = "Version Litewallet:";
+"Settings.litewallet.version" = "Version Eacpay:";
 
 /* Manage settings section header */
 "Settings.manage" = "Gérer";
@@ -902,7 +902,7 @@
 "Settings.wipe" = "Démarrer/récupérer un autre portefeuille";
 
 /* Share data view body */
-"ShareData.body" = "Aidez à améliorer Litewallet en partageant vos données anonymes avec nous. Cela n'inclut aucune information financière. Nous respectons votre confidentialité financière.";
+"ShareData.body" = "Aidez à améliorer Eacpay en partageant vos données anonymes avec nous. Cela n'inclut aucune information financière. Nous respectons votre confidentialité financière.";
 
 /* Share data header */
 "ShareData.header" = "Partager les données ?";
@@ -917,7 +917,7 @@
 "StartPaperPhrase.againButtonTitle" = "Enregistrez la clé de papier à nouveau";
 
 /* Paper key explanation text. */
-"StartPaperPhrase.body" = "Votre clé de papier est la seule façon de restaurer votre Litewallet si votre téléphone est perdu, volé, cassé ou mis à niveau.\n\nNous vous montrerons une liste de mots à écrire sur un morceau de papier et à garder en sécurité.";
+"StartPaperPhrase.body" = "Votre clé de papier est la seule façon de restaurer votre Eacpay si votre téléphone est perdu, volé, cassé ou mis à niveau.\n\nNous vous montrerons une liste de mots à écrire sur un morceau de papier et à garder en sécurité.";
 
 /* button label */
 "StartPaperPhrase.buttonTitle" = "Écrire la clé de papier";
@@ -926,10 +926,10 @@
 "StartPaperPhrase.date" = "Vous avez finalement écrit votre clé de papier sur %1$@";
 
 /* Start view tagline */
-"StartViewController.tagline" = "La manière la plus sûre et la plus simple d'utiliser Litecoin.";
+"StartViewController.tagline" = "La manière la plus sûre et la plus simple d'utiliser Earthcoin.";
 
 /* Support the Litecoin Foundation */
-"SupportTheFoundation.title" = "Soutenez la Fondation Litecoin";
+"SupportTheFoundation.title" = "Soutenez la Fondation Earthcoin";
 
 /* Syncing view connection state header text */
 "SyncingHeader.connecting" = "De liaison...";
@@ -965,7 +965,7 @@
 "TouchIdSettings.customizeText" = "Vous pouvez personnaliser votre plafond de dépenses Touch ID à partir de %1$@.";
 
 /* Touch Id screen label */
-"TouchIdSettings.label" = "Utilisez votre empreinte digitale pour débloquer votre Litewallet et envoyer de l'argent jusqu'à une limite définie.";
+"TouchIdSettings.label" = "Utilisez votre empreinte digitale pour débloquer votre Eacpay et envoyer de l'argent jusqu'à une limite définie.";
 
 /*  ł100,000 ($100) */
 "TouchIdSettings.limitValue" = "%1$@ (%2$@)";
@@ -977,7 +977,7 @@
 "TouchIdSettings.spendingLimit" = "Limite de dépenses : %1$@ (%2$@)";
 
 /* Touch id switch label. */
-"TouchIdSettings.switchLabel" = "Activer Touch ID pour Litewallet";
+"TouchIdSettings.switchLabel" = "Activer Touch ID pour Eacpay";
 
 /* Touch ID settings view title */
 "TouchIdSettings.title" = "Touch ID";
@@ -1118,7 +1118,7 @@
 "TransactionDetails.to" = "jusqu'à %1$@";
 
 /* Transaction ID header */
-"TransactionDetails.txHashHeader" = "Identifiant de transaction Litecoin";
+"TransactionDetails.txHashHeader" = "Identifiant de transaction Earthcoin";
 
 /* (this transaction was) Received at this address: */
 "TransactionDirection.address" = "Reçu à cette adresse";
@@ -1145,7 +1145,7 @@
 "UnlockScreen.scan" = "Scanner";
 
 /* TouchID prompt text */
-"UnlockScreen.touchIdPrompt" = "Déverrouillez votre Litewallet.";
+"UnlockScreen.touchIdPrompt" = "Déverrouillez votre Eacpay.";
 
 /* Unlock with TouchID accessibility label */
 "UnlockScreen.touchIdText" = "Déverrouiller avec TouchID";
@@ -1154,10 +1154,10 @@
 "UnlockScreen.unlocked" = "Portefeuille déverrouillé";
 
 /* Update PIN caption text */
-"UpdatePin.caption" = "Souvenez-vous de ce code PIN. Si vous l'oubliez, vous ne pourrez pas accéder à votre Litecoin.";
+"UpdatePin.caption" = "Souvenez-vous de ce code PIN. Si vous l'oubliez, vous ne pourrez pas accéder à votre Earthcoin.";
 
 /* PIN creation info. */
-"UpdatePin.createInstruction" = "Votre NIP sera utilisé pour débloquer votre Litewallet et envoyer de l'argent.";
+"UpdatePin.createInstruction" = "Votre NIP sera utilisé pour débloquer votre Eacpay et envoyer de l'argent.";
 
 /* Update PIN title */
 "UpdatePin.createTitle" = "Définir PIN";
@@ -1208,7 +1208,7 @@
 "VerifyPin.touchIdMessage" = "Autoriser cette transaction";
 
 /* 'No wallet' warning for watch app */
-"Watch.noWalletWarning" = "Ouvrez l'application Litewallet pour iPhone pour configurer votre portefeuille.";
+"Watch.noWalletWarning" = "Ouvrez l'application Eacpay pour iPhone pour configurer votre portefeuille.";
 
 /* Dismiss button label */
 "Webview.dismiss" = "Rejeter";
@@ -1220,10 +1220,10 @@
 "Webview.updating" = "Mise à jour...";
 
 /* Welcome screen text. (?) will be replaced with the help icon users should look for. */
-"Welcome.body" = "Bienvenue chez Litewallet !";
+"Welcome.body" = "Bienvenue chez Eacpay !";
 
 /* Top title of welcome screen */
-"Welcome.title" = "Bienvenue chez Litewallet !";
+"Welcome.title" = "Bienvenue chez Eacpay !";
 
 /* Delete database title */
 "WipeWallet.alertDeleteTitle" = "Supprimer la base de données";
@@ -1256,19 +1256,19 @@
 "WipeWallet.instruction" = "Soumettez la phrase de récupération de ce portefeuille pour l'effacer et commencer à en récupérer un autre. Votre solde actuel demeure sur cette phrase.";
 
 /* Start wipe wallet view message */
-"WipeWallet.startMessage" = "L'ouverture ou la récupération d'un autre portefeuille vous permet d'accéder et de gérer différents portefeuilles Litewallet depuis cet appareil.";
+"WipeWallet.startMessage" = "L'ouverture ou la récupération d'un autre portefeuille vous permet d'accéder et de gérer différents portefeuilles Eacpay depuis cet appareil.";
 
 /* Start wipe wallet view warning */
-"WipeWallet.startWarning" = "Vous ne pourrez plus accéder à votre portefeuille Litewallet depuis cet appareil. Le solde restera inchangé.";
+"WipeWallet.startWarning" = "Vous ne pourrez plus accéder à votre portefeuille Eacpay depuis cet appareil. Le solde restera inchangé.";
 
 /* Wipe wallet navigation item title. */
 "WipeWallet.title" = "Commencer un nouveau portefeuille ou récupérer un autre portefeuille";
 
 /* Warning Alert */
-"WipeWallet.warningAlert" = "Cette action effacera votre Litewallet !";
+"WipeWallet.warningAlert" = "Cette action effacera votre Eacpay !";
 
 /* Warning description */
-"WipeWallet.warningDescription" = "La suppression de votre portefeuille signifie que la clé privée et l'effacement des données de l'application auront disparu. Vous risquez de perdre du Litecoin pour toujours !\n\n\nPersonne dans l'équipe Litewallet ne peut récupérer cette graine pour vous. Nous ne sommes pas responsables si vous ne tenez pas compte de cet avertissement.";
+"WipeWallet.warningDescription" = "La suppression de votre portefeuille signifie que la clé privée et l'effacement des données de l'application auront disparu. Vous risquez de perdre du Earthcoin pour toujours !\n\n\nPersonne dans l'équipe Eacpay ne peut récupérer cette graine pour vous. Nous ne sommes pas responsables si vous ne tenez pas compte de cet avertissement.";
 
 /* Warning title */
 "WipeWallet.warningTitle" = "LISEZ S'IL VOUS PLAÎT!";

@@ -1,5 +1,5 @@
 import Foundation
 
 enum ArticleIds {
-    static let nothing = "nothing"
+	static let nothing = "nothing"
 }

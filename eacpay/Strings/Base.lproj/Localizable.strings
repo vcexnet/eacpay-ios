@@ -2,7 +2,7 @@
 "About.blog" = "Website";
 
 /* About screen footer */
-"About.footer" = "Made by the Eacpay Team\nof the\nEarthcoin Team\n%1$@";
+"About.footer" = "Made by the Eacpay Team\nof the\nEarthcoin Foundation\n%1$@";
 
 /* Privay Policy button label */
 "About.privacy" = "Privacy Policy";
@@ -1145,10 +1145,10 @@
 "DefaultCurrency.chooseFiatLabel" = "Choose:";
 
 /* Eacpay environment */
-"Settings.litewallet.environment" = "Environment:";
+"Settings.Eacpay.environment" = "Environment:";
 
 /* Eacpay version */
-"Settings.litewallet.version" = "Eacpay version:";
+"Settings.Eacpay.version" = "Eacpay version:";
 
 /* Eacpay Social links */
 "Settings.socialLinks" = "Social";
@@ -1202,7 +1202,7 @@
 "Send.enterLTCAddress" = "Enter a Earthcoin address";
 
 /* Eacpay Partners */
-"Settings.litewallet.partners" = "Eacpay partners";
+"Settings.Eacpay.partners" = "Eacpay partners";
 
 /* Card Bar Item Title */
 "EarthcoinCard.barItemTitle" = "Card";
@@ -1388,7 +1388,7 @@
 "EarthcoinCard.twoFAOff" = "2FA Not Enabled";
 
 /* Eacpay balance label */
-"EarthcoinCard.Transfer.litewalletBalance" = "Eacpay balance";
+"EarthcoinCard.Transfer.EacpayBalance" = "Eacpay balance";
 
 /* Transfer title */
 "EarthcoinCard.Transfer.title" = "Transfer";
@@ -1403,7 +1403,7 @@
 "EarthcoinCard.Transfer.amountToCard" = "Transfer to Card";
 
 /* Transfer to Eacpay label */
-"EarthcoinCard.Transfer.amountTolitewallet" = "Transfer to Eacpay";
+"EarthcoinCard.Transfer.amountToEacpay" = "Transfer to Eacpay";
 
 /* Set transfer amount label */
 "EarthcoinCard.Transfer.setAmount" = "Slide to set transfer amount";
@@ -1418,7 +1418,7 @@
 "EarthcoinCard.name" = "Earthcoin Card";
 
 /* Eacpay name */
-"litewallet.name" = "Eacpay";
+"Eacpay.name" = "Eacpay";
 
 /* Message when 2FA is off and user is viewing the Card Balance */
 "EarthcoinCard.cardBalanceOnlyDescription" = "Logout & Enable 2FA to allow Transfers";

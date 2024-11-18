@@ -24,28 +24,28 @@ import SwiftUI
 /// "suggestedDocument": "national_identity_card"
 /// - Returns: MoonpayCountryData
 public struct MoonpayCountryData: Codable, Hashable {
-    var alphaCode2Char: String
-    var alphaCode3Char: String
-    var isBuyAllowed: Bool
-    var isSellAllowed: Bool
-    var countryName: String
-    var isAllowedInCountry: Bool
+	var alphaCode2Char: String
+	var alphaCode3Char: String
+	var isBuyAllowed: Bool
+	var isSellAllowed: Bool
+	var countryName: String
+	var isAllowedInCountry: Bool
 }
 
 class BuyHostingController: UIHostingController<BuyView> {
-    var contentView: BuyView
+	var contentView: BuyView
 
-    var isLoaded: Bool = false
+	var isLoaded: Bool = false
 
-    init() {
-        let buyViewModel = BuyViewModel()
-        contentView = BuyView(viewModel: buyViewModel)
+	init() {
+		let buyViewModel = BuyViewModel()
+		contentView = BuyView(viewModel: buyViewModel)
 
-        super.init(rootView: contentView)
-    }
+		super.init(rootView: contentView)
+	}
 
-    @available(*, unavailable)
-    @MainActor dynamic required init?(coder _: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
+	@available(*, unavailable)
+	@MainActor dynamic required init?(coder _: NSCoder) {
+		fatalError("init(coder:) has not been implemented")
+	}
 }

@@ -3,11 +3,11 @@ import Foundation
 import SwiftUI
 
 class SupportLitecoinFoundationViewModel: ObservableObject {
-    // MARK: - Combine Variables
+	// MARK: - Combine Variables
 
-    // MARK: - Public Variables
+	// MARK: - Public Variables
 
-    var didTapToDismiss: (() -> Void)?
+	var didTapToDismiss: (() -> Void)?
 
-    init() {}
+	init() {}
 }

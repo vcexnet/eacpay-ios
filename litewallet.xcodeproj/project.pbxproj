@@ -772,12 +772,12 @@
 		24B9621923BA66CE00ECD938 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/MainInterface.strings"; sourceTree = "<group>"; };
 		24B9621B23BA66CF00ECD938 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MainInterface.strings; sourceTree = "<group>"; };
 		24BA90C52410129E001E3825 /* FeeSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeeSelectorView.swift; sourceTree = "<group>"; };
-		24D5F22522599C0900225462 /* BarlowSemiCondensed-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BarlowSemiCondensed-Italic.ttf"; path = "litewallet/Fonts/BarlowSemiCondensed-Italic.ttf"; sourceTree = SOURCE_ROOT; };
-		24D5F22622599C0A00225462 /* BarlowSemiCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BarlowSemiCondensed-Bold.ttf"; path = "litewallet/Fonts/BarlowSemiCondensed-Bold.ttf"; sourceTree = SOURCE_ROOT; };
-		24D5F22D22599C0A00225462 /* BarlowSemiCondensed-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BarlowSemiCondensed-Light.ttf"; path = "litewallet/Fonts/BarlowSemiCondensed-Light.ttf"; sourceTree = SOURCE_ROOT; };
-		24D5F23022599C0B00225462 /* BarlowSemiCondensed-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BarlowSemiCondensed-Medium.ttf"; path = "litewallet/Fonts/BarlowSemiCondensed-Medium.ttf"; sourceTree = SOURCE_ROOT; };
-		24D5F23222599C0B00225462 /* BarlowSemiCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BarlowSemiCondensed-Regular.ttf"; path = "litewallet/Fonts/BarlowSemiCondensed-Regular.ttf"; sourceTree = SOURCE_ROOT; };
-		24D5F23422599C0B00225462 /* BarlowSemiCondensed-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BarlowSemiCondensed-SemiBold.ttf"; path = "litewallet/Fonts/BarlowSemiCondensed-SemiBold.ttf"; sourceTree = SOURCE_ROOT; };
+		24D5F22522599C0900225462 /* BarlowSemiCondensed-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BarlowSemiCondensed-Italic.ttf"; path = "eacpay/Fonts/BarlowSemiCondensed-Italic.ttf"; sourceTree = SOURCE_ROOT; };
+		24D5F22622599C0A00225462 /* BarlowSemiCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BarlowSemiCondensed-Bold.ttf"; path = "eacpay/Fonts/BarlowSemiCondensed-Bold.ttf"; sourceTree = SOURCE_ROOT; };
+		24D5F22D22599C0A00225462 /* BarlowSemiCondensed-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BarlowSemiCondensed-Light.ttf"; path = "eacpay/Fonts/BarlowSemiCondensed-Light.ttf"; sourceTree = SOURCE_ROOT; };
+		24D5F23022599C0B00225462 /* BarlowSemiCondensed-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BarlowSemiCondensed-Medium.ttf"; path = "eacpay/Fonts/BarlowSemiCondensed-Medium.ttf"; sourceTree = SOURCE_ROOT; };
+		24D5F23222599C0B00225462 /* BarlowSemiCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BarlowSemiCondensed-Regular.ttf"; path = "eacpay/Fonts/BarlowSemiCondensed-Regular.ttf"; sourceTree = SOURCE_ROOT; };
+		24D5F23422599C0B00225462 /* BarlowSemiCondensed-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BarlowSemiCondensed-SemiBold.ttf"; path = "eacpay/Fonts/BarlowSemiCondensed-SemiBold.ttf"; sourceTree = SOURCE_ROOT; };
 		24D5F26D225A5BEA00225462 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
 		24D91D0A2166923E0077A619 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		24D91D0D2166A5480077A619 /* TestnetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestnetData.swift; sourceTree = "<group>"; };
@@ -2075,7 +2075,7 @@
 			path = "Class Tests";
 			sourceTree = "<group>";
 		};
-		2465873723A5AAD100A32E9E /* litewalletTests */ = {
+		2465873723A5AAD100A32E9E /* eacpayTests */ = {
 			isa = PBXGroup;
 			children = (
 				584E24FF2951DA97005E0E8B /* Language Selection Tests */,
@@ -2088,7 +2088,7 @@
 				24470E2223A5DB7D00ADDA27 /* WalletManagerTests.swift */,
 				2465873A23A5AAD100A32E9E /* Info.plist */,
 			);
-			path = litewalletTests;
+			path = eacpayTests;
 			sourceTree = "<group>";
 		};
 		2494037923ADFBA200369261 /* XIBs */ = {
@@ -2841,8 +2841,8 @@
 			children = (
 				C3F8F1432C04F6BE006C3211 /* Dakar, Senegal.gpx */,
 				C33685082BECE8B10069CBC7 /* PrivacyInfo.xcprivacy */,
-				75A2A7921DA5934300A983D8 /* litewallet */,
-				2465873723A5AAD100A32E9E /* litewalletTests */,
+				75A2A7921DA5934300A983D8 /* eacpay */,
+				2465873723A5AAD100A32E9E /* eacpayTests */,
 				75A2A80B1DA5936F00A983D8 /* TodayExtension */,
 				75B6F52F1DA71DCC0031A93F /* Modules */,
 				75A2A7F11DA5935F00A983D8 /* Frameworks */,
@@ -2863,7 +2863,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		75A2A7921DA5934300A983D8 /* litewallet */ = {
+		75A2A7921DA5934300A983D8 /* eacpay */ = {
 			isa = PBXGroup;
 			children = (
 				C3055B662B8E593A002A0882 /* LaunchDataResources */,
@@ -2910,7 +2910,7 @@
 				2485F7CE23728C19005962F1 /* RELEASE_NOTES.md */,
 				C3ACF2DE25DED601008671D4 /* CHANGELOG.md */,
 			);
-			path = litewallet;
+			path = eacpay;
 			sourceTree = "<group>";
 		};
 		75A2A7F11DA5935F00A983D8 /* Frameworks */ = {
@@ -4563,7 +4563,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules $(SRCROOT)/litewallet/Platform";
+				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules $(SRCROOT)/eacpay/Platform";
 				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -4581,7 +4581,7 @@
 				);
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = litewallet/litewallet.entitlements;
+				CODE_SIGN_ENTITLEMENTS = eacpay/litewallet.entitlements;
 				CURRENT_PROJECT_VERSION = 241027;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = ZV7987N2ZC;
@@ -4591,7 +4591,7 @@
 					"$(PROJECT_DIR)",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/litewallet/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/eacpay/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Eacpay;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -4921,7 +4921,7 @@
 				"OTHER_LDFLAGS[arch=*]" = "-ObjC  ";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules $(SRCROOT)/litewallet/Platform";
+				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules $(SRCROOT)/eacpay/Platform";
 				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
@@ -4939,7 +4939,7 @@
 				);
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = litewallet/litewallet.entitlements;
+				CODE_SIGN_ENTITLEMENTS = eacpay/litewallet.entitlements;
 				CURRENT_PROJECT_VERSION = 241027;
 				DEVELOPMENT_TEAM = ZV7987N2ZC;
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
@@ -4948,7 +4948,7 @@
 					"$(PROJECT_DIR)",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/litewallet/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/eacpay/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Eacpay;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -5068,7 +5068,7 @@
 				ON_DEMAND_RESOURCES_INITIAL_INSTALL_TAGS = "initial-resources";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules $(SRCROOT)/litewallet/Platform";
+				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules $(SRCROOT)/eacpay/Platform";
 				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -5081,7 +5081,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = litewallet/litewallet.entitlements;
+				CODE_SIGN_ENTITLEMENTS = eacpay/litewallet.entitlements;
 				CURRENT_PROJECT_VERSION = 241027;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = ZV7987N2ZC;
@@ -5091,7 +5091,7 @@
 					"$(PROJECT_DIR)",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/litewallet/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/eacpay/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Eacpay;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;

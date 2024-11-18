@@ -2,7 +2,7 @@
 "About.blog" = "博客";
 
 /* About screen footer */
-"About.footer" = "由全球 Litewallet 团队制作。版本%1$@";
+"About.footer" = "由全球 Eacpay 团队制作。版本%1$@";
 
 /* Privay Policy button label */
 "About.privacy" = "隐私政策";
@@ -26,13 +26,13 @@
 "Account.loadingMessage" = "正在加载钱包";
 
 /* Default wallet name */
-"AccountHeader.defaultWalletName" = "我的 Litewallet";
+"AccountHeader.defaultWalletName" = "我的 Eacpay";
 
 /* Manage wallet button title */
 "AccountHeader.manageButtonName" = "管理";
 
 /* Corruption Error alert title */
-"Alert.corruptionError" = "本地腐败错误";
+"Alert.corruptionError" = "本地崩溃错误";
 
 /* Corruption Error alert title */
 "Alert.corruptionMessage" = "您的本地数据库已损坏。转到设置>区块链：设置>删除数据库以刷新";
@@ -131,28 +131,28 @@
 "BuyCenter.BitrefillTitle" = "Bitrefill";
 
 /* Changelly buy financial details */
-"BuyCenter.changellyFinancialDetails" = "•将Litecoin更改为其他加密货币 \n •无需ID \n •通过信用卡购买 \n •全球覆盖";
+"BuyCenter.changellyFinancialDetails" = "•将地球币更改为其他加密货币 \n •无需ID \n •通过信用卡购买 \n •全球覆盖";
 
 /* Changelly Title */
 "BuyCenter.changellyTitle" = "Changelly";
 
 /* Buy Modal Title */
-"BuyCenter.ModalTitle" = "购买 Łitecoin";
+"BuyCenter.ModalTitle" = "购买地球币";
 
 /* Moonpay buy financial details */
-"BuyCenter.moonpayFinancialDetails" = "•购买具有许多法定货币对的LTC\n•以多种方式支付\n•全球支付提供商";
+"BuyCenter.moonpayFinancialDetails" = "•购买具有许多法定货币对的EAC\n•以多种方式支付\n•全球支付提供商";
 
 /* Moonpay Title */
 "BuyCenter.moonpayTitle" = "Moonpay";
 
 /* Simplex buy financial details */
-"BuyCenter.simplexFinancialDetails" = "• 5分钟内获得Litecoin！\n •通过信用卡购买Litecoin \n •护照或州ID";
+"BuyCenter.simplexFinancialDetails" = "• 5分钟内获得地球币！\n •通过信用卡购买地球币 \n •护照或州ID";
 
 /* Simplex Title */
 "BuyCenter.simplexTitle" = "Simplex";
 
 /* Buy Center Title */
-"BuyCenter.title" = "购买 Łitecoin";
+"BuyCenter.title" = "购买地球币";
 
 /* Camera plugin instruction */
 "CameraPlugin.centerInstruction" = "将您的身份证号集中在方框中";
@@ -206,7 +206,7 @@
 "Copy" = "复制";
 
 /* Litecoin denomination picker label */
-"DefaultCurrency.bitcoinLabel" = "莱特币显示单位";
+"DefaultCurrency.bitcoinLabel" = "地球币显示单位";
 
 /* Label to pick fiat */
 "DefaultCurrency.chooseFiatLabel" = "选择:";
@@ -293,13 +293,13 @@
 "History.barItemTitle" = "历史";
 
 /* History Current Litecoin Value */
-"History.currentLitecoinValue" = "当前的LTC值";
+"History.currentLitecoinValue" = "当前的EAC值";
 
 /* Checking private key balance progress view text */
 "Import.checking" = "正在查看私人密钥余额...";
 
 /* Sweep private key confirmation message */
-"Import.confirm" = "从这个私人密钥中发送 %1$@ 到您的钱包吗？莱特币网络将收到 %2$@ 费用。";
+"Import.confirm" = "从这个私人密钥中发送 %1$@ 到您的钱包吗？地球币网络将收到 %2$@ 费用。";
 
 /* Duplicate key error message */
 "Import.Error.duplicate" = "本私钥已在您的钱包里。";
@@ -326,7 +326,7 @@
 "Import.leftCaption" = "待导入钱包";
 
 /* Import wallet intro screen message */
-"Import.message" = "导入钱包，利用单笔交易将您其他钱包里的所有钱转移到您的 Litewallet  钱包。";
+"Import.message" = "导入钱包，利用单笔交易将您其他钱包里的所有钱转移到您的 Eacpay  钱包。";
 
 /* Enter password alert view title */
 "Import.password" = "本私钥受到密码保护。";
@@ -335,7 +335,7 @@
 "Import.passwordPlaceholder" = "密码";
 
 /* Caption for graphics */
-"Import.rightCaption" = "您的 Litewallet 钱包";
+"Import.rightCaption" = "您的 Eacpay 钱包";
 
 /* Scan Private key button label */
 "Import.scan" = "扫描私钥";
@@ -365,10 +365,10 @@
 "JailbreakWarnings.ignore" = "忽略";
 
 /* Jailbreak warning message */
-"JailbreakWarnings.messageWithBalance" = "设备安全性受损\n任何'越狱'应用都可能访问 Litewallet 的密钥链数据并盗取您的莱特币！立即擦除这个钱包并在一台安全设备上进行恢复。";
+"JailbreakWarnings.messageWithBalance" = "设备安全性受损\n任何'越狱'应用都可能访问 Eacpay 的密钥链数据并盗取您的地球币！立即擦除这个钱包并在一台安全设备上进行恢复。";
 
 /* Jailbreak warning message */
-"JailbreakWarnings.messageWithoutBalance" = "设备安全性受损\n任何'越狱'应用都可能访问 Litewallet 的密钥链数据并盗取您的莱特币！请您仅在未越狱设备上使用 Litewallet 。";
+"JailbreakWarnings.messageWithoutBalance" = "设备安全性受损\n任何'越狱'应用都可能访问 Eacpay 的密钥链数据并盗取您的地球币！请您仅在未越狱设备上使用 Eacpay 。";
 
 /* Jailbreak warning title */
 "JailbreakWarnings.title" = "警告";
@@ -386,16 +386,16 @@
 "LitecoinCard.cardBalanceOnlyDescription" = "注销并启用 2FA 以允许传输";
 
 /* Features and limitations */
-"LitecoinCard.Disclaimer.bullets" = "-注册和登录\n-可用卡余额\n-重置密码\n-不能转移到Litewallet\n-仅限美国";
+"LitecoinCard.Disclaimer.bullets" = "-注册和登录\n-可用卡余额\n-重置密码\n-不能转移到Eacpay\n-仅限美国";
 
 /* Description of the status */
-"LitecoinCard.Disclaimer.description" = "Litecoin卡当前在Litewallet中具有有限的功能。";
+"LitecoinCard.Disclaimer.description" = "地球币卡当前在Eacpay中具有有限的功能。";
 
 /* Referral to the website */
-"LitecoinCard.Disclaimer.referral" = "访问litecoin.getblockcard.com以获取完全访问权限";
+"LitecoinCard.Disclaimer.referral" = "访问earthcoin.getblockcard.com以获取完全访问权限";
 
 /* Beta Testing Litecoin Card */
-"LitecoinCard.Disclaimer.title" = "Litecoin卡测试版";
+"LitecoinCard.Disclaimer.title" = "地球币卡测试版";
 
 /* Enter code */
 "LitecoinCard.enterCode" = "输入代码";
@@ -416,13 +416,13 @@
 "LitecoinCard.logout" = "登出";
 
 /* Card Bar Item Title */
-"LitecoinCard.name" = "莱特币卡";
+"LitecoinCard.name" = "地球币卡";
 
 /* Register */
 "LitecoinCard.registerCard" = "寄存器";
 
 /* Register for Litecoin Card */
-"LitecoinCard.registerCardPhrase" = "注册莱特币卡";
+"LitecoinCard.registerCardPhrase" = "注册地球币卡";
 
 /* Registering user... */
 "LitecoinCard.registering.user" = "正在注册用户...";
@@ -446,10 +446,10 @@
 "LitecoinCard.Registration.identification" = "身份证明";
 
 /* kycIDNumber */
-"LitecoinCard.Registration.kycIDNumber" = "了解你的顾客 证件类型";
+"LitecoinCard.Registration.kycIDNumber" = "证件号码";
 
 /* kycIDType */
-"LitecoinCard.Registration.kycIDType" = "ID 유형";
+"LitecoinCard.Registration.kycIDType" = "证件类型";
 
 /* SSN */
 "LitecoinCard.Registration.kycSSN" = "SSN";
@@ -467,7 +467,7 @@
 "LitecoinCard.Registration.stateProvince" = "州/省";
 
 /* registraition username / email */
-"LitecoinCard.Registration.usernameEmail" = "ID 유형";
+"LitecoinCard.Registration.usernameEmail" = "Email";
 
 /* must not be empty */
 "LitecoinCard.Registration.ValidationError.empty" = "不能为空";
@@ -488,7 +488,7 @@
 "LitecoinCard.Registration.ValidationError.passwordComposition" = "密码必须超过6个字符，并且至少包含一个字符和一个数字字符";
 
 /* Password required */
-"LitecoinCard.Registration.ValidationError.passwordRequired" = "密码是必需的";
+"LitecoinCard.Registration.ValidationError.passwordRequired" = "密码是必须的";
 
 /* Required field */
 "LitecoinCard.Registration.ValidationError.requiredField" = "必填项目";
@@ -506,13 +506,13 @@
 "LitecoinCard.resetPassword" = "重设密码";
 
 /* Reset password detail */
-"LitecoinCard.resetPasswordDetail" = "输入与您的Litecoin卡帐户关联的电子邮件地址，并查找包含重置说明的电子邮件。";
+"LitecoinCard.resetPasswordDetail" = "输入与您的地球币卡帐户关联的电子邮件地址，并查找包含重置说明的电子邮件。";
 
 /* Transfer to card label */
 "LitecoinCard.Transfer.amountToCard" = "转入卡";
 
 /* Transfer to Litewallet label */
-"LitecoinCard.Transfer.amountToLitewallet" = "转移到Litewallet";
+"LitecoinCard.Transfer.amountToLitewallet" = "转移到Eacpay";
 
 /* Description of action */
 "LitecoinCard.Transfer.description" = "选择转账钱包：";
@@ -542,16 +542,16 @@
 "LitecoinCard.twoFAOn" = "启用 2FA";
 
 /* Litecoin card visit */
-"LitecoinCard.visit.toReset" = "请访问 https://litecoin.dashboard.getblockcard.com/password/forgot 重置您的密码。";
+"LitecoinCard.visit.toReset" = "请访问 https://earthcoin.dashboard.getblockcard.com/password/forgot 重置您的密码。";
 
 /* Litewallet name */
-"Litewallet.name" = "Litewallet";
+"Litewallet.name" = "Eacpay";
 
 /* Location services disabled error */
 "LocationPlugin.disabled" = "位置服务被禁用。";
 
 /* No permissions for location services */
-"LocationPlugin.notAuthorized" = "Litewallet 无权限访问位置服务。";
+"LocationPlugin.notAuthorized" = "Eacpay 无权限访问位置服务。";
 
 /* No comment provided by engineer. */
 "Malformed URI" = "URI格式错误";
@@ -572,7 +572,7 @@
 "ManageWallet.title" = "管理钱包";
 
 /* Buy Litecoin title */
-"MenuButton.buy" = "购买莱特币";
+"MenuButton.buy" = "购买地球币";
 
 /* Menu button title */
 "MenuButton.customer.support" = "客户支持";
@@ -626,7 +626,7 @@
 "NodeSelector.statusLabel" = "节点连接状态";
 
 /* Node Selector view title */
-"NodeSelector.title" = "莱特币节点";
+"NodeSelector.title" = "地球币节点";
 
 /* Bad Payment request alert title */
 "PaymentProtocol.Errors.badPaymentRequest" = "假的付款请求";
@@ -644,10 +644,10 @@
 "PaymentProtocol.Errors.smallOutputError" = "无法付款";
 
 /* Amount too small error message */
-"PaymentProtocol.Errors.smallPayment" = "莱特币支付不能小于%1$@。";
+"PaymentProtocol.Errors.smallPayment" = "地球币支付不能小于%1$@。";
 
 /* Output too small error message. */
-"PaymentProtocol.Errors.smallTransaction" = "莱特币交易输出不能小于 $@。";
+"PaymentProtocol.Errors.smallTransaction" = "地球币交易输出不能小于 $@。";
 
 /* Unsupported signature type payment protocol error message */
 "PaymentProtocol.Errors.unsupportedSignatureType" = "不受支持的签名类型";
@@ -692,13 +692,13 @@
 "Prompts.RecommendRescan.title" = "交易被拒";
 
 /* Upgrade PIN prompt body. */
-"Prompts.SetPin.body" = "Litewallet 已升级到使用 6 位 PIN。点击此处升级。";
+"Prompts.SetPin.body" = "Eacpay 已升级到使用 6 位 PIN。点击此处升级。";
 
 /* Upgrade PIN prompt title. */
 "Prompts.SetPin.title" = "升级 PIN";
 
 /* Share data prompt body */
-"Prompts.ShareData.body" = "与我们分享您的匿名数据来帮助改善 Litewallet。";
+"Prompts.ShareData.body" = "与我们分享您的匿名数据来帮助改善 Eacpay。";
 
 /* Share data prompt title */
 "Prompts.ShareData.title" = "分享匿名数据";
@@ -710,7 +710,7 @@
 "Prompts.TouchId.title" = "启用触摸 ID";
 
 /* Notifications will be added later but users can set their preferences now, which is why we specify "in the future". */
-"PushNotifications.body" = "打开推送通知，以便将来从 Litewallet 接收特殊消息。";
+"PushNotifications.body" = "打开推送通知，以便将来从 Eacpay 接收特殊消息。";
 
 /* Push notifications toggle switch label */
 "PushNotifications.label" = "推送通知";
@@ -758,7 +758,7 @@
 "RecoverWallet.instruction" = "输入纸键";
 
 /* Recover wallet intro */
-"RecoverWallet.intro" = "用您的纸键恢复您的 Litewallet。";
+"RecoverWallet.intro" = "用您的纸键恢复您的 Eacpay。";
 
 /* Invalid paper key message */
 "RecoverWallet.invalid" = "您输入的纸键无效。请仔细检查每个单词并重试。";
@@ -800,7 +800,7 @@
 "ReScan.body1" = "20-45 分钟";
 
 /* Syncing explanation */
-"ReScan.body2" = "如果某次交易在莱特币网络上显示为已完成，却不在您的 Litewallet 里。";
+"ReScan.body2" = "如果某次交易在地球币网络上显示为已完成，却不在您的 Eacpay 里。";
 
 /* Syncing explanation */
 "ReScan.body3" = "你反复得到交易被拒绝的出错信息。";
@@ -824,7 +824,7 @@
 "resetButton" = "是的，重置钱包";
 
 /* Warning Empty Wipe title */
-"resetTitle" = "删除我的 Litewallet";
+"resetTitle" = "删除我的 Eacpay";
 
 /* Scan Litecoin address camera flash toggle */
 "Scanner.flashButtonLabel" = "相机闪光灯";
@@ -848,13 +848,13 @@
 "SecurityCenter.info" = "启用所有安全功能以获得最大保护。";
 
 /* Paper Key button description */
-"SecurityCenter.paperKeyDescription" = "若您丢失或升级您的手机，访问您的莱特币的唯一方法。";
+"SecurityCenter.paperKeyDescription" = "若您丢失或升级您的手机，访问您的地球币的唯一方法。";
 
 /* Paper Key button title */
 "SecurityCenter.paperKeyTitle" = "纸键";
 
 /* PIN button description */
-"SecurityCenter.pinDescription" = "保护您的 Litewallet 免遭未授权用户盗用。";
+"SecurityCenter.pinDescription" = "保护您的 Eacpay 免遭未授权用户盗用。";
 
 /* PIN button title */
 "SecurityCenter.pinTitle" = "6 位 PIN";
@@ -863,7 +863,7 @@
 "SecurityCenter.title" = "安全中心";
 
 /* Touch ID button description */
-"SecurityCenter.touchIdDescription" = "方便地解锁 Litewallet，在设定限额下汇钱。";
+"SecurityCenter.touchIdDescription" = "方便地解锁 Eacpay，在设定限额下汇钱。";
 
 /* Touch ID button title */
 "SecurityCenter.touchIdTitle" = "触摸 ID";
@@ -884,7 +884,7 @@
 "Send.cameraunavailableMessage" = "前往“设置”以允许访问照相机。";
 
 /* Camera not allowed alert title */
-"Send.cameraUnavailableTitle" = "Litewallet 不允许访问照相机";
+"Send.cameraUnavailableTitle" = "Eacpay 不允许访问照相机";
 
 /* Warning when sending to self. */
 "Send.containsAddress" = "目标是您自己的地址。您不能发送给您自己。";
@@ -899,7 +899,7 @@
 "Send.emptyPasteboard" = "粘贴板为空";
 
 /* Enter LTC Address */
-"Send.enterLTCAddress" = "输入一个Litecoin地址";
+"Send.enterLTCAddress" = "输入一个地球币地址";
 
 /* Fees: $0.01*/
 "Send.fee" = "费用: %1$@";
@@ -914,10 +914,10 @@
 "Send.insufficientFunds" = "不充足的资金";
 
 /* Invalid address alert message */
-"Send.invalidAddressMessage" = "目标地址不是有效的莱特币地址。";
+"Send.invalidAddressMessage" = "目标地址不是有效的地球币地址。";
 
 /* Invalid address on pasteboard message */
-"Send.invalidAddressOnPasteboard" = "粘贴板中没有有效的莱特币地址";
+"Send.invalidAddressOnPasteboard" = "粘贴板中没有有效的地球币地址";
 
 /* Invalid address alert title */
 "Send.invalidAddressTitle" = "无效地址";
@@ -980,7 +980,7 @@
 "Send.UnstoppableDomains.udSystemError" = "系统查找问题。 [错误：%2$d]";
 
 /* Adress already used alert message - first part */
-"Send.UsedAddress.firstLine" = "莱特币地址仅供一次性使用。";
+"Send.UsedAddress.firstLine" = "地球币地址仅供一次性使用。";
 
 /* Adress already used alert message - second part */
 "Send.UsedAddress.secondLIne" = "重复使用会削弱您和收件人的隐私，如果收件人不直接控制地址，可能会导致损失。";
@@ -1010,7 +1010,7 @@
 "Settings.earlyAccess" = "加入早期访问";
 
 /* Are you enjoying Litewallet alert message body */
-"Settings.enjoying" = "您喜欢 Litewallet 吗？";
+"Settings.enjoying" = "您喜欢 Eacpay 吗？";
 
 /* Face ID spending limit label */
 "Settings.faceIdLimit" = "PLACEHOLDER";
@@ -1025,10 +1025,10 @@
 "Settings.litewallet.environment" = "环境：";
 
 /* Litewallet Partners */
-"Settings.litewallet.partners" = "Litewallet合作伙伴";
+"Settings.litewallet.partners" = "Eacpay合作伙伴";
 
 /* Litewallet version */
-"Settings.litewallet.version" = "Litewallet版本：";
+"Settings.litewallet.version" = "Eacpay版本：";
 
 /* Manage settings section header */
 "Settings.manage" = "管理";
@@ -1043,7 +1043,7 @@
 "Settings.shareData" = "分享匿名数据";
 
 /* Litewallet Social links */
-"Settings.socialLinks" = "社会的";
+"Settings.socialLinks" = "社交";
 
 /* Support settings section header */
 "Settings.support" = "支持";
@@ -1064,7 +1064,7 @@
 "Settings.wipe" = "开始/恢复另一钱包";
 
 /* Share data view body */
-"ShareData.body" = "同我们分享您的匿名数据来帮助改善 Litewallet。这不包括任何财务信息。我们尊重您的财务隐私。";
+"ShareData.body" = "同我们分享您的匿名数据来帮助改善 Eacpay。这不包括任何财务信息。我们尊重您的财务隐私。";
 
 /* Share data header */
 "ShareData.header" = "共享数据？";
@@ -1079,7 +1079,7 @@
 "StartPaperPhrase.againButtonTitle" = "再次书写纸键";
 
 /* Paper key explanation text. */
-"StartPaperPhrase.body" = "如果您的手机丢失、被盗、损坏或升级，纸上密钥是恢复 Litewallet 的唯一方法。\n\n\n我们将向您显示一张单词表，请将其写在纸上并保存在安全的地方。";
+"StartPaperPhrase.body" = "如果您的手机丢失、被盗、损坏或升级，纸上密钥是恢复 Eacpay 的唯一方法。\n\n\n我们将向您显示一张单词表，请将其写在纸上并保存在安全的地方。";
 
 /* button label */
 "StartPaperPhrase.buttonTitle" = "写下纸键";
@@ -1091,7 +1091,7 @@
 "StartViewController.tagline" = "使用莱特币最安全且最可靠的方式。";
 
 /* Support the Litecoin Foundation */
-"SupportTheFoundation.title" = "支持Litecoin基金会";
+"SupportTheFoundation.title" = "支持地球币基金会";
 
 /* Syncing view connection state header text */
 "SyncingHeader.connecting" = "正在连线...";
@@ -1127,7 +1127,7 @@
 "TouchIdSettings.customizeText" = "你可以自定义从 %1$@ 的 Touch ID 支出限额。";
 
 /* Touch Id screen label */
-"TouchIdSettings.label" = "请用指纹解锁 Litewallet 并在设定限额下汇钱。";
+"TouchIdSettings.label" = "请用指纹解锁 Eacpay 并在设定限额下汇钱。";
 
 /*  ł100,000 ($100) */
 "TouchIdSettings.limitValue" = "%1$@ (%2$@)";
@@ -1139,7 +1139,7 @@
 "TouchIdSettings.spendingLimit" = "支出限制：%1$@ (%2$@)";
 
 /* Touch id switch label. */
-"TouchIdSettings.switchLabel" = "针对 Litewallet 启用触摸 ID";
+"TouchIdSettings.switchLabel" = "针对 Eacpay 启用触摸 ID";
 
 /* Touch ID settings view title */
 "TouchIdSettings.title" = "触摸 ID";
@@ -1280,7 +1280,7 @@
 "TransactionDetails.to" = "到 %1$@";
 
 /* Transaction ID header */
-"TransactionDetails.txHashHeader" = "莱特币交易 ID";
+"TransactionDetails.txHashHeader" = "地球币交易 ID";
 
 /* (this transaction was) Received at this address: */
 "TransactionDirection.address" = "已在此地址接收";
@@ -1307,7 +1307,7 @@
 "UnlockScreen.scan" = "扫描";
 
 /* TouchID prompt text */
-"UnlockScreen.touchIdPrompt" = "解锁您的 Litewallet。";
+"UnlockScreen.touchIdPrompt" = "解锁您的 Eacpay。";
 
 /* Unlock with TouchID accessibility label */
 "UnlockScreen.touchIdText" = "使用 TouchID 解锁";
@@ -1319,7 +1319,7 @@
 "UpdatePin.caption" = "请牢记此 PIN 码。如果您忘记，您将无法访问您的莱特币。";
 
 /* PIN creation info. */
-"UpdatePin.createInstruction" = "您的 PIN 码将用于解锁您的 Litewallet 并发送款项。";
+"UpdatePin.createInstruction" = "您的 PIN 码将用于解锁您的 Eacpay 并发送款项。";
 
 /* Update PIN title */
 "UpdatePin.createTitle" = "设置 PIN 码";
@@ -1370,7 +1370,7 @@
 "VerifyPin.touchIdMessage" = "授权此交易";
 
 /* 'No wallet' warning for watch app */
-"Watch.noWalletWarning" = "打开 Litewallet iPhone app 以设置您的钱包。";
+"Watch.noWalletWarning" = "打开 Eacpay iPhone app 以设置您的钱包。";
 
 /* Dismiss button label */
 "Webview.dismiss" = "忽略";
@@ -1382,10 +1382,10 @@
 "Webview.updating" = "正在更新...";
 
 /* Welcome screen text. (?) will be replaced with the help icon users should look for. */
-"Welcome.body" = "欢迎使用Litewallet！";
+"Welcome.body" = "欢迎使用Eacpay！";
 
 /* Top title of welcome screen */
-"Welcome.title" = "欢迎使用Litewallet！";
+"Welcome.title" = "欢迎使用Eacpay！";
 
 /* Delete database title */
 "WipeWallet.alertDeleteTitle" = "删除数据库";
@@ -1418,19 +1418,19 @@
 "WipeWallet.instruction" = "输入此钱包的恢复短语以擦除并启动或恢复另一钱包。您的当前余额将保留。";
 
 /* Start wipe wallet view message */
-"WipeWallet.startMessage" = "开始或恢复另一个钱包能让你在这个设备上管理和使用不同的Litewallet钱包";
+"WipeWallet.startMessage" = "开始或恢复另一个钱包能让你在这个设备上管理和使用不同的Eacpay钱包";
 
 /* Start wipe wallet view warning */
-"WipeWallet.startWarning" = "您无法再在这个设备上使用现在的Litewallet钱包。 现在的一切资金都留在纸键上。";
+"WipeWallet.startWarning" = "您无法再在这个设备上使用现在的Eacpay钱包。 现在的一切资金都留在纸键上。";
 
 /* Wipe wallet navigation item title. */
 "WipeWallet.title" = "启动或恢复另一钱包";
 
 /* Warning Alert */
-"WipeWallet.warningAlert" = "此操作将擦除您的 Litewallet！";
+"WipeWallet.warningAlert" = "此操作将擦除您的 Eacpay！";
 
 /* Warning description */
-"WipeWallet.warningDescription" = "删除你的钱包意味着私钥和擦除应用程序数据将消失。你可能永远失去莱特币！\n\n\nLitewallet 团队中的任何人都无法为您检索此种子。如果您不注意此警告，我们概不负责。";
+"WipeWallet.warningDescription" = "删除你的钱包意味着私钥和擦除应用程序数据将消失。你可能永远失去地球币！\n\n\nLitewallet 团队中的任何人都无法为您检索此种子。如果您不注意此警告，我们概不负责。";
 
 /* Warning title */
 "WipeWallet.warningTitle" = "请阅读！";

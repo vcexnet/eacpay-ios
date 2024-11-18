@@ -8,23 +8,23 @@
 import SwiftUI
 
 struct LoginView: View {
-    @ObservedObject
-    var viewModel: LockScreenViewModel
+	@ObservedObject
+	var viewModel: LockScreenViewModel
 
-    init(viewModel: LockScreenViewModel) {
-        self.viewModel = viewModel
+	init(viewModel: LockScreenViewModel) {
+		self.viewModel = viewModel
 
-        /// lockScreenHeaderView
-    }
+		/// lockScreenHeaderView
+	}
 
-    var body: some View {
-        GeometryReader { _ in
-            ZStack {
-                Color.litewalletBlue.edgesIgnoringSafeArea(.all)
-                VStack {
-                    Spacer()
-                }
-            }
-        }
-    }
+	var body: some View {
+		GeometryReader { _ in
+			ZStack {
+				Color.litewalletBlue.edgesIgnoringSafeArea(.all)
+				VStack {
+					Spacer()
+				}
+			}
+		}
+	}
 }

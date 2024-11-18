@@ -2,19 +2,19 @@ import Foundation
 import SwiftUI
 
 class ForgotAlertViewModel: ObservableObject {
-    // MARK: - Combine Variables
+	// MARK: - Combine Variables
 
-    @Published
-    var emailString: String = ""
+	@Published
+	var emailString: String = ""
 
-    @Published
-    var detailMessage: String = S.LitecoinCard.resetPasswordDetail.localize()
+	@Published
+	var detailMessage: String = S.LitecoinCard.resetPasswordDetail.localize()
 
-    init() {}
+	init() {}
 
-    func resetPassword(completion _: @escaping () -> Void) {}
+	func resetPassword(completion _: @escaping () -> Void) {}
 
-    func shouldDismissView(completion: @escaping () -> Void) {
-        completion()
-    }
+	func shouldDismissView(completion: @escaping () -> Void) {
+		completion()
+	}
 }

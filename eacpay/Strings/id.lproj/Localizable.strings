@@ -2,7 +2,7 @@
 "About.blog" = "Situs Web";
 
 /* About screen footer */
-"About.footer" = "Dibuat Oleh LiteWallet Tim \n dari \n Yayasan Litecoin \n %1$@";
+"About.footer" = "Dibuat Oleh Eacpay Tim \n dari \n Yayasan Earthcoin \n %1$@";
 
 /* Privay Policy button label */
 "About.privacy" = "Aturan Pribadi";
@@ -26,7 +26,7 @@
 "Account.loadingMessage" = "Muatan Dompet";
 
 /* Default wallet name */
-"AccountHeader.defaultWalletName" = "Litewallet Saya";
+"AccountHeader.defaultWalletName" = "Eacpay Saya";
 
 /* Manage wallet button title */
 "AccountHeader.manageButtonName" = "MENGATUR";
@@ -131,28 +131,28 @@
 "BuyCenter.BitrefillTitle" = "Bitrefill";
 
 /* Changelly buy financial details */
-"BuyCenter.changellyFinancialDetails" = "• Ubah Litecoin untuk cryptos lainnya \n • Tidak diperlukan ID \n • Membeli dengan kartu kredit \n • Pencakupan global";
+"BuyCenter.changellyFinancialDetails" = "• Ubah Earthcoin untuk cryptos lainnya \n • Tidak diperlukan ID \n • Membeli dengan kartu kredit \n • Pencakupan global";
 
 /* Changelly Title */
 "BuyCenter.changellyTitle" = "Changelly";
 
 /* Buy Modal Title */
-"BuyCenter.ModalTitle" = "Membeli Łitecoin";
+"BuyCenter.ModalTitle" = "Membeli Єarthcoin";
 
 /* Moonpay buy financial details */
-"BuyCenter.moonpayFinancialDetails" = "• Beli LTC dengan banyak pasangan fiat\n• Bayar dengan berbagai metode\n• Penyedia pembayaran global";
+"BuyCenter.moonpayFinancialDetails" = "• Beli EAC dengan banyak pasangan fiat\n• Bayar dengan berbagai metode\n• Penyedia pembayaran global";
 
 /* Moonpay Title */
 "BuyCenter.moonpayTitle" = "Moonpay";
 
 /* Simplex buy financial details */
-"BuyCenter.simplexFinancialDetails" = "• Gunakan ID atau Paspor \n • Membeli Litecoin dengan kartu kredit \n • Membeli dengan USD atau EUR";
+"BuyCenter.simplexFinancialDetails" = "• Gunakan ID atau Paspor \n • Membeli Earthcoin dengan kartu kredit \n • Membeli dengan USD atau EUR";
 
 /* Simplex Title */
 "BuyCenter.simplexTitle" = "Simplex";
 
 /* Buy Center Title */
-"BuyCenter.title" = "Membeli Litecoin";
+"BuyCenter.title" = "Membeli Єarthcoin";
 
 /* Camera plugin instruction */
 "CameraPlugin.centerInstruction" = "Pusatkan ID Anda di dalam Kotak";
@@ -227,13 +227,13 @@
 "FaceIDSettings.customizeText" = "Anda dapat menyesuaikan batas pengeluaran ID Wajah dari %1$@.";
 
 /* Face ID screen label */
-"FaceIDSettings.label" = "Gunakan wajah Anda untuk membuka kunci Litewallet Anda dan mengirim uang hingga batas yang ditentukan.";
+"FaceIDSettings.label" = "Gunakan wajah Anda untuk membuka kunci Eacpay Anda dan mengirim uang hingga batas yang ditentukan.";
 
 /* Link Text (see TouchIdSettings.customizeText) */
 "FaceIDSettings.linkText" = "Layar Batas Pengeluaran ID Wajah";
 
 /* Face id switch label. */
-"FaceIDSettings.switchLabel" = "Aktifkan ID Wajah untuk Litewallet";
+"FaceIDSettings.switchLabel" = "Aktifkan ID Wajah untuk Eacpay";
 
 /* Face ID settings view title */
 "FaceIDSettings.title" = "ID Wajah";
@@ -290,13 +290,13 @@
 "History.barItemTitle" = "SEJARAH";
 
 /* History Current Litecoin Value */
-"History.currentLitecoinValue" = "Nilai LTC saat ini dalam";
+"History.currentLitecoinValue" = "Nilai EAC saat ini dalam";
 
 /* Checking private key balance progress view text */
 "Import.checking" = "Memeriksa saldo kunci pribadi...";
 
 /* Sweep private key confirmation message */
-"Import.confirm" = "Kirim %1$@ dari kunci pribadi ini ke dompet Anda? Jaringan Litecoin akan menerima biaya %2$@.";
+"Import.confirm" = "Kirim %1$@ dari kunci pribadi ini ke dompet Anda? Jaringan Earthcoin akan menerima biaya %2$@.";
 
 /* Duplicate key error message */
 "Import.Error.duplicate" = "Kunci pribadi ini sudah ada di dompet Anda.";
@@ -323,7 +323,7 @@
 "Import.leftCaption" = "Dompet yang diimpor";
 
 /* Import wallet intro screen message */
-"Import.message" = "Mengimpor dompet mentransfer semua uang dari dompet Anda yang lain ke dompet Litewallet Anda menggunakan satu transaksi.";
+"Import.message" = "Mengimpor dompet mentransfer semua uang dari dompet Anda yang lain ke dompet Eacpay Anda menggunakan satu transaksi.";
 
 /* Enter password alert view title */
 "Import.password" = "Kunci pribadi ini dilindungi kata sandi.";
@@ -332,7 +332,7 @@
 "Import.passwordPlaceholder" = "kata sandi";
 
 /* Caption for graphics */
-"Import.rightCaption" = "Dompet Litewallet Anda";
+"Import.rightCaption" = "Dompet Eacpay Anda";
 
 /* Scan Private key button label */
 "Import.scan" = "Pemindaian Kunci Pribadi";
@@ -362,10 +362,10 @@
 "JailbreakWarnings.ignore" = "Mengabaikan";
 
 /* Jailbreak warning message */
-"JailbreakWarnings.messageWithBalance" = "KEAMANAN PERANGKAT YANG KOMPROMISASI\n Setiap aplikasi 'jailbreak' dapat mengakses data gantungan kunci Litewallet dan mencuri Litecoin Anda! Segera bersihkan dompet ini dan pulihkan pada perangkat yang aman.";
+"JailbreakWarnings.messageWithBalance" = "KEAMANAN PERANGKAT YANG KOMPROMISASI\n Setiap aplikasi 'jailbreak' dapat mengakses data gantungan kunci Eacpay dan mencuri Earthcoin Anda! Segera bersihkan dompet ini dan pulihkan pada perangkat yang aman.";
 
 /* Jailbreak warning message */
-"JailbreakWarnings.messageWithoutBalance" = "PERANGKAT KEAMANAN DI KOMPROMISASI\n Setiap aplikasi 'jailbreak' dapat mengakses data gantungan kunci Litewallet dan mencuri Litecoin Anda. Harap hanya menggunakan Litewallet pada perangkat yang tidak dipenjara.";
+"JailbreakWarnings.messageWithoutBalance" = "PERANGKAT KEAMANAN DI KOMPROMISASI\n Setiap aplikasi 'jailbreak' dapat mengakses data gantungan kunci Eacpay dan mencuri Earthcoin Anda. Harap hanya menggunakan Eacpay pada perangkat yang tidak dipenjara.";
 
 /* Jailbreak warning title */
 "JailbreakWarnings.title" = "Peringatan";
@@ -374,13 +374,13 @@
 "JailbreakWarnings.wipe" = "Hapus";
 
 /* Litewallet name */
-"Litewallet.name" = "Litewallet";
+"Litewallet.name" = "Eacpay";
 
 /* Location services disabled error */
 "LocationPlugin.disabled" = "Layanan lokasi dinonaktifkan.";
 
 /* No permissions for location services */
-"LocationPlugin.notAuthorized" = "Litewallet tidak memiliki izin untuk mengakses layanan lokasi.";
+"LocationPlugin.notAuthorized" = "Eacpay tidak memiliki izin untuk mengakses layanan lokasi.";
 
 /* Http error code */
 "Malformed URI" = "URI cacat";
@@ -401,7 +401,7 @@
 "ManageWallet.title" = "Mengelola Dompet";
 
 /* Buy Litecoin title */
-"MenuButton.buy" = "Membeli Litecoin";
+"MenuButton.buy" = "Membeli Earthcoin";
 
 /* Menu button title */
 "MenuButton.customer.support" = "Dukungan pelanggan";
@@ -455,7 +455,7 @@
 "NodeSelector.statusLabel" = "Status Koneksi Node";
 
 /* Node Selector view title */
-"NodeSelector.title" = "Node Litecoin";
+"NodeSelector.title" = "Node Earthcoin";
 
 /* "Email address label" */
 "Notifications.emailLabel" = "Alamat email";
@@ -491,10 +491,10 @@
 "PaymentProtocol.Errors.smallOutputError" = "Tidak dapat melakukan pembayaran";
 
 /* Amount too small error message */
-"PaymentProtocol.Errors.smallPayment" = "Pembayaran Litecoin tidak boleh kurang dari %1$@.";
+"PaymentProtocol.Errors.smallPayment" = "Pembayaran Earthcoin tidak boleh kurang dari %1$@.";
 
 /* Output too small error message. */
-"PaymentProtocol.Errors.smallTransaction" = "Hasil transaksi Litecoin tidak boleh kurang dari $@.";
+"PaymentProtocol.Errors.smallTransaction" = "Hasil transaksi Earthcoin tidak boleh kurang dari $@.";
 
 /* Unsupported signature type payment protocol error message */
 "PaymentProtocol.Errors.unsupportedSignatureType" = "jenis tanda tangan yang tidak didukung";
@@ -539,13 +539,13 @@
 "Prompts.RecommendRescan.title" = "Transaksi Ditolak";
 
 /* Upgrade PIN prompt body. */
-"Prompts.SetPin.body" = "Litewallet telah ditingkatkan untuk menggunakan PIN 6-digit. Ketuk di sini untuk meningkatkan.";
+"Prompts.SetPin.body" = "Eacpay telah ditingkatkan untuk menggunakan PIN 6-digit. Ketuk di sini untuk meningkatkan.";
 
 /* Upgrade PIN prompt title. */
 "Prompts.SetPin.title" = "Tingkatkan PIN";
 
 /* Share data prompt body */
-"Prompts.ShareData.body" = "Bantu tingkatkan Litewallet dengan membagikan data anonim Anda kepada kami";
+"Prompts.ShareData.body" = "Bantu tingkatkan Eacpay dengan membagikan data anonim Anda kepada kami";
 
 /* Share data prompt title */
 "Prompts.ShareData.title" = "Bagikan Data Anonim";
@@ -590,7 +590,7 @@
 "RecoverWallet.instruction" = "Masukkan Kunci Kertas";
 
 /* Recover wallet intro */
-"RecoverWallet.intro" = "Pulihkan Litewallet Anda dengan kunci kertas Anda.";
+"RecoverWallet.intro" = "Pulihkan Eacpay Anda dengan kunci kertas Anda.";
 
 /* Invalid paper key message */
 "RecoverWallet.invalid" = "Kunci kertas yang Anda masukkan tidak benar. Periksa ulang setiap kata dan coba lagi.";
@@ -632,7 +632,7 @@
 "ReScan.body1" = "20-45 menit";
 
 /* Syncing explanation */
-"ReScan.body2" = "Jika suatu transaksi terlihat selesai di jaringan Litecoin tetapi tidak di Litewallet Anda.";
+"ReScan.body2" = "Jika suatu transaksi terlihat selesai di jaringan Litecoin tetapi tidak di Eacpay Anda.";
 
 /* Syncing explanation */
 "ReScan.body3" = "Anda berulang kali mendapatkan pesan kesalahan yang mengatakan transaksi Anda ditolak.";
@@ -680,13 +680,13 @@
 "SecurityCenter.info" = "Aktifkan semua fitur keamanan untuk perlindungan maksimal.";
 
 /* Paper Key button description */
-"SecurityCenter.paperKeyDescription" = "Satu-satunya cara untuk mengakses Litecoin Anda jika Anda kehilangan atau meningkatkan telepon Anda.";
+"SecurityCenter.paperKeyDescription" = "Satu-satunya cara untuk mengakses Earthcoin Anda jika Anda kehilangan atau meningkatkan telepon Anda.";
 
 /* Paper Key button title */
 "SecurityCenter.paperKeyTitle" = "Kunci Kertas";
 
 /* PIN button description */
-"SecurityCenter.pinDescription" = "Melindungi Litewallet Anda dari pengguna yang tidak sah.";
+"SecurityCenter.pinDescription" = "Melindungi Eacpay Anda dari pengguna yang tidak sah.";
 
 /* PIN button title */
 "SecurityCenter.pinTitle" = "PIN 6-Digit";
@@ -695,7 +695,7 @@
 "SecurityCenter.title" = "Pusat Keamanan";
 
 /* Touch ID/FaceID button description */
-"SecurityCenter.touchIdDescription" = "Buka kunci Litewallet Anda dengan mudah dan kirim uang hingga batas yang ditentukan.";
+"SecurityCenter.touchIdDescription" = "Buka kunci Eacpay Anda dengan mudah dan kirim uang hingga batas yang ditentukan.";
 
 /* Touch ID button title */
 "SecurityCenter.touchIdTitle" = "Sentuh ID";
@@ -716,7 +716,7 @@
 "Send.cameraunavailableMessage" = "Buka Pengaturan untuk mengizinkan akses kamera.";
 
 /* Camera not allowed alert title */
-"Send.cameraUnavailableTitle" = "Litewallet tidak diizinkan untuk mengakses kamera";
+"Send.cameraUnavailableTitle" = "Eacpay tidak diizinkan untuk mengakses kamera";
 
 /* Warning when sending to self. */
 "Send.containsAddress" = "Tujuannya adalah alamat Anda sendiri. Anda tidak dapat mengirim ke diri sendiri.";
@@ -731,7 +731,7 @@
 "Send.emptyPasteboard" = "Papan tulis kosong";
 
 /* Enter LTC Address */
-"Send.enterLTCAddress" = "Masukkan alamat Litecoin";
+"Send.enterLTCAddress" = "Masukkan alamat Earthcoin";
 
 /* Fees: $0.01*/
 "Send.fee" = "Biaya: %1$@";
@@ -746,10 +746,10 @@
 "Send.insufficientFunds" = "Dana tidak mencukupi";
 
 /* Invalid address alert message */
-"Send.invalidAddressMessage" = "Alamat tujuan bukan alamat Litecoin yang benar.";
+"Send.invalidAddressMessage" = "Alamat tujuan bukan alamat Earthcoin yang benar.";
 
 /* Invalid address on pasteboard message */
-"Send.invalidAddressOnPasteboard" = "Papan tulis tidak mengandung alamat Litecoin yang benar.";
+"Send.invalidAddressOnPasteboard" = "Papan tulis tidak mengandung alamat Earthcoin yang benar.";
 
 /* Invalid address alert title */
 "Send.invalidAddressTitle" = "Alamat tidak benar";
@@ -818,7 +818,7 @@
 "Send.UnstoppableDomains.udSystemError" = "Masalah pencarian sistem. [Kesalahan: %2$d]";
 
 /* Adress already used alert message - first part */
-"Send.UsedAddress.firstLine" = "Alamat Litecoin hanya ditujukan untuk penggunaan tunggal.";
+"Send.UsedAddress.firstLine" = "Alamat Earthcoin hanya ditujukan untuk penggunaan tunggal.";
 
 /* Adress already used alert message - second part */
 "Send.UsedAddress.secondLIne" = "Penggunaan kembali mengurangi privasi untuk Anda dan penerima dan dapat mengakibatkan kerugian jika penerima tidak secara langsung mengontrol alamat.";
@@ -848,7 +848,7 @@
 "Settings.earlyAccess" = "Bergabunglah dengan Akses Dini";
 
 /* Are you enjoying Litewallet alert message body */
-"Settings.enjoying" = "Apakah Anda menikmati Litewallet?";
+"Settings.enjoying" = "Apakah Anda menikmati Eacpay?";
 
 /* Face ID spending limit label */
 "Settings.faceIdLimit" = "Batas Pengeluaran Wajah ID";
@@ -863,10 +863,10 @@
 "Settings.litewallet.environment" = "Lingkungan Hidup:";
 
 /* Litewallet Partners */
-"Settings.litewallet.partners" = "Mitra Litewallet";
+"Settings.litewallet.partners" = "Mitra Eacpay";
 
 /* Litewallet version */
-"Settings.litewallet.version" = "Versi litewallet:";
+"Settings.litewallet.version" = "Versi Eacpay:";
 
 /* Manage settings section header */
 "Settings.manage" = "Mengelola";
@@ -902,7 +902,7 @@
 "Settings.wipe" = "Mulai/Pulihkan Dompet Lainnya";
 
 /* Share data view body */
-"ShareData.body" = "Bantu meningkatkan Litewallet dengan membagikan data anonim Anda kepada kami. Ini tidak termasuk informasi keuangan apa pun. Kami menghargai privasi finansial Anda.";
+"ShareData.body" = "Bantu meningkatkan Eacpay dengan membagikan data anonim Anda kepada kami. Ini tidak termasuk informasi keuangan apa pun. Kami menghargai privasi finansial Anda.";
 
 /* Share data header */
 "ShareData.header" = "Bagikan Data?";
@@ -917,7 +917,7 @@
 "StartPaperPhrase.againButtonTitle" = "Tuliskan Kunci Kertas Lagi";
 
 /* Paper key explanation text. */
-"StartPaperPhrase.body" = "Kunci kertas Anda adalah satu-satunya cara untuk mengembalikan Litewallet Anda jika ponsel Anda hilang, dicuri, rusak, atau ditingkatkan. \n\n Kami akan menunjukkan kepada Anda daftar kata-kata untuk dituliskan di selembar kertas dan tetap aman.";
+"StartPaperPhrase.body" = "Kunci kertas Anda adalah satu-satunya cara untuk mengembalikan Eacpay Anda jika ponsel Anda hilang, dicuri, rusak, atau ditingkatkan. \n\n Kami akan menunjukkan kepada Anda daftar kata-kata untuk dituliskan di selembar kertas dan tetap aman.";
 
 /* button label */
 "StartPaperPhrase.buttonTitle" = "Tuliskan Kunci Kertas";
@@ -926,10 +926,10 @@
 "StartPaperPhrase.date" = "Terakhir Anda menuliskan kunci kertas Anda di %1$@";
 
 /* Start view tagline */
-"StartViewController.tagline" = "Cara paling aman dan termudah untuk menggunakan Litecoin.";
+"StartViewController.tagline" = "Cara paling aman dan termudah untuk menggunakan Earthcoin.";
 
 /* Support the Litecoin Foundation */
-"SupportTheFoundation.title" = "Dukung Yayasan Litecoin";
+"SupportTheFoundation.title" = "Dukung Yayasan Earthcoin";
 
 /* Syncing view connection state header text */
 "SyncingHeader.connecting" = "Menghubungkan ...";
@@ -965,7 +965,7 @@
 "TouchIdSettings.customizeText" = "Anda dapat menyesuaikan batas pengeluaran ID Sentuh Anda dari %1$@.";
 
 /* Touch Id screen label */
-"TouchIdSettings.label" = "Gunakan sidik jari Anda untuk membuka kunci Litewallet Anda dan mengirim uang hingga batas yang ditentukan.";
+"TouchIdSettings.label" = "Gunakan sidik jari Anda untuk membuka kunci Eacpay Anda dan mengirim uang hingga batas yang ditentukan.";
 
 /*  ł100,000 ($100) */
 "TouchIdSettings.limitValue" = "%1$@ (%2$@)";
@@ -977,7 +977,7 @@
 "TouchIdSettings.spendingLimit" = "Batas pengeluaran: %1$@ (%2$@)";
 
 /* Touch id switch label. */
-"TouchIdSettings.switchLabel" = "Aktifkan Sentuh ID untuk Litewallet";
+"TouchIdSettings.switchLabel" = "Aktifkan Sentuh ID untuk Eacpay";
 
 /* Touch ID settings view title */
 "TouchIdSettings.title" = "Sentuh ID";
@@ -1118,7 +1118,7 @@
 "TransactionDetails.to" = "untuk %1$@";
 
 /* Transaction ID header */
-"TransactionDetails.txHashHeader" = "ID Transaksi Litecoin";
+"TransactionDetails.txHashHeader" = "ID Transaksi Earthcoin";
 
 /* (this transaction was) Received at this address: */
 "TransactionDirection.address" = "Diterima di Alamat ini";
@@ -1145,7 +1145,7 @@
 "UnlockScreen.scan" = "Memindai";
 
 /* TouchID/FaceID prompt text */
-"UnlockScreen.touchIdPrompt" = "Buka kunci Litewallet Anda.";
+"UnlockScreen.touchIdPrompt" = "Buka kunci Eacpay Anda.";
 
 /* Unlock with TouchID accessibility label */
 "UnlockScreen.touchIdText" = "Buka kunci dengan TouchID";
@@ -1154,10 +1154,10 @@
 "UnlockScreen.unlocked" = "Dompet Tidak Terkunci";
 
 /* Update PIN caption text */
-"UpdatePin.caption" = "Ingat PIN ini. Jika Anda lupa, Anda tidak akan dapat mengakses Litecoin Anda.";
+"UpdatePin.caption" = "Ingat PIN ini. Jika Anda lupa, Anda tidak akan dapat mengakses Earthcoin Anda.";
 
 /* PIN creation info. */
-"UpdatePin.createInstruction" = "PIN Anda akan digunakan untuk membuka kunci Litewallet Anda dan mengirim uang.";
+"UpdatePin.createInstruction" = "PIN Anda akan digunakan untuk membuka kunci Eacpay Anda dan mengirim uang.";
 
 /* Update PIN title */
 "UpdatePin.createTitle" = "Tetapkan PIN";
@@ -1208,7 +1208,7 @@
 "VerifyPin.touchIdMessage" = "Otorisasi transaksi ini";
 
 /* 'No wallet' warning for watch app */
-"Watch.noWalletWarning" = "Buka aplikasi iPhone Litewallet untuk mengatur dompet Anda.";
+"Watch.noWalletWarning" = "Buka aplikasi iPhone Eacpay untuk mengatur dompet Anda.";
 
 /* Dismiss button label */
 "Webview.dismiss" = "Memberhentikan";
@@ -1220,10 +1220,10 @@
 "Webview.updating" = "Memperbarui...";
 
 /* Welcome view body text */
-"Welcome.body" = "Litewallet sekarang memiliki tampilan baru dan beberapa fitur baru.\n\nJika Anda butuh bantuan, cari (?) Di kanan atas sebagian besar layar. Semua koin ditampilkan dalam lites(ł). 1 Litecoin (Ł) = 1000 lites (ł).";
+"Welcome.body" = "Eacpay sekarang memiliki tampilan baru dan beberapa fitur baru.\n\nJika Anda butuh bantuan, cari (?) Di kanan atas sebagian besar layar. Semua koin ditampilkan dalam Meac(є). 1 Earthcoin (Є) = 1000 Meac (є).";
 
 /* Welcome view title */
-"Welcome.title" = "Selamat datang di Litewallet!";
+"Welcome.title" = "Selamat datang di Eacpay!";
 
 /* Delete database title */
 "WipeWallet.alertDeleteTitle" = "Kesalahan Korupsi Lokal";
@@ -1256,7 +1256,7 @@
 "WipeWallet.instruction" = "Untuk memulai dompet baru atau mengembalikan dompet yang ada, Anda harus terlebih dahulu menghapus dompet yang saat ini dipasang. Untuk melanjutkan, masukkan Kunci Kertas dompet saat ini.";
 
 /* Start wipe wallet view message */
-"WipeWallet.startMessage" = "Memulai atau memulihkan dompet lain memungkinkan Anda mengakses dan mengelola dompet Litewallet berbeda di perangkat ini.";
+"WipeWallet.startMessage" = "Memulai atau memulihkan dompet lain memungkinkan Anda mengakses dan mengelola dompet Eacpay berbeda di perangkat ini.";
 
 /* Start wipe wallet view warning */
 "WipeWallet.startWarning" = "Dompet Anda saat ini akan dihapus dari perangkat ini. Jika Anda ingin mengembalikannya di masa mendatang, Anda harus memasukkan Kunci Kertas Anda.";
@@ -1265,10 +1265,10 @@
 "WipeWallet.title" = "Mulai atau Pulihkan Dompet Lainnya";
 
 /* Warning Alert */
-"WipeWallet.warningAlert" = "Tindakan ini akan menghapus Litewallet Anda!";
+"WipeWallet.warningAlert" = "Tindakan ini akan menghapus Eacpay Anda!";
 
 /* Warning description */
-"WipeWallet.warningDescription" = "Menghapus dompet Anda berarti kunci pribadi dan menghapus data aplikasi akan hilang. Anda mungkin kehilangan Litecoin selamanya!\n\n\nTak seorang pun di tim Litewallet dapat mengambil benih ini untuk Anda. Kami tidak bertanggung jawab jika Anda tidak mengindahkan peringatan ini.";
+"WipeWallet.warningDescription" = "Menghapus dompet Anda berarti kunci pribadi dan menghapus data aplikasi akan hilang. Anda mungkin kehilangan Earthcoin selamanya!\n\n\nTak seorang pun di tim Eacpay dapat mengambil benih ini untuk Anda. Kami tidak bertanggung jawab jika Anda tidak mengindahkan peringatan ini.";
 
 /* Warning title */
 "WipeWallet.warningTitle" = "HARAP BACA!";

@@ -2,7 +2,7 @@
 "About.blog" = "博客";
 
 /* About screen footer */
-"About.footer" = "由Earthcoin开发团队制作。版本%1$@";
+"About.footer" = "由全球Eacpay团队制作。版本%1$@";
 
 /* Privay Policy button label */
 "About.privacy" = "隐私政策";
@@ -26,13 +26,13 @@
 "Account.loadingMessage" = "正在加载钱包";
 
 /* Default wallet name */
-"AccountHeader.defaultWalletName" = "我的 EACPAY";
+"AccountHeader.defaultWalletName" = "我的 Eacpay";
 
 /* Manage wallet button title */
 "AccountHeader.manageButtonName" = "管理";
 
 /* Corruption Error alert title */
-"Alert.corruptionError" = "本地错误";
+"Alert.corruptionError" = "本地崩溃错误";
 
 /* Corruption Error alert title */
 "Alert.corruptionMessage" = "您的本地数据库已损坏。转到设置>区块链：设置>删除数据库以刷新";
@@ -74,7 +74,7 @@
 "Alerts.sendSuccess" = "发送确认";
 
 /* Send success alert subheader label (e.g. the money was sent) */
-"Alerts.sendSuccessSubheader" = "币已发送！";
+"Alerts.sendSuccessSubheader" = "钱已发送！";
 
 /* JSON Serialization error message */
 "ApiClient.jsonError" = "JSON 串行化错误";
@@ -131,7 +131,7 @@
 "BuyCenter.BitrefillTitle" = "Bitrefill";
 
 /* Changelly buy financial details */
-"BuyCenter.changellyFinancialDetails" = "•将Earthcoin更改为其他加密货币 \n •无需ID \n •通过信用卡购买 \n •全球覆盖";
+"BuyCenter.changellyFinancialDetails" = "•将地球币更改为其他加密货币 \n •无需ID \n •通过信用卡购买 \n •全球覆盖";
 
 /* Changelly Title */
 "BuyCenter.changellyTitle" = "Changelly";
@@ -146,7 +146,7 @@
 "BuyCenter.moonpayTitle" = "Moonpay";
 
 /* Simplex buy financial details */
-"BuyCenter.simplexFinancialDetails" = "• 5分钟内获得Earthcoin！\n •通过信用卡购买Earthcoin \n •护照或州ID";
+"BuyCenter.simplexFinancialDetails" = "• 5分钟内获得地球币！\n •通过信用卡购买地球币 \n •护照或州ID";
 
 /* Simplex Title */
 "BuyCenter.simplexTitle" = "Simplex";
@@ -191,13 +191,13 @@
 "Confirmation.totalLabel" = "费用总计：";
 
 /* Confirm paper phrase error message */
-"ConfirmPaperPhrase.error" = "输入的词语与您的纸键不匹配。请再试一遍。";
+"ConfirmPaperPhrase.error" = "输入的单词与您的纸键不匹配。请再试一遍。";
 
 /* Confirm paper phrase view label. */
-"ConfirmPaperPhrase.label" = "为确保一切均被正确地书写，请在您的纸键输入以下文字。";
+"ConfirmPaperPhrase.label" = "为确保一切均被按照顺序正确地书写，请在您的纸键输入以下文字。";
 
 /* Word label eg. Word #1, Word #2 */
-"ConfirmPaperPhrase.word" = "词语#%1$@";
+"ConfirmPaperPhrase.word" = "单词#%1$@";
 
 /* No comment provided by engineer. */
 "Copy" = "复制";
@@ -323,7 +323,7 @@
 "Import.leftCaption" = "待导入钱包";
 
 /* Import wallet intro screen message */
-"Import.message" = "导入钱包，利用单笔交易将您其他钱包里的所有钱转移到您的 Eacpay  钱包。";
+"Import.message" = "导入钱包，利用单笔交易将您其他钱包里的所有钱转移到您的 Eacpay 钱包。";
 
 /* Enter password alert view title */
 "Import.password" = "本私钥受到密码保护。";
@@ -362,10 +362,10 @@
 "JailbreakWarnings.ignore" = "忽略";
 
 /* Jailbreak warning message */
-"JailbreakWarnings.messageWithBalance" = "设备安全性受损\n任何'越狱'应用都可能访问 Eacpay 的密钥链数据并盗取您的地球币！立即擦除这个钱包并在一台安全设备上进行恢复。";
+"JailbreakWarnings.messageWithBalance" = "设备安全性受损\n任何'越狱'应用都可能访问 Eacpay 的密钥链数据并盗取您的莱特币！立即擦除这个钱包并在一台安全设备上进行恢复。";
 
 /* Jailbreak warning message */
-"JailbreakWarnings.messageWithoutBalance" = "设备安全性受损\n任何'越狱'应用都可能访问 Eacpay 的密钥链数据并盗取您的莱特币！请您仅在未越狱设备上使用 Eacpay 。";
+"JailbreakWarnings.messageWithoutBalance" = "设备安全性受损\n任何'越狱'应用都可能访问 Eacpay 的密钥链数据并盗取您的地球币！请您仅在未越狱设备上使用 Eacpay。";
 
 /* Jailbreak warning title */
 "JailbreakWarnings.title" = "警告";
@@ -373,8 +373,8 @@
 /* Wipe wallet button */
 "JailbreakWarnings.wipe" = "擦除";
 
-/* Eacpay name */
-"litewallet.name" = "Eacpay";
+/* Litewallet name */
+"Litewallet.name" = "Eacpay";
 
 /* Location services disabled error */
 "LocationPlugin.disabled" = "位置服务被禁用。";
@@ -416,7 +416,7 @@
 "MenuButton.settings" = "设置";
 
 /* Menu button title */
-"MenuButton.support" = "支持中心";
+"MenuButton.support" = "支持";
 
 /* button label */
 "MenuViewController.createButton" = "创建新的钱包";
@@ -470,7 +470,7 @@
 "Notifications.languagePreference" = "首选语言：";
 
 /* "Pitch to get user to sign up" */
-"Notifications.pitchMessage" = "注册以了解更新和竞赛。";
+"Notifications.pitchMessage" = "注册以了解更新和动态。";
 
 /* Signup cancel */
 "Notifications.signupCancel" = "不，谢谢。";
@@ -593,7 +593,7 @@
 "RecoverWallet.intro" = "用您的纸键恢复您的 Eacpay。";
 
 /* Invalid paper key message */
-"RecoverWallet.invalid" = "您输入的纸键无效。请仔细检查每个单词并重试。";
+"RecoverWallet.invalid" = "您输入的纸键无效。请仔细检查每个单词及顺序并重试。";
 
 /* Previous button accessibility label */
 "RecoverWallet.leftArrow" = "左箭头键";
@@ -730,7 +730,7 @@
 /* Emtpy pasteboard error message */
 "Send.emptyPasteboard" = "粘贴板为空";
 
-/* Enter EAC Address */
+/* Enter LTC Address */
 "Send.enterLTCAddress" = "输入一个地球币地址";
 
 /* Fees: $0.01*/
@@ -746,10 +746,10 @@
 "Send.insufficientFunds" = "不充足的资金";
 
 /* Invalid address alert message */
-"Send.invalidAddressMessage" = "目标地址不是有效的莱特币地址。";
+"Send.invalidAddressMessage" = "目标地址不是有效的地球币地址。";
 
 /* Invalid address on pasteboard message */
-"Send.invalidAddressOnPasteboard" = "粘贴板中没有有效的地球币地址";
+"Send.invalidAddressOnPasteboard" = "粘贴板中没有有效的莱地球币地址";
 
 /* Invalid address alert title */
 "Send.invalidAddressTitle" = "无效地址";
@@ -847,7 +847,7 @@
 /* Join Early access label */
 "Settings.earlyAccess" = "加入早期访问";
 
-/* Are you enjoying Eacpay alert message body */
+/* Are you enjoying Litewallet alert message body */
 "Settings.enjoying" = "您喜欢 Eacpay 吗？";
 
 /* Face ID spending limit label */
@@ -859,13 +859,13 @@
 /* Languages label */
 "Settings.languages" = "语言能力";
 
-/* Eacpay environment */
+/* Litewallet environment */
 "Settings.litewallet.environment" = "环境：";
 
-/* Eacpay Partners */
+/* Litewallet Partners */
 "Settings.litewallet.partners" = "Eacpay合作伙伴";
 
-/* Eacpay version */
+/* Litewallet version */
 "Settings.litewallet.version" = "Eacpay版本：";
 
 /* Manage settings section header */
@@ -880,11 +880,11 @@
 /* Share anonymous data label */
 "Settings.shareData" = "分享匿名数据";
 
-/* Eacpay Social links */
-"Settings.socialLinks" = "社会的";
+/* Litewallet Social links */
+"Settings.socialLinks" = "社交";
 
 /* Support settings section header */
-"Settings.support" = "支持";
+"Settings.support" = "支持中心";
 
 /* Sync blockchain label */
 "Settings.sync" = "同步区块链";
@@ -917,7 +917,7 @@
 "StartPaperPhrase.againButtonTitle" = "再次书写纸键";
 
 /* Paper key explanation text. */
-"StartPaperPhrase.body" = "如果您的手机丢失、被盗、损坏或升级，纸上密钥是恢复 Eacpay 的唯一方法。\n\n\n我们将向您显示一张有顺序的词语表，请将其写在纸上并保存在安全的地方。";
+"StartPaperPhrase.body" = "如果您的手机丢失、被盗、损坏或升级，纸上密钥是恢复 Eacpay 的唯一方法。\n\n\n我们将向您显示一张单词表，请将其按顺序写在纸上并保存在安全的地方。";
 
 /* button label */
 "StartPaperPhrase.buttonTitle" = "写下纸键";
@@ -929,7 +929,7 @@
 "StartViewController.tagline" = "使用地球币最安全且最可靠的方式。";
 
 /* Support the Litecoin Foundation */
-"SupportTheFoundation.title" = "支持地球币团队";
+"SupportTheFoundation.title" = "支持地球币基金会";
 
 /* Syncing view connection state header text */
 "SyncingHeader.connecting" = "正在连线...";
@@ -965,7 +965,7 @@
 "TouchIdSettings.customizeText" = "你可以自定义从 %1$@ 的 Touch ID 支出限额。";
 
 /* Touch Id screen label */
-"TouchIdSettings.label" = "请用指纹解锁 Eacpay 并在设定限额下汇钱。";
+"TouchIdSettings.label" = "请用指纹解锁 Litewallet 并在设定限额下汇钱。";
 
 /*  ł100,000 ($100) */
 "TouchIdSettings.limitValue" = "%1$@ (%2$@)";
@@ -1268,7 +1268,7 @@
 "WipeWallet.warningAlert" = "此操作将擦除您的 Eacpay！";
 
 /* Warning description */
-"WipeWallet.warningDescription" = "删除你的钱包意味着私钥和擦除应用程序数据将消失。你可能永远失去莱特币！\n\n\nEacpay 团队中的任何人都无法为您检索此种子。如果您不注意此警告，我们概不负责。";
+"WipeWallet.warningDescription" = "删除你的钱包意味着私钥和擦除应用程序数据将消失。你可能永远失去地球币！\n\n\nEacpay 团队中的任何人都无法为您检索此种子。如果您不注意此警告，我们概不负责。";
 
 /* Warning title */
 "WipeWallet.warningTitle" = "请阅读！";

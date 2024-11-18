@@ -31,12 +31,6 @@
 /* Manage wallet button title */
 "AccountHeader.manageButtonName" = "MANAGE";
 
-/* Corruption Error alert title */
-"Alert.corruptionError" = "Local Corruption Error";
-
-/* Corruption Error alert title */
-"Alert.corruptionMessage" = "Your local database is corrupted. Go to Settings > Blockchain: Settings > Delete Database to refresh";
-
 /* Error alert title */
 "Alert.error" = "Error";
 
@@ -60,12 +54,6 @@
 
 /* Alert Header label (the PIN was set) */
 "Alerts.pinSet" = "PIN Set";
-
-/* Resolved Success */
-"Alerts.resolvedSuccess" = "Domain Resolution";
-
-/* No comment provided by engineer. */
-"Alerts.resolvedSuccessSubheader" = "Address was resolved!";
 
 /* Send failure alert header label (the send failed to happen) */
 "Alerts.sendFailure" = "Send failed";
@@ -106,9 +94,6 @@
 /* receive button */
 "Button.receive" = "receive";
 
-/* resetFields */
-"Button.resetFields" = "Reset fields";
-
 /* send button */
 "Button.send" = "send";
 
@@ -120,9 +105,6 @@
 
 /* Yes button */
 "Button.yes" = "Yes";
-
-/* Buy Bar Item Title */
-"BuyCenter.barItemTitle" = "BUY";
 
 /* Bitrefill buy financial details */
 "BuyCenter.bitrefillFinancialDetails" = "• Buy gift cards\n• Refill prepaid phones\n• Steam, Amazon, Hotels.com\n• Works in 170 countries";
@@ -139,12 +121,6 @@
 /* Buy Modal Title */
 "BuyCenter.ModalTitle" = "Buy Єarthcoin";
 
-/* Moonpay buy financial details */
-"BuyCenter.moonpayFinancialDetails" = "• Buy EAC with many fiat pairs\n• Pay with multiple methods\n• Global payment provider";
-
-/* Moonpay Title */
-"BuyCenter.moonpayTitle" = "Moonpay";
-
 /* Simplex buy financial details */
 "BuyCenter.simplexFinancialDetails" = "• Get Earthcoin in 5 mins!\n• Buy Earthcoin via credit card\n• Passport or State ID";
 
@@ -156,9 +132,6 @@
 
 /* Camera plugin instruction */
 "CameraPlugin.centerInstruction" = "Center your ID in the box";
-
-/* $53.09/L + 1.07% */
-"Confirmation.amountDetailLabel" = "Exchange details:";
 
 /* Amount to Send: ($1.00) */
 "Confirmation.amountLabel" = "Amount to Send:";
@@ -174,12 +147,6 @@
 
 /* Send: (amount) */
 "Confirmation.send" = "Send";
-
-/* Short Network Fee: ($1.00) */
-"Confirmation.shortFeeLabel" = "FEE:";
-
-/* Address label */
-"Confirmation.staticAddressLabel" = "ADDRESS:";
 
 /* Confirmation Screen title */
 "Confirmation.title" = "Confirmation";
@@ -199,17 +166,20 @@
 /* Word label eg. Word #1, Word #2 */
 "ConfirmPaperPhrase.word" = "Word #%1$@";
 
-/* No comment provided by engineer. */
-"Copy" = "Copy";
-
-/* Litecoin denomination picker label */
+/* Earthcoin denomination picker label */
 "DefaultCurrency.bitcoinLabel" = "Earthcoin Display Unit";
-
-/* Label to pick fiat */
-"DefaultCurrency.chooseFiatLabel" = "Choose:";
 
 /* Exchange rate label */
 "DefaultCurrency.rateLabel" = "Exchange Rate";
+
+/* Donate Memo */
+"Donate.memo" = "Donation to the Earthcoin Team";
+
+/* Donate to the Earthcoin Team */
+"Donate.title" = "Donate to the Earthcoin Team (%@)";
+
+/* Donate Confirmation */
+"Donate.title.confirmation" = "Confirm Donation";
 
 /* Email unavailable alert title */
 "ErrorMessages.emailUnavailableMessage" = "This device isn't configured to send email with the iOS mail app.";
@@ -250,20 +220,11 @@
 /* Economy fee */
 "FeeSelector.economy" = "Economy";
 
-/* Fee Selector economly fee description */
+/* Fee Selector economy fee description */
 "FeeSelector.economyLabel" = "Estimated Delivery: 10+ minutes";
 
 /* Warning message for economy fee */
 "FeeSelector.economyWarning" = "This option is not recommended for time-sensitive transactions.";
-
-/* Luxury fee */
-"FeeSelector.luxury" = "Luxury";
-
-/* Fee Selector luxury fee description */
-"FeeSelector.luxuryLabel" = "Estimated Delivery: 2.5 - 5 minutes";
-
-/* Message for luxury fee */
-"FeeSelector.luxuryMessage" = "This option virtually guarantees acceptance of your transaction though you are paying a premium.";
 
 /* Regular fee */
 "FeeSelector.regular" = "Regular";
@@ -273,24 +234,6 @@
 
 /* Fee Selector title */
 "FeeSelector.title" = "Processing Speed";
-
-/* Confirm */
-"Fragment.confirm" = "confirm";
-
-/* Or */
-"Fragment.or" = "or";
-
-/* sorry */
-"Fragment.sorry" = "sorry";
-
-/* to */
-"Fragment.to" = "to";
-
-/* History Bar Item Title */
-"History.barItemTitle" = "HISTORY";
-
-/* History Current Litecoin Value */
-"History.currentLitecoinValue" = "Current EAC value in";
 
 /* Checking private key balance progress view text */
 "Import.checking" = "Checking private key balance...";
@@ -362,19 +305,16 @@
 "JailbreakWarnings.ignore" = "Ignore";
 
 /* Jailbreak warning message */
-"JailbreakWarnings.messageWithBalance" = "DEVICE SECURITY COMPROMISED\n Any 'jailbreak' app can access Eacpay's keychain data and steal your Litecoin! Wipe this wallet immediately and restore on a secure device.";
+"JailbreakWarnings.messageWithBalance" = "DEVICE SECURITY COMPROMISED\n Any 'jailbreak' app can access Eacpay's keychain data and steal your Earthcoin! Wipe this wallet immediately and restore on a secure device.";
 
 /* Jailbreak warning message */
-"JailbreakWarnings.messageWithoutBalance" = "DEVICE SECURITY COMPROMISED\n Any 'jailbreak' app can access Eacpay's keychain data and steal your Litecoin. Please only use Eacpay on a non-jailbroken device.";
+"JailbreakWarnings.messageWithoutBalance" = "DEVICE SECURITY COMPROMISED\n Any 'jailbreak' app can access Eacpay's keychain data and steal your Earthcoin. Please only use Eacpay on a non-jailbroken device.";
 
 /* Jailbreak warning title */
 "JailbreakWarnings.title" = "WARNING";
 
 /* Wipe wallet button */
 "JailbreakWarnings.wipe" = "Wipe";
-
-/* Eacpay name */
-"litewallet.name" = "Eacpay";
 
 /* Location services disabled error */
 "LocationPlugin.disabled" = "Location services are disabled.";
@@ -384,9 +324,6 @@
 
 /* No comment provided by engineer. */
 "Malformed URI" = "Malformed URI";
-
-/* Balance */
-"ManageWallet.balance" = "Balance";
 
 /* Wallet creation date prefix */
 "ManageWallet.creationDatePrefix" = "You created your wallet on %1$@";
@@ -400,11 +337,8 @@
 /* Manage wallet modal title */
 "ManageWallet.title" = "Manage Wallet";
 
-/* Buy Litecoin title */
+/* Buy Earthcoin title */
 "MenuButton.buy" = "Buy Earthcoin";
-
-/* Menu button title */
-"MenuButton.customer.support" = "Customer support";
 
 /* Menu button title */
 "MenuButton.lock" = "Lock Wallet";
@@ -427,7 +361,7 @@
 /* button label */
 "MenuViewController.recoverButton" = "Recover Wallet";
 
-/* No comment provided by engineer. */
+/* No wallet. */
 "No wallet" = "No wallet";
 
 /* Switch to automatic mode button label */
@@ -457,24 +391,6 @@
 /* Node Selector view title */
 "NodeSelector.title" = "Earthcoin Nodes";
 
-/* "Email address label" */
-"Notifications.emailLabel" = "Email address";
-
-/* "Email address placeholder" */
-"Notifications.emailPlaceholder" = "Enter here";
-
-/* "Email title" */
-"Notifications.emailTitle" = "Don't a miss a thing!";
-
-/* "Language preference label" */
-"Notifications.languagePreference" = "Preferred language:";
-
-/* "Pitch to get user to sign up" */
-"Notifications.pitchMessage" = "Sign up to hear about updates & contests.";
-
-/* Signup cancel */
-"Notifications.signupCancel" = "No, thanks";
-
 /* Bad Payment request alert title */
 "PaymentProtocol.Errors.badPaymentRequest" = "Bad Payment Request";
 
@@ -502,9 +418,6 @@
 /* Untrusted certificate payment protocol error message */
 "PaymentProtocol.Errors.untrustedCertificate" = "untrusted certificate";
 
-/* Dismiss button. */
-"Prompts.dismiss" = "DISMISS";
-
 /* Enable face ID prompt body */
 "Prompts.FaceId.body" = "Tap here to enable Face ID";
 
@@ -517,17 +430,8 @@
 /* No Passcode set warning title */
 "Prompts.NoPasscode.title" = "Turn device passcode on";
 
-/* Affirm button title. */
-"Prompts.PaperKey.affirm" = "Continue";
-
 /* Warning about paper key. */
 "Prompts.PaperKey.body" = "Your Paper Key must be kept in a safe place. It is the only way modify or restore your Eacpay or transfer your Earthcoin. Please write it down.";
-
-/* Cancel button. */
-"Prompts.PaperKey.cancel" = "Cancel";
-
-/* Enable button. */
-"Prompts.PaperKey.enable" = "Enable";
 
 /* An action is required (You must do this action). */
 "Prompts.PaperKey.title" = "Action Required";
@@ -537,12 +441,6 @@
 
 /* Transaction rejected prompt title */
 "Prompts.RecommendRescan.title" = "Transaction Rejected";
-
-/* Upgrade PIN prompt body. */
-"Prompts.SetPin.body" = "Eacpay requires a 6-digit PIN. Please set and store your PIN in a safe place.";
-
-/* Upgrade PIN prompt title. */
-"Prompts.SetPin.title" = "Set PIN";
 
 /* Share data prompt body */
 "Prompts.ShareData.body" = "Help improve Eacpay by sharing your anonymous data with us";
@@ -556,8 +454,11 @@
 /* Enable touch ID prompt title */
 "Prompts.TouchId.title" = "Enable Touch ID";
 
-/* Receive Bar Item Title */
-"Receive.barItemTitle" = "RECEIVE";
+/* Upgrade PIN prompt body. */
+"Prompts.SetPin.body" = "Eacpay requires a 6-digit PIN. Please set and store your PIN in a safe place.";
+
+/* Upgrade PIN prompt title. */
+"Prompts.SetPin.title" = "Set PIN";
 
 /* Address copied message. */
 "Receive.copied" = "Copied to clipboard.";
@@ -616,7 +517,7 @@
 /* No amount entered error message. */
 "RequestAnAmount.noAmount" = "Please enter an amount first.";
 
-/* Request a specific amount of Litecoin */
+/* Request a specific amount of Earthcoin */
 "RequestAnAmount.title" = "Request an Amount";
 
 /* Alert action button label */
@@ -658,7 +559,7 @@
 /* Warning Empty Wipe title */
 "resetTitle" = "Delete my Eacpay";
 
-/* Scan Litecoin address camera flash toggle */
+/* Scan Earthcoin address camera flash toggle */
 "Scanner.flashButtonLabel" = "Camera Flash";
 
 /* Complete filter label */
@@ -706,12 +607,6 @@
 /* Balance: $4.00 */
 "Send.balance" = "Balance: %1$@";
 
-/* Fee: $0.01 */
-"Send.bareFee" = "Fee: %1$@";
-
-/* Send Bar Item Title */
-"Send.barItemTitle" = "SEND";
-
 /* Camera not allowed message */
 "Send.cameraunavailableMessage" = "Go to Settings to allow camera access.";
 
@@ -729,15 +624,6 @@
 
 /* Empty pasteboard error message */
 "Send.emptyPasteboard" = "Pasteboard is empty";
-
-/* Enter LTC Address */
-"Send.enterLTCAddress" = "Enter a Earthcoin address";
-
-/* Fees: $0.01*/
-"Send.fee" = "Fees: %1$@";
-
-/* Fees Blank: */
-"Send.feeBlank" = "Fees:";
 
 /* Payee identity not certified alert title. */
 "Send.identityNotCertified" = "Payee identity isn't certified.";
@@ -760,9 +646,6 @@
 /* Loading request activity view message */
 "Send.loadingRequest" = "Loading Request";
 
-/* Network */
-"Send.networkFee" = "Network";
-
 /* Empty address alert message */
 "Send.noAddress" = "Please enter the recipient's address.";
 
@@ -784,38 +667,11 @@
 /* Send button label */
 "Send.sendLabel" = "Send";
 
-/* Service */
-"Send.serviceFee" = "Service";
-
 /* Send modal title */
 "Send.title" = "Send";
 
 /* Send money to label */
 "Send.toLabel" = "To";
-
-/* domain */
-"Send.UnstoppableDomains.domain" = "domain";
-
-/* Enter a */
-"Send.UnstoppableDomains.enterA" = "Enter a";
-
-/* Lookup */
-"Send.UnstoppableDomains.lookup" = "Lookup";
-
-/* LookupDomainError */
-"Send.UnstoppableDomains.lookupDomainError" = "Sorry, domain was not found. [Error:%2$d]";
-
-/* lookupFailureHeader */
-"Send.UnstoppableDomains.lookupFailureHeader" = "Lookup failed";
-
-/* Enter to match domain name to LTC Address */
-"Send.UnstoppableDomains.placeholder" = "Enter a .crypto, .wallet, .zil, .nft, .blockchain, \n.bitcoin, .coin, .888, .dao, or .x domain.";
-
-/* Enter domain */
-"Send.UnstoppableDomains.simpleplaceholder" = "Enter domain";
-
-/* UDSystemError */
-"Send.UnstoppableDomains.udSystemError" = "System lookup problem. [Error: %2$d]";
 
 /* Adress already used alert message - first part */
 "Send.UsedAddress.firstLine" = "Earthcoin addresses are intended for single use only.";
@@ -835,14 +691,8 @@
 /* Blockchain settings section header */
 "Settings.blockchain" = "Blockchain";
 
-/* Change language alert message */
-"Settings.ChangeLanguage.alertMessage" = "Are you sure you want to change the language to %l?";
-
 /* Default currency label */
 "Settings.currency" = "Display Currency";
-
-/* Current Locale */
-"Settings.currentLocale" = "Current Locale:";
 
 /* Join Early access label */
 "Settings.earlyAccess" = "Join Early Access";
@@ -856,18 +706,6 @@
 /* Import wallet label */
 "Settings.importTitle" = "Import Wallet";
 
-/* Languages label */
-"Settings.languages" = "Languages";
-
-/* Eacpay environment */
-"Settings.litewallet.environment" = "Environment:";
-
-/* Eacpay Partners */
-"Settings.litewallet.partners" = "Eacpay partners";
-
-/* Eacpay version */
-"Settings.litewallet.version" = "Eacpay version:";
-
 /* Manage settings section header */
 "Settings.manage" = "Manage";
 
@@ -879,9 +717,6 @@
 
 /* Share anonymous data label */
 "Settings.shareData" = "Share Anonymous Data";
-
-/* Eacpay Social links */
-"Settings.socialLinks" = "Social";
 
 /* Support settings section header */
 "Settings.support" = "Support";
@@ -926,22 +761,7 @@
 "StartPaperPhrase.date" = "You last wrote down your paper key on %1$@";
 
 /* Start view tagline */
-"StartViewController.tagline" = "The most secure and easiest way to use Earthcoin.";
-
-/* Support the Litecoin Foundation */
-"SupportTheFoundation.title" = "Support the Earthcoin Team";
-
-/* Syncing view connection state header text */
-"SyncingHeader.connecting" = "Connecting...";
-
-/* Rescanning header success state header text */
-"SyncingHeader.rescan" = "Rescanning...";
-
-/* Syncing header success state header text */
-"SyncingHeader.success" = "Success!";
-
-/* Syncing view syncing state header text */
-"SyncingHeader.syncing" = "Syncing...";
+"StartViewController.tagline" = "The most secure and safest way to use Earthcoin.";
 
 /* Syncing view connectiong state header text */
 "SyncingView.connecting" = "Connecting";
@@ -997,23 +817,11 @@
 /* Touch Id spending limit screen title */
 "TouchIdSpendingLimit.title" = "Touch ID Spending Limit";
 
-/* Static amount Label */
-"Transaction.amountDetailLabel" = "Amount Detail:";
-
 /* Availability status text */
 "Transaction.available" = "Available to Spend";
 
-/* Static blockHeight Label */
-"Transaction.blockHeightLabel" = "Block:";
-
-/* Static comment Label */
-"Transaction.commentLabel" = "Memo:";
-
 /* Transaction complete label */
 "Transaction.complete" = "Complete";
-
-/* Static end amount Label */
-"Transaction.endAmountDetailLabel" = "Transaction end amount detail";
 
 /* eg. Ending balance: $50.00 */
 "Transaction.ending" = "Ending balance: %1$@";
@@ -1042,12 +850,6 @@
 /* eg. Starting balance: $50.00 */
 "Transaction.starting" = "Starting balance: %1$@";
 
-/* Static starting amount Label */
-"Transaction.startingAmountDetailLabel" = "Transaction starting amount detail";
-
-/* Static TX iD Label */
-"Transaction.txIDLabel" = "Tx ID:";
-
 /* Waiting to be confirmed string */
 "Transaction.waiting" = "Waiting to be confirmed. Some merchants require confirmation to complete a transaction. Estimated time: 1-2 hours.";
 
@@ -1063,20 +865,11 @@
 /* Memo section header */
 "TransactionDetails.commentsHeader" = "Memo";
 
-/* Copied */
-"TransactionDetails.copiedAll" = "Copied";
-
-/* Copy all details */
-"TransactionDetails.copyAllDetails" = "Copy all details";
-
 /* Empty transaction list message. */
 "TransactionDetails.emptyMessage" = "Your transactions will appear here.";
 
 /* [received] at <address> (received title 2/2) */
 "TransactionDetails.from" = "at %1$@";
-
-/* Less button title */
-"TransactionDetails.less" = "Less...";
 
 /* Moved $5.00 */
 "TransactionDetails.moved" = "Moved %1$@";
@@ -1087,26 +880,17 @@
 /* eg. Confirmed in Block: Not Confirmed */
 "TransactionDetails.notConfirmedBlockHeightLabel" = "Not Confirmed";
 
-/* Prefix for price */
-"TransactionDetails.priceTimeStampPrefix" = "as of";
-
 /* Received $5.00 (received title 1/2) */
 "TransactionDetails.received" = "Received %1$@";
 
 /* Received $5.00 */
 "TransactionDetails.receivedAmountDescription" = "Received <b>%1@</b>";
 
-/* RECEIVE LTCTitle */
-"TransactionDetails.receivedModalTitle" = "RECEIVE ADDRESS";
-
 /* Sent $5.00 (sent title 1/2) */
 "TransactionDetails.sent" = "Sent %1$@";
 
 /* Sent $5.00 */
 "TransactionDetails.sentAmountDescription" = "Sent <b>%1@</b>";
-
-/* Label for TXID */
-"TransactionDetails.staticTXLabel" = "TXID:";
 
 /* Status section header */
 "TransactionDetails.statusHeader" = "Status";
@@ -1128,9 +912,6 @@
 
 /* Disabled until date */
 "UnlockScreen.disabled" = "Disabled until: %1$@";
-
-/* Unlock Screen sub-header */
-"UnlockScreen.enterPin" = "Enter PIN";
 
 /* Unlock with FaceID accessibility label */
 "UnlockScreen.faceIdText" = "Unlock with FaceID";
@@ -1225,23 +1006,11 @@
 /* Welcome view title */
 "Welcome.title" = "Welcome to Eacpay!";
 
-/* Delete database title */
-"WipeWallet.alertDeleteTitle" = "Delete Database";
-
 /* Wipe wallet alert message */
 "WipeWallet.alertMessage" = "Are you sure you want to delete this wallet?";
 
 /* Wipe wallet alert title */
 "WipeWallet.alertTitle" = "Wipe Wallet?";
-
-/* Delete db */
-"WipeWallet.deleteDatabase" = "Delete Database";
-
-/* Delete database message */
-"WipeWallet.deleteMessageTitle" = "This deletes the database but retains the PIN and phrase. Confirm your existing PIN, seed and wait to compelete syncing to the new db";
-
-/* Delete and sync */
-"WipeWallet.deleteSync" = "Delete & Sync";
 
 /* Warning if user lost phrase */
 "WipeWallet.emptyWallet" = "Forget your seed phrase or PIN?";
@@ -1290,3 +1059,405 @@
 
 /* 1 of 3 */
 "WritePaperPhrase.step" = "%1$d of %2$d";
+
+/* No comment provided by engineer. */
+"Copy" = "Copy";
+
+/* Buy Bar Item Title */
+"BuyCenter.barItemTitle" = "BUY";
+
+/* $53.09/L + 1.07% */
+"Confirmation.amountDetailLabel" = "Exchange details:";
+
+/* Address label */
+"Confirmation.staticAddressLabel" = "ADDRESS:";
+
+/* History Bar Item Title */
+"History.barItemTitle" = "HISTORY";
+
+/* Receive Bar Item Title */
+"Receive.barItemTitle" = "RECEIVE";
+
+/* Send Bar Item Title */
+"Send.barItemTitle" = "SEND";
+
+/* Less button title */
+"TransactionDetails.less" = "Less...";
+
+/* Prefix for price */
+"TransactionDetails.priceTimeStampPrefix" = "as of";
+
+/* RECEIVE LTCTitle */
+"TransactionDetails.receivedModalTitle" = "RECEIVE ADDRESS";
+
+/* Label for TXID */
+"TransactionDetails.staticTXLabel" = "TXID:";
+
+/* Unlock Screen sub-header */
+"UnlockScreen.enterPin" = "Enter PIN";
+
+/* Static amount Label */
+"Transaction.amountDetailLabel" = "Amount Detail:";
+
+/* Static blockHeight Label */
+"Transaction.blockHeightLabel" = "Block:";
+
+/* Static comment Label */
+"Transaction.commentLabel" = "Memo:";
+
+/* Static TX iD Label */
+"Transaction.txIDLabel" = "Tx ID:";
+
+/* Static end amount Label */
+"Transaction.endAmountDetailLabel" = "Transaction end amount detail";
+
+/* Static starting amount Label */
+"Transaction.startingAmountDetailLabel" = "Transaction starting amount detail";
+
+/* Syncing view connection state header text */
+"SyncingHeader.connecting" = "Connecting...";
+
+/* Syncing header success state header text */
+"SyncingHeader.success" = "Success!";
+
+/* Syncing view syncing state header text */
+"SyncingHeader.syncing" = "Syncing...";
+
+/* Rescanning header success state header text */
+"SyncingHeader.rescan" = "Rescanning...";
+
+/* Affirm button title. */
+"Prompts.PaperKey.affirm" = "Continue";
+
+/* Cancel button. */
+"Prompts.PaperKey.cancel" = "Cancel";
+
+/* Enable button. */
+"Prompts.PaperKey.enable" = "Enable";
+
+/* Dismiss button. */
+"Prompts.dismiss" = "DISMISS";
+
+/* Languages label */
+"Settings.languages" = "Languages";
+
+/* Label to pick fiat */
+"DefaultCurrency.chooseFiatLabel" = "Choose:";
+
+/* Eacpay environment */
+"Settings.Eacpay.environment" = "Environment:";
+
+/* Eacpay version */
+"Settings.Eacpay.version" = "Eacpay version:";
+
+/* Eacpay Social links */
+"Settings.socialLinks" = "Social";
+
+/* Delete db */
+"WipeWallet.deleteDatabase" = "Delete Database";
+
+/* Delete database title */
+"WipeWallet.alertDeleteTitle" = "Delete Database";
+
+/* Delete database message */
+"WipeWallet.deleteMessageTitle" = "This deletes the database but retains the PIN and phrase. Confirm your existing PIN, seed and wait to compelete syncing to the new db";
+
+/* Delete and sync */
+"WipeWallet.deleteSync" = "Delete & Sync";
+
+/* Corruption Error alert title */
+"Alert.corruptionError" = "Local Corruption Error";
+
+/* Corruption Error alert title */
+"Alert.corruptionMessage" = "Your local database is corrupted. Go to Settings > Blockchain: Settings > Delete Database to refresh";
+
+/* Donate articles to the */
+"Donate.toThe" = "Donate to the";
+
+/* Donate */
+"Donate.word" = "Donate";
+
+/* Luxury fee */
+"FeeSelector.luxury" = "Luxury";
+
+/* Fee Selector economy fee description */
+"FeeSelector.luxuryLabel" = "Estimated Delivery: 2.5 - 5+ minutes";
+
+/* Message for luxury fee */
+"FeeSelector.luxuryMessage" = "This option virtually guarantees acceptance of your transaction though you are paying a premium.";
+
+/* Support the Earthcoin Team */
+"SupportTheFoundation.title" = "Support the Earthcoin Team";
+
+/* Menu button title */
+"MenuButton.customer.support" = "Customer support";
+
+/* Enter to match domain name to EAC Address */
+"Send.UnstoppableDomains.placeholder" = "Enter a .crypto, .wallet, .zil, .nft, .blockchain,\n.bitcoin, .coin, .888, .dao, or .x domain.";
+
+/* Or */
+"Fragment.or" = "or";
+
+/* Enter LTC Address */
+"Send.enterLTCAddress" = "Enter a Earthcoin address";
+
+/* Eacpay Partners */
+"Settings.Eacpay.partners" = "Eacpay partners";
+
+/* Card Bar Item Title */
+"EarthcoinCard.barItemTitle" = "Card";
+
+/* Lookup */
+"Send.UnstoppableDomains.lookup" = "Lookup";
+
+/* Forgot password? */
+"EarthcoinCard.forgotPassword" = "Forgot password?";
+
+/* Login */
+"EarthcoinCard.login" = "Login";
+
+/* Register */
+"EarthcoinCard.registerCard" = "Register";
+
+/* Earthcoin card */
+"EarthcoinCard.registerCardPhrase" = "Register for Earthcoin Card";
+
+/* Reset Earthcoin card password */
+"EarthcoinCard.resetPassword" = "Reset password";
+
+/* Earthcoin card visit */
+"EarthcoinCard.visit.toReset" = "Visit https://Earthcoin.dashboard.getblockcard.com/password/forgot\nto reset your password.";
+
+/* address */
+"EarthcoinCard.Registration.address" = "Address";
+
+/* city */
+"EarthcoinCard.Registration.city" = "City";
+
+/* confirm password */
+"EarthcoinCard.Registration.confirmPassword" = "Confirm password";
+
+/* country */
+"EarthcoinCard.Registration.country" = "Country";
+
+/* First name */
+"EarthcoinCard.Registration.firstName" = "First name";
+
+/* kycIDNumber */
+"EarthcoinCard.Registration.kycIDNumber" = "ID Number";
+
+/* SSN */
+"EarthcoinCard.Registration.kycSSN" = "SSN";
+
+/* Last name */
+"EarthcoinCard.Registration.lastName" = "Last name";
+
+/* mobile number */
+"EarthcoinCard.Registration.mobileNumber" = "Mobile number";
+
+/* password */
+"EarthcoinCard.Registration.password" = "Password";
+
+/* state province */
+"EarthcoinCard.Registration.stateProvince" = "State / Province";
+
+/* registraition username / email */
+"EarthcoinCard.Registration.usernameEmail" = "Email (Username)";
+
+/* zip post Code */
+"EarthcoinCard.Registration.zipPostCode" = "Zip / Postcode";
+
+/* identification */
+"EarthcoinCard.Registration.identification" = "Identification";
+
+/* Register for Earthcoin Card */
+"EarthcoinCard.registerCard.phrase" = "Register for Earthcoin Card";
+
+/* kycIDType */
+"EarthcoinCard.Registration.kycIDType" = "ID Type";
+
+/* resetFields */
+"Button.resetFields" = "Reset fields";
+
+/* Registering user... */
+"EarthcoinCard.registering.user" = "Registering user ...";
+
+/* Card balance */
+"EarthcoinCard.cardBalance" = "Card balance";
+
+/* Logout */
+"EarthcoinCard.logout" = "Logout";
+
+/* Registration failure */
+"EarthcoinCard.registrationFailure" = "There was a problem with your registration. \nPlease check your data and try again.";
+
+/* Registration success */
+"EarthcoinCard.registrationSuccess" = "You have registered!\nPlease check and confirm your email. Then come back to login.";
+
+/* Resolved Success */
+"Alerts.resolvedSuccess" = "Domain Resolution";
+
+/* No comment provided by engineer. */
+"Alerts.resolvedSuccessSubheader" = "Address was resolved!";
+
+/* must not be empty */
+"EarthcoinCard.Registration.ValidationError.empty" = "Must not be empty";
+
+/* Invalid email address */
+"EarthcoinCard.Registration.ValidationError.invalidEmail" = "Invalid e-mail Address";
+
+/* Mobile number 10 digits required */
+"EarthcoinCard.Registration.ValidationError.numberDigitsRequired" = "Mobile number must have at least 10 digits";
+
+/* Mobile number required */
+"EarthcoinCard.Registration.ValidationError.numberRequired" = "Mobile number is required";
+
+/* 6 Password characters required */
+"EarthcoinCard.Registration.ValidationError.passwordCharacters" = "Password must have at least 6 characters";
+
+/* Captial and numeric password characters required */
+"EarthcoinCard.Registration.ValidationError.passwordComposition" = "Password must be more than 6 characters, with at least one character and one numeric character";
+
+/* Password required */
+"EarthcoinCard.Registration.ValidationError.passwordRequired" = "Password is Required";
+
+/* Required field */
+"EarthcoinCard.Registration.ValidationError.requiredField" = "Required field";
+
+/* Failed Login */
+"EarthcoinCard.failed.login" = "Login failed";
+
+/* Copied */
+"TransactionDetails.copiedAll" = "Copied";
+
+/* Copy all details */
+"TransactionDetails.copyAllDetails" = "Copy all details";
+
+/* Features and limitations */
+"EarthcoinCard.Disclaimer.bullets" = "- Registration & Login\n- Available card balance\n- Reset password\n- No transfer to Eacpay\n- US Only";
+
+/* Description of the status */
+"EarthcoinCard.Disclaimer.description" = "Earthcoin Card currently has limited functionality in Eacpay.";
+
+/* Referral to the website */
+"EarthcoinCard.Disclaimer.referral" = "Visit Earthcoin.getblockcard.com for full access";
+
+/* Beta Testing Earthcoin Card */
+"EarthcoinCard.Disclaimer.title" = "Earthcoin Card Beta";
+
+/* lookupFailureHeader */
+"Send.UnstoppableDomains.lookupFailureHeader" = "Lookup failed";
+
+/* LookupDomainError */
+"Send.UnstoppableDomains.lookupDomainError" = "Sorry, domain was not found. [Error: %2$d]";
+
+/* UDSystemError */
+"Send.UnstoppableDomains.udSystemError" = "System lookup problem. [Error: %2$d]";
+
+/* Balance */
+"ManageWallet.balance" = "Balance";
+
+/* Moonpay buy financial details */
+"BuyCenter.moonpayFinancialDetails" = "• Buy EAC with many fiat pairs\n• Pay with multiple methods\n• Global payment provider";
+
+/* Moonpay Title */
+"BuyCenter.moonpayTitle" = "Moonpay";
+
+/* Reset password detail */
+"EarthcoinCard.resetPasswordDetail" = "Enter the email address associated with your Earthcoin Card account & look for an email with reset instructions.";
+
+/* Current Locale */
+"Settings.currentLocale" = "Current Locale:";
+
+/* History Current Earthcoin Value */
+"History.currentEarthcoinValue" = "Current EAC value in";
+
+/* Confirm */
+"Fragment.confirm" = "confirm";
+
+/* Enter code */
+"EarthcoinCard.enterCode" = "Enter Code";
+
+/* Enter code details */
+"EarthcoinCard.enterCode.detail" = "Enter the code that was recently sent to your Earthcoin Card account email.";
+
+/* Message when 2FA is on */
+"EarthcoinCard.twoFAOn" = "2FA Enabled";
+
+/* Message when 2FA is off */
+"EarthcoinCard.twoFAOff" = "2FA Not Enabled";
+
+/* Eacpay balance label */
+"EarthcoinCard.Transfer.EacpayBalance" = "Eacpay balance";
+
+/* Transfer title */
+"EarthcoinCard.Transfer.title" = "Transfer";
+
+/* Description of action */
+"EarthcoinCard.Transfer.description" = "Choose the transferring wallet:";
+
+/* Start transfer label */
+"EarthcoinCard.Transfer.startTransfer" = "Start transfer";
+
+/* Transfer to card label */
+"EarthcoinCard.Transfer.amountToCard" = "Transfer to Card";
+
+/* Transfer to Eacpay label */
+"EarthcoinCard.Transfer.amountToEacpay" = "Transfer to Eacpay";
+
+/* Set transfer amount label */
+"EarthcoinCard.Transfer.setAmount" = "Slide to set transfer amount";
+
+/* Destination address label */
+"EarthcoinCard.Transfer.destinationAddress" = "Address";
+
+/* to */
+"Fragment.to" = "to";
+
+/* Card Bar Item Title */
+"EarthcoinCard.name" = "Earthcoin Card";
+
+/* Eacpay name */
+"Eacpay.name" = "Eacpay";
+
+/* Message when 2FA is off and user is viewing the Card Balance */
+"EarthcoinCard.cardBalanceOnlyDescription" = "Logout & Enable 2FA to allow Transfers";
+
+/* sorry */
+"Fragment.sorry" = "sorry";
+
+/* Change language alert message */
+"Settings.ChangeLanguage.alertMessage" = "Are you sure you want to change the language to %l?";
+
+/* Fee: $0.01 */
+"Send.bareFee" = "Fee: %1$@";
+
+/* Fees: $0.01*/
+"Send.fee" = "Fees: %1$@";
+
+/* Fees Blank: */
+"Send.feeBlank" = "Fees:";
+
+/* Network */
+"Send.networkFee" = "Network";
+
+/* Service */
+"Send.serviceFee" = "Service";
+
+/* Signup cancel */
+"Notifications.signupCancel" = "No, thanks";
+
+/* "Email title" */
+"Notifications.emailTitle" = "Don't a miss a thing!";
+
+/* "Pitch to get user to sign up" */
+"Notifications.pitchMessage" = "Sign up to hear about updates & contests.";
+
+/* "Email address label" */
+"Notifications.emailLabel" = "Email address";
+
+/* "Email address placeholder" */
+"Notifications.emailPlaceholder" = "Enter here";
+
+/* "Language preference label" */
+"Notifications.languagePreference" = "Preferred language:";

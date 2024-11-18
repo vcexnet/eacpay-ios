@@ -1,54 +1,54 @@
 import SwiftUI
 
 struct IntroStepView: View {
-    @EnvironmentObject
-    var viewModel: StartViewModel
+	@EnvironmentObject
+	var viewModel: StartViewModel
 
-    let paragraphFont: Font = .barlowBold(size: 35.0)
+	let paragraphFont: Font = .barlowBold(size: 35.0)
 
-    let genericPad = 5.0
+	let genericPad = 5.0
 
-    var body: some View {
-        GeometryReader { geometry in
+	var body: some View {
+		GeometryReader { geometry in
 
-            let width = geometry.size.width
+			let width = geometry.size.width
 
-            ZStack {
-                CreateStepConfig
-                    .intro
-                    .backgroundColor
-                    .edgesIgnoringSafeArea(.all)
-                VStack {
-                    Text(S.CreateStep.DetailedMessage.intro.localize())
-                        .font(paragraphFont)
-                        .foregroundColor(.liteWalletBlue)
-                        .frame(width: width * 0.9, alignment: .leading)
-                        .padding([.leading, .trailing], genericPad)
-                        .padding([.bottom], genericPad)
+			ZStack {
+				CreateStepConfig
+					.intro
+					.backgroundColor
+					.edgesIgnoringSafeArea(.all)
+				VStack {
+					Text(S.CreateStep.DetailedMessage.intro.localize())
+						.font(paragraphFont)
+						.foregroundColor(.liteWalletBlue)
+						.frame(width: width * 0.9, alignment: .leading)
+						.padding([.leading, .trailing], genericPad)
+						.padding([.bottom], genericPad)
 
-                    Image("lofigirl")
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(width: width * 0.9, alignment: .center)
-                        .mask {
-                            RoundedRectangle(cornerRadius: 12.0)
-                        }.padding()
+					Image("lofigirl")
+						.resizable()
+						.aspectRatio(contentMode: .fit)
+						.frame(width: width * 0.9, alignment: .center)
+						.mask {
+							RoundedRectangle(cornerRadius: 12.0)
+						}.padding()
 
-                    Text(S.CreateStep.ExtendedMessage.intro.localize())
-                        .font(paragraphFont)
-                        .foregroundColor(.liteWalletBlue)
-                        .frame(width: width * 0.9, alignment: .leading)
-                        .padding([.leading, .trailing], genericPad)
-                        .padding([.bottom], genericPad)
-                }
-                .frame(width: width * 0.9)
-            }
-        }
-    }
+					Text(S.CreateStep.ExtendedMessage.intro.localize())
+						.font(paragraphFont)
+						.foregroundColor(.liteWalletBlue)
+						.frame(width: width * 0.9, alignment: .leading)
+						.padding([.leading, .trailing], genericPad)
+						.padding([.bottom], genericPad)
+				}
+				.frame(width: width * 0.9)
+			}
+		}
+	}
 }
 
 #Preview {
-    IntroStepView()
+	IntroStepView()
 }
 
 //                    let pushOptions: UNAuthorizationOptions = [.alert, .sound, .badge]

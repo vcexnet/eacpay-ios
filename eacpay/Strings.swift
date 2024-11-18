@@ -5,7 +5,7 @@ enum S {
 		enum MainTitle {
 			static let intro = Localization(key: "MainTitle.intro", value: "Quick Start", comment: "Eacpay Quick Start")
 			static let checkboxes = Localization(key: "MainTitle.checkboxes", value: "Stay Connected", comment: "Stay Connected")
-			static let seedPhrase = Localization(key: "MainTitle.seedPhrase", value: "Protect your Earthcoin!", comment: "Protect your Earthcoin!")
+			static let seedPhrase = Localization(key: "MainTitle.seedPhrase", value: "Protect your Litecoin!", comment: "Protect your Earthcoin!")
 			static let finished = Localization(key: "MainTitle.finished", value: "Confirm and Go", comment: "Confirm and Go")
 		}
 
@@ -24,7 +24,7 @@ enum S {
 		}
 
 		enum Bullet1 {
-			static let intro = Localization(key: "Bullet1.intro", value: "Eacpay is from the earthcoin Foundation and Eacpay team.", comment: "")
+			static let intro = Localization(key: "Bullet1.intro", value: "Eacpay is from the Earthcoin Foundation and Eacpay Team.", comment: "")
 			static let checkboxes = Localization(key: "Bullet1.checkboxes", value: "Settings", comment: "Settings button label")
 			static let seedPhrase = Localization(key: "Bullet1.seedPhrase", value: "Settings", comment: "Settings button label")
 			static let finished = Localization(key: "Bullet1.finished", value: "Settings", comment: "Settings button label")
@@ -64,10 +64,6 @@ enum S {
 				return "meac\(S.Symbols.narrowSpace)(\(S.Symbols.lites))"
 			}
 		}
-	}
-
-	enum Conjuction {
-		static let asOf = Localization(key: "Conjunction.asOf", value: "as of", comment: "as of a time or date")
 	}
 
 	// MARK: - Generic Button labels
@@ -115,7 +111,8 @@ enum S {
 		static let cameraUnavailableTitle = Localization(key: "Send.cameraUnavailableTitle", value: "Eacpay is not allowed to access the camera", comment: "Camera not allowed alert title")
 		static let cameraUnavailableMessage = Localization(key: "Send.cameraunavailableMessage", value: "Go to Settings to allow camera access.", comment: "Camera not allowed message")
 		static let balance = Localization(key: "Send.balance", value: "Balance: %1$@", comment: "Balance: $4.00")
-		static let fee = Localization(key: "Send.fees", value: "Fees: %1$@", comment: "Fees: $0.10")
+		static let networkFee = Localization(key: "Send.networkFee", value: "Network", comment: "Network")
+		static let serviceFee = Localization(key: "Send.serviceFee", value: "Service", comment: "Service")
 		static let feeBlank = Localization(key: "Send.feeBlank", value: "Fees:", comment: "Fees: ")
 		static let bareFee = Localization(key: "Send.fee", value: "Fee: %1$@", comment: "Fee: $0.01")
 		static let containsAddress = Localization(key: "Send.containsAddress", value: "The destination is your own address. You cannot send to yourself.", comment: "Warning when sending to self.")
@@ -135,17 +132,6 @@ enum S {
 		static let loadingRequest = Localization(key: "Send.loadingRequest", value: "Loading Request", comment: "Loading request activity view message")
 		static let insufficientFunds = Localization(key: "Send.insufficientFunds", value: "Insufficient Funds", comment: "Insufficient funds error")
 		static let barItemTitle = Localization(key: "Send.barItemTitle", value: "Send", comment: "Send Bar Item Title")
-
-		enum UnstoppableDomains {
-			static let placeholder = Localization(key: "Send.UnstoppableDomains.placeholder", value: "Enter a .crypto or .zil domain", comment: "Enter a .crypto,.zil domain")
-			static let simplePlaceholder = Localization(key: "Send.UnstoppableDomains.simpleplaceholder", value: "Enter domain", comment: "Enter domain")
-			static let enterA = Localization(key: "Send.UnstoppableDomains.enterA", value: "Enter a", comment: "Enter a")
-			static let domain = Localization(key: "Send.UnstoppableDomains.domain", value: "domain", comment: "domain")
-			static let lookup = Localization(key: "Send.UnstoppableDomains.lookup", value: "Lookup", comment: "Lookup")
-			static let lookupFailureHeader = Localization(key: "Send.UnstoppableDomains.lookupFailureHeader", value: "LookupFailureHeader", comment: "lookupFailureHeader")
-			static let lookupDomainError = Localization(key: "Send.UnstoppableDomains.lookupDomainError", value: "LookupDomainError", comment: "LookupDomainError")
-			static let udSystemError = Localization(key: "Send.UnstoppableDomains.udSystemError", value: "UDSystemError", comment: "UDSystemError")
-		}
 	}
 
 	enum Receive {
@@ -161,7 +147,7 @@ enum S {
 	// MARK: - Litewallet
 
 	enum Litewallet {
-		static let name = Localization(key: "Litewallet.name", value: "EACPAY", comment: "Eacpay name")
+		static let name = Localization(key: "Litewallet.name", value: "Eacpay", comment: "Eacpay name")
 	}
 
 	enum Account {
@@ -207,7 +193,7 @@ enum S {
 		static let complete = Localization(key: "Transaction.complete", value: "Complete", comment: "Transaction complete label")
 		static let waiting = Localization(key: "Transaction.waiting", value: "Waiting to be confirmed. Some merchants require confirmation to complete a transaction. Estimated time: 1-2 hours.", comment: "Waiting to be confirmed string")
 		static let starting = Localization(key: "Transaction.starting", value: "Starting balance: %1$@", comment: "eg. Starting balance: $50.00")
-		static let fee = Localization(key: "Transaction.fee", value: "(%1$@ fee)", comment: "(b600 fee)")
+		static let fee = Localization(key: "Transaction.fee", value: "(%1$@ total fees)", comment: "(b600 fee)")
 		static let ending = Localization(key: "Transaction.ending", value: "Ending balance: %1$@", comment: "eg. Ending balance: $50.00")
 		static let exchangeOnDaySent = Localization(key: "Transaction.exchangeOnDaySent", value: "Exchange rate when sent:", comment: "Exchange rate on date header")
 		static let exchangeOnDayReceived = Localization(key: "Transaction.exchangeOnDayReceived", value: "Exchange rate when received:", comment: "Exchange rate on date header")
@@ -218,7 +204,7 @@ enum S {
 		static let amountDetailLabel = Localization(key: "Transaction.amountDetailLabel", value: "Transaction amount detail", comment: "Static amount Label")
 		static let startingAmountDetailLabel = Localization(key: "Transaction.startingAmountDetailLabel", value: "Transaction starting amount detail", comment: "Static starting amount Label")
 		static let endAmountDetailLabel = Localization(key: "Transaction.endAmountDetailLabel", value: "Transaction end amount detail", comment: "Static end amount Label")
-		static let blockHeightLabel = Localization(key: "Transaction.blockHeightLabel", value: "Transaction blockHeight Label", comment: "Static blockHeight Label")
+		static let blockHeightLabel = Localization(key: "Transaction.blockHeightLabel", value: "Transaction blockHeightLabel", comment: "Static blockHeight Label")
 		static let commentLabel = Localization(key: "Transaction.commentLabel", value: "Transaction comment label", comment: "Static comment Label")
 	}
 
@@ -252,6 +238,11 @@ enum S {
 	enum BuyCenter {
 		static let title = Localization(key: "BuyCenter.title", value: "Buy Earthcoin", comment: "Buy Center Title")
 		static let buyModalTitle = Localization(key: "BuyCenter.ModalTitle", value: "Buy Єarthcoin", comment: "Buy Modal Title")
+		static let buyButtonTitle = Localization(key: "BuyCenter.buyButtonTitle", value: "Buy Є with", comment: "Buy ButtonTitle")
+		static let buyDetail = Localization(key: "BuyCenter.buyDetail", value: "Є will be sent to:", comment: "Buy ButtonTitle")
+		static let buyFiatDetail = Localization(key: "BuyCenter.buyFiatDetail", value: "Using:", comment: "Using fiat")
+		static let buyMoonpayDetail = Localization(key: "BuyCenter.buyMoonpayDetail", value: "Powered by:", comment: "Powered by")
+
 		enum Cells {
 			static let moonpayTitle = Localization(key: "BuyCenter.moonpayTitle", value: "Moonpay", comment: "Moonpay Title")
 			static let moonpayFinancialDetails = Localization(key: "BuyCenter.moonpayFinancialDetails", value: "• Point 1 XXXXX\n• Point 2 XXXXn• XXX Point 3", comment: "Moonpay buy financial details")
@@ -320,7 +311,7 @@ enum S {
 	}
 
 	enum AccountHeader {
-		static let defaultWalletName = Localization(key: "AccountHeader.defaultWalletName", value: "My  Eacpay", comment: "Default wallet name")
+		static let defaultWalletName = Localization(key: "AccountHeader.defaultWalletName", value: "My Eacpay", comment: "Default wallet name")
 		static let manageButtonName = Localization(key: "AccountHeader.manageButtonName", value: "MANAGE", comment: "Manage wallet button title")
 	}
 
@@ -338,7 +329,7 @@ enum S {
 		static let unavailableAlertTitle = Localization(key: "TouchIdSettings.unavailableAlertTitle", value: "Touch ID Not Set Up", comment: "Touch ID unavailable alert title")
 		static let unavailableAlertMessage = Localization(key: "TouchIdSettings.unavailableAlertMessage", value: "You have not set up Touch ID on this device. Go to Settings->Touch ID & Passcode to set it up now.", comment: "Touch ID unavailable alert message")
 		static let spendingLimit = Localization(key: "TouchIdSettings.spendingLimit", value: "Spending limit: %1$@ (%2$@)", comment: "Spending Limit: b100,000 ($100)")
-		static let limitValue = Localization(key: "TouchIdSettings.limitValue", value: "%1$@ (%2$@)", comment: " Є100,000 ($100)")
+		static let limitValue = Localization(key: "TouchIdSettings.limitValue", value: "%1$@ (%2$@)", comment: " ł100,000 ($100)")
 		static let customizeText = Localization(key: "TouchIdSettings.customizeText", value: "You can customize your Touch ID spending limit from the %1$@.", comment: "You can customize your Touch ID Spending Limit from the [TouchIdSettings.linkText gets added here as a button]")
 		static let linkText = Localization(key: "TouchIdSettings.linkText", value: "Touch ID Spending Limit Screen", comment: "Link Text (see TouchIdSettings.customizeText)")
 	}
@@ -479,7 +470,7 @@ enum S {
 	}
 
 	enum RequestAnAmount {
-		static let title = Localization(key: "RequestAnAmount.title", value: "Request an Amount", comment: "Request a specific amount of Earthcoin")
+		static let title = Localization(key: "RequestAnAmount.title", value: "Request an Amount", comment: "Request a specific amount of Litecoin")
 		static let noAmount = Localization(key: "RequestAnAmount.noAmount", value: "Please enter an amount first.", comment: "No amount entered error message.")
 	}
 
@@ -692,7 +683,6 @@ enum S {
 		static let processingTime = Localization(key: "Confirmation.processingTime", value: "Processing time: This transaction will take %1$@ minutes to process.", comment: "eg. Processing time: This transaction will take 10-30 minutes to process.")
 		static let processingAndDonationTime = Localization(key: "Confirmation.processingAndDonationTime", value: "Processing time: These transactions will take %1$@ minutes to process.", comment: "eg. Processing with Donation time: This transaction will take 10-30 minutes to process.")
 		static let amountLabel = Localization(key: "Confirmation.amountLabel", value: "Amount to Send:", comment: "Amount to Send: ($1.00)")
-		static let donateLabel = Localization(key: "Confirmation.donateLabel", value: "Amount to Donate:", comment: "Amount to Donate: ($1.00)")
 
 		static let totalLabel = Localization(key: "Confirmation.totalLabel", value: "Total Cost:", comment: "Total Cost: ($5.00)")
 		static let amountDetailLabel = Localization(key: "Confirmation.amountDetailLabel", value: "Exchange details:", comment: "$53.09/L + 1.07%")

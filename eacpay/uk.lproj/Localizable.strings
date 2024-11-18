@@ -2,7 +2,7 @@
 "About.blog" = "веб-сайт";
 
 /* About screen footer */
-"About.footer" = "Зроблено командою LiteWallet\of\Litecoin Foundation\n%1$@";
+"About.footer" = "Зроблено командою Eacpay\of\Earthcoin Team\n%1$@";
 
 /* Privay Policy button label */
 "About.privacy" = "Політика конфіденційності";
@@ -26,7 +26,7 @@
 "Account.loadingMessage" = "Завантаження гаманця";
 
 /* Default wallet name */
-"AccountHeader.defaultWalletName" = "Мій Litewallet";
+"AccountHeader.defaultWalletName" = "Мій Eacpay";
 
 /* Manage wallet button title */
 "AccountHeader.manageButtonName" = "КЕРУВАТИ";
@@ -131,28 +131,28 @@
 "BuyCenter.BitrefillTitle" = "Bitrefill";
 
 /* Changelly buy financial details */
-"BuyCenter.changellyFinancialDetails" = "• Змініть Litecoin на інші криптовалюти\n• Ідентифікатор не потрібен\n• Купуйте за допомогою кредитної картки\n• Глобальне покриття";
+"BuyCenter.changellyFinancialDetails" = "• Змініть Earthcoin на інші криптовалюти\n• Ідентифікатор не потрібен\n• Купуйте за допомогою кредитної картки\n• Глобальне покриття";
 
 /* Changelly Title */
 "BuyCenter.changellyTitle" = "Changelly";
 
 /* Buy Modal Title */
-"BuyCenter.ModalTitle" = "Купуйте Łitecoin";
+"BuyCenter.ModalTitle" = "Купуйте Єarthcoin";
 
 /* Moonpay buy financial details */
-"BuyCenter.moonpayFinancialDetails" = "• Купуйте LTC за допомогою багатьох фіатних пар\n• Сплачуйте кількома способами\n• Глобальний постачальник платежів";
+"BuyCenter.moonpayFinancialDetails" = "• Купуйте EAC за допомогою багатьох фіатних пар\n• Сплачуйте кількома способами\n• Глобальний постачальник платежів";
 
 /* Moonpay Title */
 "BuyCenter.moonpayTitle" = "Moonpay";
 
 /* Simplex buy financial details */
-"BuyCenter.simplexFinancialDetails" = "• Отримайте Litecoin за 5 хвилин!\n• Купуйте Litecoin за допомогою кредитної картки\n• Паспорт або посвідчення особи штату";
+"BuyCenter.simplexFinancialDetails" = "• Отримайте Earthcoin за 5 хвилин!\n• Купуйте Earthcoin за допомогою кредитної картки\n• Паспорт або посвідчення особи штату";
 
 /* Simplex Title */
 "BuyCenter.simplexTitle" = "Simplex";
 
 /* Buy Center Title */
-"BuyCenter.title" = "Купуйте Litecoin";
+"BuyCenter.title" = "Купуйте Єarthcoin";
 
 /* Camera plugin instruction */
 "CameraPlugin.centerInstruction" = "Центруйте свій ідентифікатор у полі";
@@ -209,7 +209,7 @@
 "Copy" = "Копія";
 
 /* Litecoin denomination picker label */
-"DefaultCurrency.bitcoinLabel" = "Litecoin Блок дисплея";
+"DefaultCurrency.bitcoinLabel" = "Earthcoin Блок дисплея";
 
 /* Label to pick fiat */
 "DefaultCurrency.chooseFiatLabel" = "Виберіть:";
@@ -233,13 +233,13 @@
 "FaceIDSettings.customizeText" = "Ви можете налаштувати ліміт витрат на Face ID за допомогою %1$@.";
 
 /* Face ID screen label */
-"FaceIDSettings.label" = "Використовуйте своє обличчя, щоб розблокувати свій Litewallet і надсилати гроші до встановленого ліміту.";
+"FaceIDSettings.label" = "Використовуйте своє обличчя, щоб розблокувати свій Eacpay і надсилати гроші до встановленого ліміту.";
 
 /* Link Text (see TouchIdSettings.customizeText) */
 "FaceIDSettings.linkText" = "Екран ліміту витрат Face ID";
 
 /* Face id switch label. */
-"FaceIDSettings.switchLabel" = "Увімкнути Face ID для Litewallet";
+"FaceIDSettings.switchLabel" = "Увімкнути Face ID для Eacpay";
 
 /* Face ID settings view title */
 "FaceIDSettings.title" = "Face ID";
@@ -296,13 +296,13 @@
 "History.barItemTitle" = "ІСТОРІЯ";
 
 /* History Current Litecoin Value */
-"History.currentLitecoinValue" = "Поточне значення LTC в";
+"History.currentLitecoinValue" = "Поточне значення EAC в";
 
 /* Checking private key balance progress view text */
 "Import.checking" = "Перевірка балансу приватного ключа...";
 
 /* Sweep private key confirmation message */
-"Import.confirm" = "Надіслати %1$@ з цього приватного ключа у свій гаманець? Мережа Litecoin отримає комісію в розмірі %2$@.";
+"Import.confirm" = "Надіслати %1$@ з цього приватного ключа у свій гаманець? Мережа Earthcoin отримає комісію в розмірі %2$@.";
 
 /* Duplicate key error message */
 "Import.Error.duplicate" = "Цей приватний ключ уже є у вашому гаманці.";
@@ -329,7 +329,7 @@
 "Import.leftCaption" = "Гаманець для імпорту";
 
 /* Import wallet intro screen message */
-"Import.message" = "Імпорт гаманця передає всі гроші з вашого іншого гаманця у ваш гаманець Litewallet за допомогою однієї транзакції.";
+"Import.message" = "Імпорт гаманця передає всі гроші з вашого іншого гаманця у ваш гаманець Eacpay за допомогою однієї транзакції.";
 
 /* Enter password alert view title */
 "Import.password" = "Цей закритий ключ захищений паролем.";
@@ -338,7 +338,7 @@
 "Import.passwordPlaceholder" = "пароль";
 
 /* Caption for graphics */
-"Import.rightCaption" = "Ваш гаманець Litewallet";
+"Import.rightCaption" = "Ваш гаманець Eacpay";
 
 /* Scan Private key button label */
 "Import.scan" = "Сканувати приватний ключ";
@@ -368,10 +368,10 @@
 "JailbreakWarnings.ignore" = "Ігнорувати";
 
 /* Jailbreak warning message */
-"JailbreakWarnings.messageWithBalance" = "БЕЗПЕКА ПРИСТРОЮ ПОГРУЗАНА\n Будь-який додаток для втечі з в’язниці може отримати доступ до даних брелока Litewallet і вкрасти ваш Litecoin! Негайно зітріть цей гаманець і відновіть його на захищеному пристрої.";
+"JailbreakWarnings.messageWithBalance" = "БЕЗПЕКА ПРИСТРОЮ ПОГРУЗАНА\n Будь-який додаток для втечі з в’язниці може отримати доступ до даних брелока Eacpay і вкрасти ваш Earthcoin! Негайно зітріть цей гаманець і відновіть його на захищеному пристрої.";
 
 /* Jailbreak warning message */
-"JailbreakWarnings.messageWithoutBalance" = "БЕЗПЕКА ПРИСТРОЮ ПОГІДРЕНО\n Будь-який додаток для втечі з в’язниці може отримати доступ до даних брелока Litewallet і вкрасти ваш Litecoin. Будь ласка, використовуйте Litewallet лише на пристрої без джейлбрейка.";
+"JailbreakWarnings.messageWithoutBalance" = "БЕЗПЕКА ПРИСТРОЮ ПОГІДРЕНО\n Будь-який додаток для втечі з в’язниці може отримати доступ до даних брелока Eacpay і вкрасти ваш Earthcoin. Будь ласка, використовуйте Eacpay лише на пристрої без джейлбрейка.";
 
 /* Jailbreak warning title */
 "JailbreakWarnings.title" = "УВАГА";
@@ -389,22 +389,22 @@
 "LitecoinCard.cardBalanceOnlyDescription" = "Вийдіть із системи та ввімкніть 2FA, щоб дозволити перекази";
 
 /* Features and limitations */
-"LitecoinCard.Disclaimer.bullets" = "- Реєстрація та вхід\n- Доступний баланс картки\n- Скидання пароля\n- Немає переказу на Litewallet\n- Лише в США";
+"LitecoinCard.Disclaimer.bullets" = "- Реєстрація та вхід\n- Доступний баланс картки\n- Скидання пароля\n- Немає переказу на Eacpay\n- Лише в США";
 
 /* Description of the status */
-"LitecoinCard.Disclaimer.description" = "Наразі Litecoin Card має обмежену функціональність у Litewallet.";
+"LitecoinCard.Disclaimer.description" = "Наразі Earthcoin Card має обмежену функціональність у Eacpay.";
 
 /* Referral to the website */
-"LitecoinCard.Disclaimer.referral" = "Відвідайте litecoin.getblockcard.com для повного доступу";
+"LitecoinCard.Disclaimer.referral" = "Відвідайте earthcoin.getblockcard.com для повного доступу";
 
 /* Beta Testing Litecoin Card */
-"LitecoinCard.Disclaimer.title" = "Бета-версія картки Litecoin";
+"LitecoinCard.Disclaimer.title" = "Бета-версія картки Earthcoin";
 
 /* Enter code */
 "LitecoinCard.enterCode" = "Введіть код";
 
 /* Enter code details */
-"LitecoinCard.enterCode.detail" = "Введіть код, який нещодавно був надісланий на електронну адресу вашого облікового запису Litecoin Card.";
+"LitecoinCard.enterCode.detail" = "Введіть код, який нещодавно був надісланий на електронну адресу вашого облікового запису Earthcoin Card.";
 
 /* Failed Login */
 "LitecoinCard.failed.login" = "Помилка логіну";
@@ -419,13 +419,13 @@
 "LitecoinCard.logout" = "Вийти";
 
 /* Card Bar Item Title */
-"LitecoinCard.name" = "Картка Litecoin";
+"LitecoinCard.name" = "Картка Earthcoin";
 
 /* Register */
 "LitecoinCard.registerCard" = "Реєстрація";
 
 /* Litecoin card */
-"LitecoinCard.registerCardPhrase" = "Зареєструйтеся на карту Litecoin";
+"LitecoinCard.registerCardPhrase" = "Зареєструйтеся на карту Earthcoin";
 
 /* Registering user... */
 "LitecoinCard.registering.user" = "Реєстрація користувача...";
@@ -509,13 +509,13 @@
 "LitecoinCard.resetPassword" = "Скинути пароль";
 
 /* Reset password detail */
-"LitecoinCard.resetPasswordDetail" = "Введіть адресу електронної пошти, пов’язану з вашим обліковим записом картки Litecoin, і знайдіть лист із інструкціями для скидання.";
+"LitecoinCard.resetPasswordDetail" = "Введіть адресу електронної пошти, пов’язану з вашим обліковим записом картки Earthcoin, і знайдіть лист із інструкціями для скидання.";
 
 /* Transfer to card label */
 "LitecoinCard.Transfer.amountToCard" = "Переказ на картку";
 
 /* Transfer to Litewallet label */
-"LitecoinCard.Transfer.amountToLitewallet" = "Перевести на Litewallet";
+"LitecoinCard.Transfer.amountToLitewallet" = "Перевести на Eacpay";
 
 /* Description of action */
 "LitecoinCard.Transfer.description" = "Виберіть гаманець для передачі:";
@@ -545,16 +545,16 @@
 "LitecoinCard.twoFAOn" = "2FA увімкнено";
 
 /* Litecoin card visit */
-"LitecoinCard.visit.toReset" = "Відвідати https://litecoin.dashboard.getblockcard.com/password/forgot\nщоб скинути пароль.";
+"LitecoinCard.visit.toReset" = "Відвідати https://earthcoin.dashboard.getblockcard.com/password/forgot\nщоб скинути пароль.";
 
 /* Litewallet name */
-"Litewallet.name" = "Litewallet";
+"Litewallet.name" = "Eacpay";
 
 /* Location services disabled error */
 "LocationPlugin.disabled" = "Служби локації вимкнені.";
 
 /* No permissions for location services */
-"LocationPlugin.notAuthorized" = "Litewallet не має дозволу на доступ до служб локації.";
+"LocationPlugin.notAuthorized" = "Eacpay не має дозволу на доступ до служб локації.";
 
 /* No comment provided by engineer. */
 "Malformed URI" = "Неправильний URI";
@@ -575,7 +575,7 @@
 "ManageWallet.title" = "Керування гаманцем";
 
 /* Buy Litecoin title */
-"MenuButton.buy" = "Купуйте Litecoin";
+"MenuButton.buy" = "Купуйте Earthcoin";
 
 /* Menu button title */
 "MenuButton.customer.support" = "Підтримка клієнтів";
@@ -629,7 +629,7 @@
 "NodeSelector.statusLabel" = "Стан підключення вузла";
 
 /* Node Selector view title */
-"NodeSelector.title" = "Вузли Litecoin";
+"NodeSelector.title" = "Вузли Earthcoin";
 
 /* Bad Payment request alert title */
 "PaymentProtocol.Errors.badPaymentRequest" = "Поганий запит на оплату";
@@ -647,10 +647,10 @@
 "PaymentProtocol.Errors.smallOutputError" = "Не вдалося здійснити платіж";
 
 /* Amount too small error message */
-"PaymentProtocol.Errors.smallPayment" = "Платежі Litecoin не можуть бути меншими %1$@.";
+"PaymentProtocol.Errors.smallPayment" = "Платежі Earthcoin не можуть бути меншими %1$@.";
 
 /* Output too small error message. */
-"PaymentProtocol.Errors.smallTransaction" = "Вихід транзакцій Litecoin не може бути меншим $@.";
+"PaymentProtocol.Errors.smallTransaction" = "Вихід транзакцій Earthcoin не може бути меншим $@.";
 
 /* Unsupported signature type payment protocol error message */
 "PaymentProtocol.Errors.unsupportedSignatureType" = "непідтримуваний тип підпису";
@@ -695,13 +695,13 @@
 "Prompts.RecommendRescan.title" = "Транзакція відхилена";
 
 /* Upgrade PIN prompt body. */
-"Prompts.SetPin.body" = "Для Litewallet потрібен 6-значний PIN-код. Будь ласка, встановіть та зберігайте свій PIN-код у безпечному місці.";
+"Prompts.SetPin.body" = "Для Eacpay потрібен 6-значний PIN-код. Будь ласка, встановіть та зберігайте свій PIN-код у безпечному місці.";
 
 /* Upgrade PIN prompt title. */
 "Prompts.SetPin.title" = "Встановити PIN-код";
 
 /* Share data prompt body */
-"Prompts.ShareData.body" = "Допоможіть покращити Litewallet, поділившись з нами своїми анонімними даними";
+"Prompts.ShareData.body" = "Допоможіть покращити Eacpay, поділившись з нами своїми анонімними даними";
 
 /* Share data prompt title */
 "Prompts.ShareData.title" = "Поділіться анонімними даними";
@@ -713,7 +713,7 @@
 "Prompts.TouchId.title" = "Увімкнути Touch ID";
 
 /* Push notifications settings view body */
-"PushNotifications.body" = "Увімкніть сповіщення, щоб у майбутньому отримувати спеціальні повідомлення від Litewallet.";
+"PushNotifications.body" = "Увімкніть сповіщення, щоб у майбутньому отримувати спеціальні повідомлення від Eacpay.";
 
 /* Push notifications toggle switch label */
 "PushNotifications.label" = "Push-повідомлення";
@@ -761,7 +761,7 @@
 "RecoverWallet.instruction" = "Введіть ключ паперу";
 
 /* Recover wallet intro */
-"RecoverWallet.intro" = "Відновіть свій Litewallet за допомогою паперового ключа.";
+"RecoverWallet.intro" = "Відновіть свій Eacpay за допомогою паперового ключа.";
 
 /* Invalid paper key message */
 "RecoverWallet.invalid" = "Паперовий ключ, який ви ввели, недійсний. Перевірте кожне слово і повторіть спробу.";
@@ -803,7 +803,7 @@
 "ReScan.body1" = "20-45 хвилин";
 
 /* Syncing explanation */
-"ReScan.body2" = "Якщо транзакція відображається як завершена в мережі Litecoin, але не у вашому Litewallet.";
+"ReScan.body2" = "Якщо транзакція відображається як завершена в мережі Litecoin, але не у вашому Eacpay.";
 
 /* Syncing explanation */
 "ReScan.body3" = "Ви неодноразово отримуєте повідомлення про помилку, що ваша транзакція відхилена.";
@@ -827,7 +827,7 @@
 "resetButton" = "Так, скинути гаманець";
 
 /* Warning Empty Wipe title */
-"resetTitle" = "Видалити мій Litewallet";
+"resetTitle" = "Видалити мій Eacpay";
 
 /* Scan Litecoin address camera flash toggle */
 "Scanner.flashButtonLabel" = "Спалах камери";
@@ -851,13 +851,13 @@
 "SecurityCenter.info" = "Увімкніть усі функції безпеки для максимального захисту.";
 
 /* Paper Key button description */
-"SecurityCenter.paperKeyDescription" = "Єдиний спосіб отримати доступ до свого Litecoin, якщо ви втратите або оновите свій телефон.";
+"SecurityCenter.paperKeyDescription" = "Єдиний спосіб отримати доступ до свого Earthcoin, якщо ви втратите або оновите свій телефон.";
 
 /* Paper Key button title */
 "SecurityCenter.paperKeyTitle" = "Паперовий ключ";
 
 /* PIN button description */
-"SecurityCenter.pinDescription" = "Захищає ваш Litewallet від неавторизованих користувачів.";
+"SecurityCenter.pinDescription" = "Захищає ваш Eacpay від неавторизованих користувачів.";
 
 /* PIN button title */
 "SecurityCenter.pinTitle" = "6-значний PIN-код";
@@ -866,7 +866,7 @@
 "SecurityCenter.title" = "Центр безпеки";
 
 /* Touch ID/FaceID button description */
-"SecurityCenter.touchIdDescription" = "Зручно розблокуйте свій Litewallet і надсилайте гроші до встановленого ліміту.";
+"SecurityCenter.touchIdDescription" = "Зручно розблокуйте свій Eacpay і надсилайте гроші до встановленого ліміту.";
 
 /* Touch ID button title */
 "SecurityCenter.touchIdTitle" = "Touch ID";
@@ -887,7 +887,7 @@
 "Send.cameraunavailableMessage" = "Перейдіть до Налаштувань, щоб дозволити доступ до камери.";
 
 /* Camera not allowed alert title */
-"Send.cameraUnavailableTitle" = "Litewallet не має доступу до камери";
+"Send.cameraUnavailableTitle" = "Eacpay не має доступу до камери";
 
 /* Warning when sending to self. */
 "Send.containsAddress" = "Пунктом призначення є ваша власна адреса. Ви не можете відправити собі.";
@@ -902,7 +902,7 @@
 "Send.emptyPasteboard" = "Картонний картон порожній";
 
 /* Enter LTC Address */
-"Send.enterLTCAddress" = "Введіть адресу Litecoin";
+"Send.enterLTCAddress" = "Введіть адресу Earthcoin";
 
 /* Fees: $0.01*/
 "Send.fee" = "Збори: %1$@";
@@ -917,10 +917,10 @@
 "Send.insufficientFunds" = "Недостатньо коштів";
 
 /* Invalid address alert message */
-"Send.invalidAddressMessage" = "Адреса призначення не є дійсною адресою Litecoin.";
+"Send.invalidAddressMessage" = "Адреса призначення не є дійсною адресою Earthcoin.";
 
 /* Invalid address on pasteboard message */
-"Send.invalidAddressOnPasteboard" = "Pasteboard не містить дійсної адреси Litecoin.";
+"Send.invalidAddressOnPasteboard" = "Pasteboard не містить дійсної адреси Earthcoin.";
 
 /* Invalid address alert title */
 "Send.invalidAddressTitle" = "Недійсна адреса";
@@ -983,7 +983,7 @@
 "Send.UnstoppableDomains.udSystemError" = "Проблема пошуку системи. [Помилка: %2$d]";
 
 /* Adress already used alert message - first part */
-"Send.UsedAddress.firstLine" = "Адреси Litecoin призначені лише для одноразового використання.";
+"Send.UsedAddress.firstLine" = "Адреси Earthcoin призначені лише для одноразового використання.";
 
 /* Adress already used alert message - second part */
 "Send.UsedAddress.secondLIne" = "Повторне використання знижує конфіденційність як для вас, так і для одержувача і може призвести до втрати, якщо одержувач безпосередньо не контролює адресу.";
@@ -1013,7 +1013,7 @@
 "Settings.earlyAccess" = "Приєднуйтесь до раннього доступу";
 
 /* Are you enjoying Litewallet alert message body */
-"Settings.enjoying" = "Вам подобається Litewallet?";
+"Settings.enjoying" = "Вам подобається Eacpay?";
 
 /* Face ID spending limit label */
 "Settings.faceIdLimit" = "Ліміт витрат на Face ID";
@@ -1028,10 +1028,10 @@
 "Settings.litewallet.environment" = "Середовище:";
 
 /* Litewallet Partners */
-"Settings.litewallet.partners" = "Партнери Litewallet";
+"Settings.litewallet.partners" = "Партнери Eacpay";
 
 /* Litewallet version */
-"Settings.litewallet.version" = "Версія Litewallet:";
+"Settings.litewallet.version" = "Версія Eacpay:";
 
 /* Manage settings section header */
 "Settings.manage" = "Керувати";
@@ -1067,7 +1067,7 @@
 "Settings.wipe" = "Запустити/Відновити інший гаманець";
 
 /* Share data view body */
-"ShareData.body" = "Допоможіть покращити Litewallet, поділившись з нами своїми анонімними даними. Це не включає фінансову інформацію. Ми поважаємо вашу фінансову конфіденційність.";
+"ShareData.body" = "Допоможіть покращити Eacpay, поділившись з нами своїми анонімними даними. Це не включає фінансову інформацію. Ми поважаємо вашу фінансову конфіденційність.";
 
 /* Share data header */
 "ShareData.header" = "Поділитися даними?";
@@ -1082,7 +1082,7 @@
 "StartPaperPhrase.againButtonTitle" = "Знову запишіть паперовий ключ";
 
 /* Paper key explanation text. */
-"StartPaperPhrase.body" = "Ваш паперовий ключ – це єдиний спосіб відновити Litewallet, якщо ваш телефон втрачено, вкрадено, зламано чи оновлено.\n\nМи покажемо вам список слів, які потрібно записати на аркуші паперу та зберегти в безпеці.";
+"StartPaperPhrase.body" = "Ваш паперовий ключ – це єдиний спосіб відновити Eacpay, якщо ваш телефон втрачено, вкрадено, зламано чи оновлено.\n\nМи покажемо вам список слів, які потрібно записати на аркуші паперу та зберегти в безпеці.";
 
 /* button label */
 "StartPaperPhrase.buttonTitle" = "Запишіть ключ на папері";
@@ -1091,10 +1091,10 @@
 "StartPaperPhrase.date" = "Ви востаннє записали свій паперовий ключ %1$@";
 
 /* Start view tagline */
-"StartViewController.tagline" = "Найбезпечніший і найбезпечніший спосіб використання Litecoin.";
+"StartViewController.tagline" = "Найбезпечніший і найбезпечніший спосіб використання Earthcoin.";
 
 /* Support the Litecoin Foundation */
-"SupportTheFoundation.title" = "Підтримайте Litecoin Foundation";
+"SupportTheFoundation.title" = "Підтримайте Earthcoin Foundation";
 
 /* Syncing view connection state header text */
 "SyncingHeader.connecting" = "Підключення...";
@@ -1130,7 +1130,7 @@
 "TouchIdSettings.customizeText" = "Ви можете налаштувати свій ліміт витрат Touch ID з %1$@.";
 
 /* Touch Id screen label */
-"TouchIdSettings.label" = "Використовуйте відбиток пальця, щоб розблокувати свій Litewallet і надсилати гроші до встановленого ліміту.";
+"TouchIdSettings.label" = "Використовуйте відбиток пальця, щоб розблокувати свій Eacpay і надсилати гроші до встановленого ліміту.";
 
 /*  ł100,000 ($100) */
 "TouchIdSettings.limitValue" = "%1$@ (%2$@)";
@@ -1142,7 +1142,7 @@
 "TouchIdSettings.spendingLimit" = "Ліміт витрат: %1$@ (%2$@)";
 
 /* Touch id switch label. */
-"TouchIdSettings.switchLabel" = "Увімкнути Touch ID для Litewallet";
+"TouchIdSettings.switchLabel" = "Увімкнути Touch ID для Eacpay";
 
 /* Touch ID settings view title */
 "TouchIdSettings.title" = "Touch ID";
@@ -1283,7 +1283,7 @@
 "TransactionDetails.to" = "до %1$@";
 
 /* Transaction ID header */
-"TransactionDetails.txHashHeader" = "Ідентифікатор транзакції Litecoin";
+"TransactionDetails.txHashHeader" = "Ідентифікатор транзакції Earthcoin";
 
 /* (this transaction was) Received at this address: */
 "TransactionDirection.address" = "Отримано за цією адресою";
@@ -1310,7 +1310,7 @@
 "UnlockScreen.scan" = "Сканувати";
 
 /* TouchID/FaceID prompt text */
-"UnlockScreen.touchIdPrompt" = "Розблокуйте свій Litewallet.";
+"UnlockScreen.touchIdPrompt" = "Розблокуйте свій Eacpay.";
 
 /* Unlock with TouchID accessibility label */
 "UnlockScreen.touchIdText" = "Розблокування за допомогою TouchID";
@@ -1319,10 +1319,10 @@
 "UnlockScreen.unlocked" = "Гаманець розблоковано";
 
 /* Update PIN caption text */
-"UpdatePin.caption" = "Запам’ятайте цей PIN-код. Якщо ви забудете його, ви не зможете отримати доступ до свого Litecoin.";
+"UpdatePin.caption" = "Запам’ятайте цей PIN-код. Якщо ви забудете його, ви не зможете отримати доступ до свого Earthcoin.";
 
 /* PIN creation info. */
-"UpdatePin.createInstruction" = "Ваш PIN-код буде використано для розблокування вашого Litewallet та надсилання грошей.";
+"UpdatePin.createInstruction" = "Ваш PIN-код буде використано для розблокування вашого Eacpay та надсилання грошей.";
 
 /* Update PIN title */
 "UpdatePin.createTitle" = "Встановити PIN-код";
@@ -1373,7 +1373,7 @@
 "VerifyPin.touchIdMessage" = "Авторизуйте цю трансакцію";
 
 /* 'No wallet' warning for watch app */
-"Watch.noWalletWarning" = "Відкрийте додаток Litewallet для iPhone, щоб налаштувати гаманець.";
+"Watch.noWalletWarning" = "Відкрийте додаток Eacpay для iPhone, щоб налаштувати гаманець.";
 
 /* Dismiss button label */
 "Webview.dismiss" = "Звільнити";
@@ -1385,10 +1385,10 @@
 "Webview.updating" = "Оновлення...";
 
 /* Welcome view body text */
-"Welcome.body" = "Тепер Litewallet має абсолютно новий вигляд і деякі нові функції.\n\nУсі монети відображаються в lites (ł). 1 Litecoin (Ł) = 1000 lites (ł).";
+"Welcome.body" = "Тепер Litewallet має абсолютно новий вигляд і деякі нові функції.\n\nУсі монети відображаються в Meac (є). 1 Earthcoin (Є) = 1000 Meac (є).";
 
 /* Welcome view title */
-"Welcome.title" = "Ласкаво просимо до Litewallet!";
+"Welcome.title" = "Ласкаво просимо до Eacpay!";
 
 /* Delete database title */
 "WipeWallet.alertDeleteTitle" = "Видалити базу даних";
@@ -1421,7 +1421,7 @@
 "WipeWallet.instruction" = "Щоб запустити новий гаманець або відновити наявний гаманець, спочатку потрібно стерти гаманець, який зараз встановлено. Щоб продовжити, введіть паперовий ключ поточного гаманця.";
 
 /* Start wipe wallet view message */
-"WipeWallet.startMessage" = "Запуск або відновлення іншого гаманця дає змогу отримати доступ до іншого гаманця Litewallet і керувати ним на цьому пристрої.";
+"WipeWallet.startMessage" = "Запуск або відновлення іншого гаманця дає змогу отримати доступ до іншого гаманця Eacpay і керувати ним на цьому пристрої.";
 
 /* Start wipe wallet view warning */
 "WipeWallet.startWarning" = "Ваш поточний гаманець буде видалено з цього пристрою. Якщо ви хочете відновити його в майбутньому, вам потрібно буде ввести свій паперовий ключ.";
@@ -1430,10 +1430,10 @@
 "WipeWallet.title" = "Запустіть або відновіть інший гаманець";
 
 /* Warning Alert */
-"WipeWallet.warningAlert" = "Ця дія видалить ваш Litewallet!";
+"WipeWallet.warningAlert" = "Ця дія видалить ваш Eacpay!";
 
 /* Warning description */
-"WipeWallet.warningDescription" = "Видалення гаманця означає, що приватний ключ і стирання даних програми не буде. Ви можете втратити свій Litecoin назавжди! \n\n\nНіхто з команди Litewallet не може отримати це початкове значення для вас. Ми не несемо відповідальності, якщо ви не зважите на це попередження.";
+"WipeWallet.warningDescription" = "Видалення гаманця означає, що приватний ключ і стирання даних програми не буде. Ви можете втратити свій Earthcoin назавжди! \n\n\nНіхто з команди Eacpay не може отримати це початкове значення для вас. Ми не несемо відповідальності, якщо ви не зважите на це попередження.";
 
 /* Warning title */
 "WipeWallet.warningTitle" = "БУДЬ ЛАСКА, ПРОЧИТАЙТЕ!";

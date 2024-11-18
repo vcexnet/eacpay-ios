@@ -2,7 +2,7 @@
 "About.blog" = "Website";
 
 /* About screen footer */
-"About.footer" = "Made by the LiteWallet Team\nof the\nLitecoin Foundation\n%1$@";
+"About.footer" = "Made by the Eacpay Team\nof the\nEartcoin Foundation\n%1$@";
 
 /* Privay Policy button label */
 "About.privacy" = "Privacy Policy";
@@ -26,7 +26,7 @@
 "Account.loadingMessage" = "Loading Wallet";
 
 /* Default wallet name */
-"AccountHeader.defaultWalletName" = "My Litewallet";
+"AccountHeader.defaultWalletName" = "My Eacpay";
 
 /* Manage wallet button title */
 "AccountHeader.manageButtonName" = "MANAGE";
@@ -131,28 +131,28 @@
 "BuyCenter.BitrefillTitle" = "Bitrefill";
 
 /* Changelly buy financial details */
-"BuyCenter.changellyFinancialDetails" = "• Change Litecoin for other cryptos\n• No ID Required\n• Buy via credit card\n• Global coverage";
+"BuyCenter.changellyFinancialDetails" = "• Change Earthcoin for other cryptos\n• No ID Required\n• Buy via credit card\n• Global coverage";
 
 /* Changelly Title */
 "BuyCenter.changellyTitle" = "Changelly";
 
 /* Buy Modal Title */
-"BuyCenter.ModalTitle" = "Buy Łitecoin";
+"BuyCenter.ModalTitle" = "Buy Єarthcoin";
 
 /* Moonpay buy financial details */
-"BuyCenter.moonpayFinancialDetails" = "• Buy LTC with many fiat pairs\n• Pay with multiple methods\n• Global payment provider";
+"BuyCenter.moonpayFinancialDetails" = "• Buy EAC with many fiat pairs\n• Pay with multiple methods\n• Global payment provider";
 
 /* Moonpay Title */
 "BuyCenter.moonpayTitle" = "Moonpay";
 
 /* Simplex buy financial details */
-"BuyCenter.simplexFinancialDetails" = "• Get Litecoin in 5 mins!\n• Buy Litecoin via credit card\n• Passport or State ID";
+"BuyCenter.simplexFinancialDetails" = "• Get Earthcoin in 5 mins!\n• Buy Earthcoin via credit card\n• Passport or State ID";
 
 /* Simplex Title */
 "BuyCenter.simplexTitle" = "Simplex";
 
 /* Buy Center Title */
-"BuyCenter.title" = "Buy Litecoin";
+"BuyCenter.title" = "Buy Earthcoin";
 
 /* Camera plugin instruction */
 "CameraPlugin.centerInstruction" = "Center your ID in the box";
@@ -209,7 +209,7 @@
 "Copy" = "Copy";
 
 /* Litecoin denomination picker label */
-"DefaultCurrency.bitcoinLabel" = "Litecoin Display Unit";
+"DefaultCurrency.bitcoinLabel" = "Earthcoin Display Unit";
 
 /* Label to pick fiat */
 "DefaultCurrency.chooseFiatLabel" = "Choose:";
@@ -233,13 +233,13 @@
 "FaceIDSettings.customizeText" = "You can customize your Face ID spending limit from the %1$@.";
 
 /* Face ID screen label */
-"FaceIDSettings.label" = "Use your face to unlock your Litewallet and send money up to a set limit.";
+"FaceIDSettings.label" = "Use your face to unlock your Eacpay and send money up to a set limit.";
 
 /* Link Text (see TouchIdSettings.customizeText) */
 "FaceIDSettings.linkText" = "Face ID Spending Limit Screen";
 
 /* Face id switch label. */
-"FaceIDSettings.switchLabel" = "Enable Face ID for Litewallet";
+"FaceIDSettings.switchLabel" = "Enable Face ID for Eacpay";
 
 /* Face ID settings view title */
 "FaceIDSettings.title" = "Face ID";
@@ -296,13 +296,13 @@
 "History.barItemTitle" = "HISTORY";
 
 /* History Current Litecoin Value */
-"History.currentLitecoinValue" = "Current LTC value in";
+"History.currentLitecoinValue" = "Current EAC value in";
 
 /* Checking private key balance progress view text */
 "Import.checking" = "Checking private key balance...";
 
 /* Sweep private key confirmation message */
-"Import.confirm" = "Send %1$@ from this private key into your wallet? The Litecoin network will receive a fee of %2$@.";
+"Import.confirm" = "Send %1$@ from this private key into your wallet? The Earthcoin network will receive a fee of %2$@.";
 
 /* Duplicate key error message */
 "Import.Error.duplicate" = "This private key is already in your wallet.";
@@ -329,7 +329,7 @@
 "Import.leftCaption" = "Wallet to be imported";
 
 /* Import wallet intro screen message */
-"Import.message" = "Importing a wallet transfers all the money from your other wallet into your Litewallet wallet using a single transaction.";
+"Import.message" = "Importing a wallet transfers all the money from your other wallet into your Eacpay wallet using a single transaction.";
 
 /* Enter password alert view title */
 "Import.password" = "This private key is password protected.";
@@ -338,7 +338,7 @@
 "Import.passwordPlaceholder" = "password";
 
 /* Caption for graphics */
-"Import.rightCaption" = "Your Litewallet Wallet";
+"Import.rightCaption" = "Your Eacpay Wallet";
 
 /* Scan Private key button label */
 "Import.scan" = "Scan Private Key";
@@ -368,10 +368,10 @@
 "JailbreakWarnings.ignore" = "Ignore";
 
 /* Jailbreak warning message */
-"JailbreakWarnings.messageWithBalance" = "DEVICE SECURITY COMPROMISED\n Any 'jailbreak' app can access Litewallet's keychain data and steal your Litecoin! Wipe this wallet immediately and restore on a secure device.";
+"JailbreakWarnings.messageWithBalance" = "DEVICE SECURITY COMPROMISED\n Any 'jailbreak' app can access Eacpay's keychain data and steal your Earthcoin! Wipe this wallet immediately and restore on a secure device.";
 
 /* Jailbreak warning message */
-"JailbreakWarnings.messageWithoutBalance" = "DEVICE SECURITY COMPROMISED\n Any 'jailbreak' app can access Litewallet's keychain data and steal your Litecoin. Please only use Litewallet on a non-jailbroken device.";
+"JailbreakWarnings.messageWithoutBalance" = "DEVICE SECURITY COMPROMISED\n Any 'jailbreak' app can access Eacpay's keychain data and steal your Earthcoin. Please only use Eacpay on a non-jailbroken device.";
 
 /* Jailbreak warning title */
 "JailbreakWarnings.title" = "WARNING";
@@ -389,22 +389,22 @@
 "LitecoinCard.cardBalanceOnlyDescription" = "Logout & Enable 2FA to allow Transfers";
 
 /* Features and limitations */
-"LitecoinCard.Disclaimer.bullets" = "- Registration & Login\n- Available card balance\n- Reset password\n- No transfer to Litewallet\n- US Only";
+"LitecoinCard.Disclaimer.bullets" = "- Registration & Login\n- Available card balance\n- Reset password\n- No transfer to Eacpay\n- US Only";
 
 /* Description of the status */
-"LitecoinCard.Disclaimer.description" = "Litecoin Card currently has limited functionality in Litewallet.";
+"LitecoinCard.Disclaimer.description" = "Earthcoin Card currently has limited functionality in Eacpay.";
 
 /* Referral to the website */
-"LitecoinCard.Disclaimer.referral" = "Visit litecoin.getblockcard.com for full access";
+"LitecoinCard.Disclaimer.referral" = "Visit Eartcoin.getblockcard.com for full access";
 
 /* Beta Testing Litecoin Card */
-"LitecoinCard.Disclaimer.title" = "Litecoin Card Beta";
+"LitecoinCard.Disclaimer.title" = "Earthcoin Card Beta";
 
 /* Enter code */
 "LitecoinCard.enterCode" = "Enter Code";
 
 /* Enter code details */
-"LitecoinCard.enterCode.detail" = "Enter the code that was recently sent to your Litecoin Card account email.";
+"LitecoinCard.enterCode.detail" = "Enter the code that was recently sent to your Earthcoin Card account email.";
 
 /* Failed Login */
 "LitecoinCard.failed.login" = "Login failed";
@@ -419,13 +419,13 @@
 "LitecoinCard.logout" = "Logout";
 
 /* Card Bar Item Title */
-"LitecoinCard.name" = "Litecoin Card";
+"LitecoinCard.name" = "Earthcoin Card";
 
 /* Register */
 "LitecoinCard.registerCard" = "Register";
 
 /* Register for Litecoin Card */
-"LitecoinCard.registerCardPhrase" = "Register for Litecoin Card";
+"LitecoinCard.registerCardPhrase" = "Register for Earthcoin Card";
 
 /* Registering user... */
 "LitecoinCard.registering.user" = "Registering user...";
@@ -509,13 +509,13 @@
 "LitecoinCard.resetPassword" = "Reset password";
 
 /* Reset password detail */
-"LitecoinCard.resetPasswordDetail" = "Enter the email address associated with your Litecoin Card account & look for an email with reset instructions.";
+"LitecoinCard.resetPasswordDetail" = "Enter the email address associated with your Earthcoin Card account & look for an email with reset instructions.";
 
 /* Transfer to card label */
 "LitecoinCard.Transfer.amountToCard" = "Transfer to Card";
 
 /* Transfer to Litewallet label */
-"LitecoinCard.Transfer.amountToLitewallet" = "Transfer to Litewallet";
+"LitecoinCard.Transfer.amountToLitewallet" = "Transfer to Eacpay";
 
 /* Description of action */
 "LitecoinCard.Transfer.description" = "Choose the transferring wallet:";
@@ -524,7 +524,7 @@
 "LitecoinCard.Transfer.destinationAddress" = "Address";
 
 /* Litewallet balance label */
-"LitecoinCard.Transfer.litewalletBalance" = "Litewallet balance";
+"LitecoinCard.Transfer.litewalletBalance" = "Eacpay balance";
 
 /* Set transfer amount label */
 "LitecoinCard.Transfer.setAmount" = "Slide to set transfer amount";
@@ -548,13 +548,13 @@
 "LitecoinCard.visit.toReset" = "Visit https://litecoin.dashboard.getblockcard.com/password/forgot\nto reset your password.";
 
 /* Litewallet name */
-"Litewallet.name" = "Litewallet";
+"Litewallet.name" = "Eacpay";
 
 /* Location services disabled error */
 "LocationPlugin.disabled" = "Location services are disabled.";
 
 /* No permissions for location services */
-"LocationPlugin.notAuthorized" = "Litewallet does not have permission to access location services.";
+"LocationPlugin.notAuthorized" = "Eacpay does not have permission to access location services.";
 
 /* No comment provided by engineer. */
 "Malformed URI" = "Malformed URI";
@@ -575,7 +575,7 @@
 "ManageWallet.title" = "Manage Wallet";
 
 /* Buy Litecoin title */
-"MenuButton.buy" = "Buy Litecoin";
+"MenuButton.buy" = "Buy Earthcoin";
 
 /* Menu button title */
 "MenuButton.customer.support" = "Customer support";
@@ -629,7 +629,7 @@
 "NodeSelector.statusLabel" = "Node Connection Status";
 
 /* Node Selector view title */
-"NodeSelector.title" = "Litecoin Nodes";
+"NodeSelector.title" = "Earthcoin Nodes";
 
 /* Bad Payment request alert title */
 "PaymentProtocol.Errors.badPaymentRequest" = "Bad Payment Request";
@@ -647,10 +647,10 @@
 "PaymentProtocol.Errors.smallOutputError" = "Couldn't make payment";
 
 /* Amount too small error message */
-"PaymentProtocol.Errors.smallPayment" = "Litecoin payments can't be less than %1$@.";
+"PaymentProtocol.Errors.smallPayment" = "Earthcoin payments can't be less than %1$@.";
 
 /* Output too small error message. */
-"PaymentProtocol.Errors.smallTransaction" = "Litecoin transaction outputs can't be less than $@.";
+"PaymentProtocol.Errors.smallTransaction" = "Earthcoin transaction outputs can't be less than $@.";
 
 /* Unsupported signature type payment protocol error message */
 "PaymentProtocol.Errors.unsupportedSignatureType" = "unsupported signature type";
@@ -677,7 +677,7 @@
 "Prompts.PaperKey.affirm" = "Continue";
 
 /* Warning about paper key. */
-"Prompts.PaperKey.body" = "Your Paper Key must be kept in a safe place. It is the only way modify or restore your Litewallet or transfer your Litecoin. Please write it down.";
+"Prompts.PaperKey.body" = "Your Paper Key must be kept in a safe place. It is the only way modify or restore your Eacpay or transfer your Earthcoin. Please write it down.";
 
 /* Cancel button. */
 "Prompts.PaperKey.cancel" = "Cancel";
@@ -695,13 +695,13 @@
 "Prompts.RecommendRescan.title" = "Transaction Rejected";
 
 /* Upgrade PIN prompt body. */
-"Prompts.SetPin.body" = "Litewallet requires a 6-digit PIN. Please set and store your PIN in a safe place.";
+"Prompts.SetPin.body" = "Eacpay requires a 6-digit PIN. Please set and store your PIN in a safe place.";
 
 /* Upgrade PIN prompt title. */
 "Prompts.SetPin.title" = "Set PIN";
 
 /* Share data prompt body */
-"Prompts.ShareData.body" = "Help improve Litewallet by sharing your anonymous data with us";
+"Prompts.ShareData.body" = "Help improve Eacpay by sharing your anonymous data with us";
 
 /* Share data prompt title */
 "Prompts.ShareData.title" = "Share Anonymous Data";
@@ -713,7 +713,7 @@
 "Prompts.TouchId.title" = "Enable Touch ID";
 
 /* Push notifications settings view body */
-"PushNotifications.body" = "Turn on notifications to receive special messages from Litewallet in the future.";
+"PushNotifications.body" = "Turn on notifications to receive special messages from Eacpay in the future.";
 
 /* Push notifications toggle switch label */
 "PushNotifications.label" = "Push Notifications";
@@ -761,7 +761,7 @@
 "RecoverWallet.instruction" = "Enter Paper Key";
 
 /* Recover wallet intro */
-"RecoverWallet.intro" = "Recover your Litewallet with your paper key.";
+"RecoverWallet.intro" = "Recover your Eacpay with your paper key.";
 
 /* Invalid paper key message */
 "RecoverWallet.invalid" = "The paper key you entered is invalid. Please double-check each word and try again.";
@@ -803,7 +803,7 @@
 "ReScan.body1" = "20-45 minutes";
 
 /* Syncing explanation */
-"ReScan.body2" = "If a transaction shows as completed on the Litecoin network but not in your Litewallet.";
+"ReScan.body2" = "If a transaction shows as completed on the Earthcoin network but not in your Eacpay.";
 
 /* Syncing explanation */
 "ReScan.body3" = "You repeatedly get an error saying your transaction was rejected.";
@@ -827,7 +827,7 @@
 "resetButton" = "Yes, reset wallet";
 
 /* Warning Empty Wipe title */
-"resetTitle" = "Delete my Litewallet";
+"resetTitle" = "Delete my Eacpay";
 
 /* Scan Litecoin address camera flash toggle */
 "Scanner.flashButtonLabel" = "Camera Flash";
@@ -851,13 +851,13 @@
 "SecurityCenter.info" = "Enable all security features for maximum protection.";
 
 /* Paper Key button description */
-"SecurityCenter.paperKeyDescription" = "The only way to access your Litecoin if you lose or upgrade your phone.";
+"SecurityCenter.paperKeyDescription" = "The only way to access your Earthcoin if you lose or upgrade your phone.";
 
 /* Paper Key button title */
 "SecurityCenter.paperKeyTitle" = "Paper Key";
 
 /* PIN button description */
-"SecurityCenter.pinDescription" = "Protects your Litewallet from unauthorized users.";
+"SecurityCenter.pinDescription" = "Protects your Eacpay from unauthorized users.";
 
 /* PIN button title */
 "SecurityCenter.pinTitle" = "6-Digit PIN";
@@ -866,7 +866,7 @@
 "SecurityCenter.title" = "Security Center";
 
 /* Touch ID/FaceID button description */
-"SecurityCenter.touchIdDescription" = "Conveniently unlock your Litewallet and send money up to a set limit.";
+"SecurityCenter.touchIdDescription" = "Conveniently unlock your Eacpay and send money up to a set limit.";
 
 /* Touch ID button title */
 "SecurityCenter.touchIdTitle" = "Touch ID";
@@ -887,7 +887,7 @@
 "Send.cameraunavailableMessage" = "Go to Settings to allow camera access.";
 
 /* Camera not allowed alert title */
-"Send.cameraUnavailableTitle" = "Litewallet is not allowed to access the camera";
+"Send.cameraUnavailableTitle" = "Eacpay is not allowed to access the camera";
 
 /* Warning when sending to self. */
 "Send.containsAddress" = "The destination is your own address. You cannot send to yourself.";
@@ -902,7 +902,7 @@
 "Send.emptyPasteboard" = "Pasteboard is empty";
 
 /* Enter LTC Address */
-"Send.enterLTCAddress" = "Enter a Litecoin address";
+"Send.enterLTCAddress" = "Enter a Earthcoin address";
 
 /* Fees: $0.01*/
 "Send.fee" = "Fees: %1$@";
@@ -917,10 +917,10 @@
 "Send.insufficientFunds" = "Insufficient Funds";
 
 /* Invalid address alert message */
-"Send.invalidAddressMessage" = "The destination address is not a valid Litecoin address.";
+"Send.invalidAddressMessage" = "The destination address is not a valid Earthcoin address.";
 
 /* Invalid address on pasteboard message */
-"Send.invalidAddressOnPasteboard" = "Pasteboard does not contain a valid Litecoin address.";
+"Send.invalidAddressOnPasteboard" = "Pasteboard does not contain a valid Earthcoin address.";
 
 /* Invalid address alert title */
 "Send.invalidAddressTitle" = "Invalid Address";
@@ -983,7 +983,7 @@
 "Send.UnstoppableDomains.udSystemError" = "System lookup problem. [Error: %2$d]";
 
 /* Adress already used alert message - first part */
-"Send.UsedAddress.firstLine" = "Litecoin addresses are intended for single use only.";
+"Send.UsedAddress.firstLine" = "Earthcoin addresses are intended for single use only.";
 
 /* Adress already used alert message - second part */
 "Send.UsedAddress.secondLIne" = "Re-use reduces privacy for both you and the recipient and can result in loss if the recipient doesn't directly control the address.";
@@ -1013,7 +1013,7 @@
 "Settings.earlyAccess" = "Join Early Access";
 
 /* Are you enjoying Litewallet alert message body */
-"Settings.enjoying" = "Are you enjoying Litewallet?";
+"Settings.enjoying" = "Are you enjoying Eacpay?";
 
 /* Face ID spending limit label */
 "Settings.faceIdLimit" = "Face ID Spending Limit";
@@ -1028,10 +1028,10 @@
 "Settings.litewallet.environment" = "Environment:";
 
 /* Litewallet Partners */
-"Settings.litewallet.partners" = "Litewallet partners";
+"Settings.litewallet.partners" = "Eacpay partners";
 
 /* Litewallet version */
-"Settings.litewallet.version" = "Litewallet version:";
+"Settings.litewallet.version" = "Eacpay version:";
 
 /* Manage settings section header */
 "Settings.manage" = "Manage";
@@ -1067,7 +1067,7 @@
 "Settings.wipe" = "Start/Recover Another Wallet";
 
 /* Share data view body */
-"ShareData.body" = "Help improve Litewallet by sharing your anonymous data with us. This does not include any financial information. We respect your financial privacy.";
+"ShareData.body" = "Help improve Eacpay by sharing your anonymous data with us. This does not include any financial information. We respect your financial privacy.";
 
 /* Share data header */
 "ShareData.header" = "Share Data?";
@@ -1082,7 +1082,7 @@
 "StartPaperPhrase.againButtonTitle" = "Write Down Paper Key Again";
 
 /* Paper key explanation text. */
-"StartPaperPhrase.body" = "Your paper key is the only way to restore your Litewallet if your phone is lost, stolen, broken, or upgraded.\n\nWe will show you a list of words to write down on a piece of paper and keep safe.";
+"StartPaperPhrase.body" = "Your paper key is the only way to restore your Eacpay if your phone is lost, stolen, broken, or upgraded.\n\nWe will show you a list of words to write down on a piece of paper and keep safe.";
 
 /* button label */
 "StartPaperPhrase.buttonTitle" = "Write Down Paper Key";
@@ -1091,10 +1091,10 @@
 "StartPaperPhrase.date" = "You last wrote down your paper key on %1$@";
 
 /* Start view tagline */
-"StartViewController.tagline" = "The most secure and easiest way to use Litecoin.";
+"StartViewController.tagline" = "The most secure and easiest way to use Earthcoin.";
 
 /* Support the Litecoin Foundation */
-"SupportTheFoundation.title" = "Support the Litecoin Foundation";
+"SupportTheFoundation.title" = "Support the Earthcoin Foundation";
 
 /* Syncing view connection state header text */
 "SyncingHeader.connecting" = "Connecting...";
@@ -1130,7 +1130,7 @@
 "TouchIdSettings.customizeText" = "You can customize your Touch ID spending limit from the %1$@.";
 
 /* Touch Id screen label */
-"TouchIdSettings.label" = "Use your fingerprint to unlock your Litewallet and send money up to a set limit.";
+"TouchIdSettings.label" = "Use your fingerprint to unlock your Eacpay and send money up to a set limit.";
 
 /*  ł100,000 ($100) */
 "TouchIdSettings.limitValue" = "%1$@ (%2$@)";
@@ -1142,7 +1142,7 @@
 "TouchIdSettings.spendingLimit" = "Spending limit: %1$@ (%2$@)";
 
 /* Touch id switch label. */
-"TouchIdSettings.switchLabel" = "Enable Touch ID for Litewallet";
+"TouchIdSettings.switchLabel" = "Enable Touch ID for Eacpay";
 
 /* Touch ID settings view title */
 "TouchIdSettings.title" = "Touch ID";
@@ -1283,7 +1283,7 @@
 "TransactionDetails.to" = "to %1$@";
 
 /* Transaction ID header */
-"TransactionDetails.txHashHeader" = "Litecoin Transaction ID";
+"TransactionDetails.txHashHeader" = "Earthcoin Transaction ID";
 
 /* (this transaction was) Received at this address: */
 "TransactionDirection.address" = "Received at this Address";
@@ -1310,7 +1310,7 @@
 "UnlockScreen.scan" = "Scan";
 
 /* TouchID/FaceID prompt text */
-"UnlockScreen.touchIdPrompt" = "Unlock your Litewallet.";
+"UnlockScreen.touchIdPrompt" = "Unlock your Eacpay.";
 
 /* Unlock with TouchID accessibility label */
 "UnlockScreen.touchIdText" = "Unlock with TouchID";
@@ -1319,10 +1319,10 @@
 "UnlockScreen.unlocked" = "Wallet Unlocked";
 
 /* Update PIN caption text */
-"UpdatePin.caption" = "Remember this PIN. If you forget it, you won't be able to access your Litecoin.";
+"UpdatePin.caption" = "Remember this PIN. If you forget it, you won't be able to access your Earthcoin.";
 
 /* PIN creation info. */
-"UpdatePin.createInstruction" = "Your PIN will be used to unlock your Litewallet and send money.";
+"UpdatePin.createInstruction" = "Your PIN will be used to unlock your Eacpay and send money.";
 
 /* Update PIN title */
 "UpdatePin.createTitle" = "Set PIN";
@@ -1373,7 +1373,7 @@
 "VerifyPin.touchIdMessage" = "Authorize this transaction";
 
 /* 'No wallet' warning for watch app */
-"Watch.noWalletWarning" = "Open the Litewallet iPhone app to set up your wallet.";
+"Watch.noWalletWarning" = "Open the Eacpay iPhone app to set up your wallet.";
 
 /* Dismiss button label */
 "Webview.dismiss" = "Dismiss";
@@ -1385,10 +1385,10 @@
 "Webview.updating" = "Updating...";
 
 /* Welcome view body text */
-"Welcome.body" = "Litewallet now has a brand new look and some new features.\n\nAll coins are displayed in lites (ł). 1 Litecoin (Ł) = 1000 lites (ł).";
+"Welcome.body" = "Eacpay now has a brand new look and some new features.\n\nAll coins are displayed in Meac (є). 1 Earthcoin (Є) = 1000 Meac (є).";
 
 /* Welcome view title */
-"Welcome.title" = "Welcome to Litewallet!";
+"Welcome.title" = "Welcome to Eacpay!";
 
 /* Delete database title */
 "WipeWallet.alertDeleteTitle" = "Delete Database";
@@ -1421,7 +1421,7 @@
 "WipeWallet.instruction" = "To start a new wallet or restore an existing wallet, you must first erase the wallet that is currently installed. To continue, enter the current wallet's Paper Key.";
 
 /* Start wipe wallet view message */
-"WipeWallet.startMessage" = "Starting or recovering another wallet allows you to access and manage a different Litewallet wallet on this device.";
+"WipeWallet.startMessage" = "Starting or recovering another wallet allows you to access and manage a different Eacpay wallet on this device.";
 
 /* Start wipe wallet view warning */
 "WipeWallet.startWarning" = "Your current wallet will be removed from this device. If you wish to restore it in the future, you will need to enter your Paper Key.";
@@ -1430,10 +1430,10 @@
 "WipeWallet.title" = "Start or Recover Another Wallet";
 
 /* Warning Alert */
-"WipeWallet.warningAlert" = "This action will wipe your Litewallet!";
+"WipeWallet.warningAlert" = "This action will wipe your Eacpay!";
 
 /* Warning description */
-"WipeWallet.warningDescription" = "Deleting your wallet means the private key and wipe the app data will be gone. You may lose your Litecoin forever! \n\n\nNo one on the Litewallet team can retrieve this seed for you. We are not responsible if you fail to heed this warning.";
+"WipeWallet.warningDescription" = "Deleting your wallet means the private key and wipe the app data will be gone. You may lose your Earthcoin forever! \n\n\nNo one on the Eacpay team can retrieve this seed for you. We are not responsible if you fail to heed this warning.";
 
 /* Warning title */
 "WipeWallet.warningTitle" = "PLEASE READ!";

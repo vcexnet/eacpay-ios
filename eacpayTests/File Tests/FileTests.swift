@@ -10,9 +10,9 @@ import Firebase
 import XCTest
 
 class FileTests: XCTestCase {
-    func testGoogleServicesFileExists() throws {
-        let filePath = Bundle.main.path(forResource: "GoogleService-Info", ofType: "plist")
+	func testGoogleServicesFileExists() throws {
+		let filePath = Bundle.main.path(forResource: "GoogleService-Info", ofType: "plist")
 
-        XCTAssertNotNil(FirebaseOptions(contentsOfFile: filePath!))
-    }
+		XCTAssertNotNil(FirebaseOptions(contentsOfFile: filePath!))
+	}
 }

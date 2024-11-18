@@ -9,18 +9,18 @@ import Foundation
 import SwiftUI
 
 class LoginViewHostingController: UIHostingController<LoginView> {
-    // MARK: - Private
+	// MARK: - Private
 
-    var viewModel: LockScreenViewModel
+	var viewModel: LockScreenViewModel
 
-    init(store: Store, isPresentedForLock _: Bool, walletManager _: WalletManager? = nil) {
-        viewModel = LockScreenViewModel(store: store)
+	init(store: Store, isPresentedForLock _: Bool, walletManager _: WalletManager? = nil) {
+		viewModel = LockScreenViewModel(store: store)
 
-        super.init(rootView: LoginView(viewModel: viewModel))
-    }
+		super.init(rootView: LoginView(viewModel: viewModel))
+	}
 
-    @available(*, unavailable)
-    @MainActor dynamic required init?(coder _: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
+	@available(*, unavailable)
+	@MainActor dynamic required init?(coder _: NSCoder) {
+		fatalError("init(coder:) has not been implemented")
+	}
 }
