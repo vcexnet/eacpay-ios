@@ -37,13 +37,14 @@
 extern "C" {
 #endif
 
-#define PEER_MAX_CONNECTIONS 8
+#define PEER_MAX_CONNECTIONS 3
 
 typedef struct BRPeerManagerStruct BRPeerManager;
 
 // returns a newly allocated BRPeerManager struct that must be freed by calling BRPeerManagerFree()
 BRPeerManager *BRPeerManagerNew(const BRChainParams *params, BRWallet *wallet, uint32_t earliestKeyTime,
-                                BRMerkleBlock *blocks[], size_t blocksCount, const BRPeer peers[], size_t peersCount);
+                                BRMerkleBlock *blocks[], size_t blocksCount, const BRPeer peers[], size_t peersCount, 
+                                double fpRate);
 
 // not thread-safe, set callbacks once before calling BRPeerManagerConnect()
 // info is a void pointer that will be passed along with each callback call
@@ -74,9 +75,6 @@ BRPeerStatus BRPeerManagerConnectStatus(BRPeerManager *manager);
 
 // returns the standard port used for BRChainParams
 uint16_t BRPeerManagerStandardPort(BRPeerManager *manager);
-
-// true if currently connected to at least one peer
-int BRPeerManagerIsConnected(BRPeerManager *manager);
 
 // connect to bitcoin peer-to-peer network (also call this whenever networkIsReachable() status changes)
 void BRPeerManagerConnect(BRPeerManager *manager);

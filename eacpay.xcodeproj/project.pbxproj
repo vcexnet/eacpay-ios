@@ -702,9 +702,6 @@
 		22A9A9631DF61FE7000F0016 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		22A9A9651DF61FEE000F0016 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		22A9A9671DF61FF8000F0016 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
-		22A9A9A91DF64B97000F0016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Modules/libbz2/Info.plist; sourceTree = SOURCE_ROOT; };
-		22A9A9AA1DF64B97000F0016 /* iphone.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = iphone.modulemap; path = Modules/libbz2/iphone.modulemap; sourceTree = SOURCE_ROOT; };
-		22A9A9AB1DF64B97000F0016 /* iphonesim.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = iphonesim.modulemap; path = Modules/libbz2/iphonesim.modulemap; sourceTree = SOURCE_ROOT; };
 		24016D8F23F913C1006A6791 /* LWAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LWAnalytics.swift; sourceTree = "<group>"; };
 		2427342B2381C21800E2D22F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		24306796238F3DF900EBEA99 /* BartyCrouch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BartyCrouch.swift; sourceTree = "<group>"; };
@@ -803,9 +800,6 @@
 		5EBDD1472CE8C3DD00F6D4EC /* ru */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ru; path = ru.lproj/Ru.mp3; sourceTree = "<group>"; };
 		7503773C1DF57428005EB8AE /* WalletManager+Auth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WalletManager+Auth.swift"; sourceTree = "<group>"; };
 		7528D2971ECF655500925DBC /* PaymentProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentProtocol.swift; sourceTree = "<group>"; };
-		752FB03B1DF8BE4B009086FB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		752FB03C1DF8BE4B009086FB /* iphone.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = iphone.modulemap; sourceTree = "<group>"; };
-		752FB03D1DF8BE4B009086FB /* iphonesim.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = iphonesim.modulemap; sourceTree = "<group>"; };
 		754AE0BB1DFE8A46007FD001 /* BRCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRCore.swift; sourceTree = "<group>"; };
 		754AE0BD1DFE8E5A007FD001 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = Platform/module.modulemap; sourceTree = "<group>"; };
 		75519F331DC7D20500EDF66C /* WalletManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletManager.swift; sourceTree = "<group>"; };
@@ -1686,7 +1680,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1BBAEBE51F80237B0047DEA8 /* loafwallet-core */ = {
+		1BBAEBE51F80237B0047DEA8 /* eacpay-core-ios */ = {
 			isa = PBXGroup;
 			children = (
 				1BBAEBE81F80237B0047DEA8 /* BRAddress.c */,
@@ -1729,8 +1723,8 @@
 				1BBAEC0C1F80237B0047DEA8 /* secp256k1 */,
 				1BBAEC711F80237C0047DEA8 /* test.c */,
 			);
-			name = "loafwallet-core";
-			path = "Modules/loafwallet-core";
+			name = "eacpay-core-ios";
+			path = "Modules/eacpay-core-ios";
 			sourceTree = "<group>";
 		};
 		1BBAEC0C1F80237B0047DEA8 /* secp256k1 */ = {
@@ -1957,17 +1951,6 @@
 				222319B11F279B3C00008F20 /* POSTBouncer.html */,
 			);
 			name = Platform;
-			sourceTree = "<group>";
-		};
-		22A9A9971DF63426000F0016 /* libbz2 */ = {
-			isa = PBXGroup;
-			children = (
-				22A9A9A91DF64B97000F0016 /* Info.plist */,
-				22A9A9AA1DF64B97000F0016 /* iphone.modulemap */,
-				22A9A9AB1DF64B97000F0016 /* iphonesim.modulemap */,
-			);
-			name = libbz2;
-			path = Modules/libbz2;
 			sourceTree = "<group>";
 		};
 		24306795238F3DDF00EBEA99 /* BartyCrouch */ = {
@@ -2951,24 +2934,11 @@
 		75B6F52F1DA71DCC0031A93F /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				1BBAEBE51F80237B0047DEA8 /* loafwallet-core */,
-				22A9A9971DF63426000F0016 /* libbz2 */,
+				1BBAEBE51F80237B0047DEA8 /* eacpay-core-ios */,
 				755CD3831DAA0E3E0075898E /* unbound */,
 				755CD7031DAA16810075898E /* nettle */,
-				75FEFD1F1DAEE7A400203D3A /* sqlite3 */,
 			);
 			name = Modules;
-			sourceTree = "<group>";
-		};
-		75FEFD1F1DAEE7A400203D3A /* sqlite3 */ = {
-			isa = PBXGroup;
-			children = (
-				752FB03B1DF8BE4B009086FB /* Info.plist */,
-				752FB03C1DF8BE4B009086FB /* iphone.modulemap */,
-				752FB03D1DF8BE4B009086FB /* iphonesim.modulemap */,
-			);
-			name = sqlite3;
-			path = Modules/sqlite3;
 			sourceTree = "<group>";
 		};
 		C3055B662B8E593A002A0882 /* LaunchDataResources */ = {
@@ -4563,7 +4533,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules $(SRCROOT)/eacpay/Platform";
+				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules $(SRCROOT)/litewallet-ios-release-v3.13.5/Platform";
 				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -4591,6 +4561,7 @@
 					"$(PROJECT_DIR)",
 					"$(inherited)",
 				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/eacpay/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Eacpay;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
@@ -4743,8 +4714,8 @@
 					"$(inherited)",
 				);
 				HEADER_SEARCH_PATHS = (
-					"${SRCROOT}/Modules/loafwallet-core",
-					"${SRCROOT}/Modules/loafwallet-core/secp256k1",
+					"${SRCROOT}/Modules/eacpay-core-ios",
+					"${SRCROOT}/Modules/eacpay-core-ios/secp256k1",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -4854,8 +4825,8 @@
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
 				ENABLE_ON_DEMAND_RESOURCES = NO;
 				HEADER_SEARCH_PATHS = (
-					"${SRCROOT}/Modules/loafwallet-core",
-					"${SRCROOT}/Modules/loafwallet-core/secp256k1",
+					"${SRCROOT}/Modules/eacpay-core-ios",
+					"${SRCROOT}/Modules/eacpay-core-ios/secp256k1",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -4921,7 +4892,7 @@
 				"OTHER_LDFLAGS[arch=*]" = "-ObjC  ";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules $(SRCROOT)/eacpay/Platform";
+				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules $(SRCROOT)/litewallet-ios-release-v3.13.5/Platform";
 				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
@@ -4948,6 +4919,7 @@
 					"$(PROJECT_DIR)",
 					"$(inherited)",
 				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/eacpay/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Eacpay;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
@@ -5068,7 +5040,7 @@
 				ON_DEMAND_RESOURCES_INITIAL_INSTALL_TAGS = "initial-resources";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules $(SRCROOT)/eacpay/Platform";
+				SWIFT_INCLUDE_PATHS = "$(SDK_DIR)/usr/include $(SRCROOT)/Modules $(SRCROOT)/litewallet-ios-release-v3.13.5/Platform";
 				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -5091,6 +5063,7 @@
 					"$(PROJECT_DIR)",
 					"$(inherited)",
 				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/eacpay/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Eacpay;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
@@ -5168,8 +5141,8 @@
 					"BITCOIN_TESTNET=1",
 				);
 				HEADER_SEARCH_PATHS = (
-					"${SRCROOT}/Modules/loafwallet-core",
-					"${SRCROOT}/Modules/loafwallet-core/secp256k1",
+					"${SRCROOT}/Modules/eacpay-core-ios",
+					"${SRCROOT}/Modules/eacpay-core-ios/secp256k1",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
