@@ -16,7 +16,7 @@ class BundleEx: Bundle {
 
 public extension Bundle {
 	class func setLanguage(_ language: String?) {
-		let oneToken = "com.litecoin.loafwallet"
+		let oneToken = "com.earthcoin.eacpay"
 
 		DispatchQueue.once(token: oneToken) {
 			object_setClass(Bundle.main, BundleEx.self as AnyClass)

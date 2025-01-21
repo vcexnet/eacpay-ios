@@ -2,6 +2,11 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>com.earthcoin.backupLitewallet</string>
+		<string>com.earthcoin.fetchLitewallet</string>
+	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
@@ -73,7 +78,7 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>com.litecoin.loafwallet</string>
+			<string>com.earthcoin.eacpay</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>loaf</string>
@@ -206,11 +211,6 @@
 				<string>application/litecoin-paymentack</string>
 			</dict>
 		</dict>
-	</array>
-	<key>BGTaskSchedulerPermittedIdentifiers</key>
-	<array>
-		<string>com.litecoin.backupLitewallet</string>
-		<string>com.litecoin.fetchLitewallet</string>
 	</array>
 </dict>
 </plist>

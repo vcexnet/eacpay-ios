@@ -23,7 +23,7 @@
         <!--Modal ReceiveQR View Controller-->
         <scene sceneID="dUe-97-gnl">
             <objects>
-                <viewController storyboardIdentifier="LFModalReceiveQRViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="3tF-rI-LAg" customClass="LFModalReceiveQRViewController" customModule="litewallet" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LFModalReceiveQRViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="3tF-rI-LAg" customClass="LFModalReceiveQRViewController" customModule="eacpay" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="k5i-5b-4fH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -52,7 +52,7 @@
                                             <action selector="didCancelAction:" destination="3tF-rI-LAg" eventType="touchUpInside" id="hUG-jw-2Ib"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RECEIVE LTC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wTI-Q5-Xjf">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RECEIVE EAC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wTI-Q5-Xjf">
                                         <rect key="frame" x="10" y="10" width="260" height="20.5"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="20.5" id="iZF-kE-3yV"/>
@@ -112,7 +112,7 @@
         <!--Prompt Modal View Controller-->
         <scene sceneID="K6H-yX-hNz">
             <objects>
-                <viewController storyboardIdentifier="PromptModalViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="d35-N6-2Y4" customClass="PromptModalViewController" customModule="litewallet" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PromptModalViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="d35-N6-2Y4" customClass="PromptModalViewController" customModule="eacpay" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mqq-5p-nVF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

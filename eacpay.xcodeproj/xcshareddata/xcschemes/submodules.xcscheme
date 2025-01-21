@@ -17,7 +17,7 @@
                BlueprintIdentifier = "759DA0D71DAC8668008CC49B"
                BuildableName = "submodules"
                BlueprintName = "submodules"
-               ReferencedContainer = "container:eacpay.xcodeproj">
+               ReferencedContainer = "container:EACPay.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -52,7 +52,7 @@
             BlueprintIdentifier = "759DA0D71DAC8668008CC49B"
             BuildableName = "submodules"
             BlueprintName = "submodules"
-            ReferencedContainer = "container:eacpay.xcodeproj">
+            ReferencedContainer = "container:EACPay.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

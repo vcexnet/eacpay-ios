@@ -275,6 +275,9 @@
 /* Fee Selector title */
 "FeeSelector.title" = "Velocidade de processamento";
 
+/* "Fragment.back" */
+"Fragment.back" = "Retornar";
+
 /* Confirm */
 "Fragment.confirm" = "confirme";
 
@@ -907,6 +910,11 @@
 
 /* Share data header */
 "ShareData.header" = "Partilhar Dados?";
+
+/* "ShowWords.modalTitle" */
+"ShowWords.modalTitle" = "Mostrar frase semente";
+/* "ShowWords.titleWarning" */
+"ShowWords.titleWarning" = "Estas são suas palavras-semente. Se você mostrá-las a qualquer pessoa, eles podem levar seu Earthcoin";
 
 /* Share data switch label. */
 "ShareData.toggleLabel" = "Partilhar Dados Anónimos?";

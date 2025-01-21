@@ -5,7 +5,7 @@ class MessageUIPresenter: NSObject, Trackable {
 	weak var presenter: UIViewController?
 
 	func presentMailCompose(litecoinAddress: String, image: UIImage) {
-		presentMailCompose(string: "litecoin: \(litecoinAddress)", image: image)
+		presentMailCompose(string: "earthcoin: \(litecoinAddress)", image: image)
 	}
 
 	func presentMailCompose(bitcoinURL: String, image: UIImage) {
@@ -19,7 +19,7 @@ class MessageUIPresenter: NSObject, Trackable {
 		let emailView = MFMailComposeViewController()
 		emailView.setMessageBody(string, isHTML: false)
 		if let data = image.pngData() {
-			emailView.addAttachmentData(data, mimeType: "image/png", fileName: "litecoinqr.png")
+			emailView.addAttachmentData(data, mimeType: "image/png", fileName: "earthcoinqr.png")
 		}
 		emailView.mailComposeDelegate = self
 		present(emailView)
@@ -40,7 +40,7 @@ class MessageUIPresenter: NSObject, Trackable {
 		originalTitleTextAttributes = UINavigationBar.appearance().titleTextAttributes
 		UINavigationBar.appearance().titleTextAttributes = nil
 		let emailView = MFMailComposeViewController()
-		emailView.setSubject("Litewallet Support")
+		emailView.setSubject("Eacpay Support")
 		emailView.setToRecipients([C.supportEmail])
 		emailView.setMessageBody(C.troubleshootingQuestions, isHTML: true)
 		emailView.mailComposeDelegate = self
@@ -59,7 +59,7 @@ class MessageUIPresenter: NSObject, Trackable {
 	}
 
 	func presentMessageCompose(address: String, image: UIImage) {
-		presentMessage(string: "litecoin: \(address)", image: image)
+		presentMessage(string: "earthcoin: \(address)", image: image)
 	}
 
 	func presentMessageCompose(bitcoinURL: String, image: UIImage) {
@@ -73,7 +73,7 @@ class MessageUIPresenter: NSObject, Trackable {
 		let textView = MFMessageComposeViewController()
 		textView.body = string
 		if let data = image.pngData() {
-			textView.addAttachmentData(data, typeIdentifier: "public.image", filename: "litecoinqr.png")
+			textView.addAttachmentData(data, typeIdentifier: "public.image", filename: "earthcoinqr.png")
 		}
 		textView.messageComposeDelegate = self
 		saveEvent("receive.presentMessage")

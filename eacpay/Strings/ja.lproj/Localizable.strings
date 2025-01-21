@@ -274,6 +274,9 @@
 /* Fee Selector title */
 "FeeSelector.title" = "処理速度";
 
+/* "Fragment.back" */
+"Fragment.back" = "戻る";
+
 /* Confirm */
 "Fragment.confirm" = "確認";
 
@@ -906,6 +909,11 @@
 
 /* Share data header */
 "ShareData.header" = "データをシェしますか?";
+
+/* "ShowWords.modalTitle" */
+"ShowWords.modalTitle" = "シードフレーズを表示";
+/* "ShowWords.titleWarning" */
+"ShowWords.titleWarning" = "これらはあなたの種の言葉です。誰にでも見せればライトコインを持っていくことができます";
 
 /* Share data switch label. */
 "ShareData.toggleLabel" = "匿名データをシェアしますか?";

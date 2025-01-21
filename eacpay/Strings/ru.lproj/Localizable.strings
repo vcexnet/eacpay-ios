@@ -274,6 +274,9 @@
 /* Fee Selector title */
 "FeeSelector.title" = "Скорость обработки";
 
+/* "Fragment.back" */
+"Fragment.back" = "Возвращаться";
+
 /* Confirm */
 "Fragment.confirm" = "Подтверждать";
 
@@ -323,7 +326,7 @@
 "Import.leftCaption" = "Кошелек, который будет импортирован";
 
 /* Import wallet intro screen message */
-"Import.message" = "При импортировании кошелька все ваши деньги из другого кошелька будут перенесены в ваш кошелек Litewallet с помощью одной транзакции.";
+"Import.message" = "При импортировании кошелька все ваши деньги из другого кошелька будут перенесены в ваш кошелек Eacpay с помощью одной транзакции.";
 
 /* Enter password alert view title */
 "Import.password" = "Этот персональный ключ защищен паролем.";
@@ -332,7 +335,7 @@
 "Import.passwordPlaceholder" = "пароль";
 
 /* Caption for graphics */
-"Import.rightCaption" = "Ваш кошелек Litewallet";
+"Import.rightCaption" = "Ваш кошелек Eacpay";
 
 /* Scan Private key button label */
 "Import.scan" = "Сканировать персональный ключ";
@@ -848,7 +851,7 @@
 "Settings.earlyAccess" = "Присоединитесь к пользователям с ранним доступом";
 
 /* Are you enjoying Litewallet alert message body */
-"Settings.enjoying" = "Нравится ли вам использовать Litewallet?";
+"Settings.enjoying" = "Нравится ли вам использовать Eacpay?";
 
 /* Face ID spending limit label */
 "Settings.faceIdLimit" = "PLACEHOLDER";
@@ -906,6 +909,11 @@
 
 /* Share data header */
 "ShareData.header" = "Поделиться данными?";
+
+/* "ShowWords.modalTitle" */
+"ShowWords.modalTitle" = "Показать начальную фразу";
+/* "ShowWords.titleWarning" */
+"ShowWords.titleWarning" = "Это ваши seed-слова. Если вы покажете их кому-нибудь, они могут забрать ваши Earthcoin";
 
 /* Share data switch label. */
 "ShareData.toggleLabel" = "Поделиться анонимными данными?";

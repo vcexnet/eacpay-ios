@@ -7,17 +7,17 @@
 	<key>REVERSED_CLIENT_ID</key>
 	<string>com.googleusercontent.apps.594532048902-69ob24v7sve72qcakhb2bhin93e7r5c9</string>
 	<key>API_KEY</key>
-	<string>AIzaSyDRzd7Sk3xswcgfUlCH7fZ-A3OaSRuzF-g</string>
+	<string>AIzaSyBTdaojkvV6cqE2DLXvOX255OxdILThx5U</string>
 	<key>GCM_SENDER_ID</key>
-	<string>594532048902</string>
+	<string>65087219746</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.litecoin-foundation.litewallet-develop</string>
+	<string>com.earthcoin.eacpay</string>
 	<key>PROJECT_ID</key>
-	<string>litewallet-develop</string>
+	<string>eacpay-ios</string>
 	<key>STORAGE_BUCKET</key>
-	<string>litewallet-develop.appspot.com</string>
+	<string>eacpay-ios.firebasestorage.app</string>
 	<key>IS_ADS_ENABLED</key>
 	<false/>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true/>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:594532048902:ios:6aaaa085b80105bbb7a387</string>
+	<string>1:65087219746:ios:138b1029e7e1f19a0dc27b</string>
 </dict>
 </plist>

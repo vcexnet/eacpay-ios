@@ -7,7 +7,7 @@ let timeSinceLastExitKey = "TimeSinceLastExit"
 let shouldRequireLoginTimeoutKey = "ShouldRequireLoginTimeoutKey"
 let numberOfLitewalletLaunches = "NumberOfLitewalletLaunches"
 let hasSeenAnnounceView = "HasSeedAnnounceView"
-let LITEWALLET_APP_STORE_ID = 1_119_332_592
+let EACPAY_APP_STORE_ID = 6_737_495_367
 
 class ApplicationController: Subscriber, Trackable {
 	// Ideally the window would be private, but is unfortunately required

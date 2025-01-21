@@ -5,6 +5,11 @@ class SyncProgressHeaderView: UITableViewCell, Subscriber {
 	@IBOutlet var timestampLabel: UILabel!
 	@IBOutlet var progressView: UIProgressView!
 	@IBOutlet var noSendImageView: UIImageView!
+	private let dateFormatter: DateFormatter = {
+		let df = DateFormatter()
+		df.setLocalizedDateFormatFromTemplate("MMM d, yyyy")
+		return df
+	}()
 
 	var progress: CGFloat = 0.0 {
 		didSet {
@@ -48,12 +53,6 @@ class SyncProgressHeaderView: UITableViewCell, Subscriber {
 			}
 		}
 	}
-
-	private let dateFormatter: DateFormatter = {
-		let df = DateFormatter()
-		df.setLocalizedDateFormatFromTemplate("MMM d, yyyy")
-		return df
-	}()
 
 	override func awakeFromNib() {
 		super.awakeFromNib()

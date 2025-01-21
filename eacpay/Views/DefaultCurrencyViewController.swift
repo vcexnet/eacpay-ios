@@ -20,13 +20,7 @@ class DefaultCurrencyViewController: UITableViewController, Subscriber {
 
 	private var defaultCurrencyCode: String? {
 		didSet {
-			// Grab index paths of new and old rows when the currency changes
-			let paths: [IndexPath] = rates.enumerated().filter { $0.1.code == defaultCurrencyCode || $0.1.code == oldValue }.map { IndexPath(row: $0.0, section: 0) }
-			tableView.beginUpdates()
-			tableView.reloadRows(at: paths, with: .automatic)
-			tableView.endUpdates()
-
-			setExchangeRateLabel()
+			updateCurrencyRows(oldCurrencyCode: oldValue)
 		}
 	}
 
@@ -73,6 +67,19 @@ class DefaultCurrencyViewController: UITableViewController, Subscriber {
 		}
 	}
 
+	private func updateCurrencyRows(oldCurrencyCode: String?) {
+		// Grab index paths of new and old rows when the currency changes
+		let paths: [IndexPath] = rates.enumerated().filter { $0.1.code == defaultCurrencyCode || $0.1.code == oldCurrencyCode }.map { IndexPath(row: $0.0, section: 0) }
+
+		Task { @MainActor in
+			tableView.beginUpdates()
+			tableView.reloadRows(at: paths, with: .automatic)
+			tableView.endUpdates()
+
+			setExchangeRateLabel()
+		}
+	}
+
 	override func numberOfSections(in _: UITableView) -> Int {
 		return 1
 	}
@@ -85,7 +92,6 @@ class DefaultCurrencyViewController: UITableViewController, Subscriber {
 		let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath)
 		let rate = rates[indexPath.row]
 		cell.textLabel?.text = "\(rate.code) (\(rate.currencySymbol))"
-
 		if rate.code == defaultCurrencyCode {
 			let check = UIImageView(image: #imageLiteral(resourceName: "CircleCheck").withRenderingMode(.alwaysTemplate))
 			check.tintColor = C.defaultTintColor

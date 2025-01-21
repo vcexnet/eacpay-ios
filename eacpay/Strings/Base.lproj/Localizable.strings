@@ -1461,3 +1461,7 @@
 
 /* "Language preference label" */
 "Notifications.languagePreference" = "Preferred language:";
+/* "ShowWords.titleWarning" */
+"ShowWords.titleWarning" = "These are your seed words. If you show them to anyone, they can take your Earthcoin";
+/* "ShowWords.modalTitle" */
+"ShowWords.modalTitle" = "Show seed phrase";

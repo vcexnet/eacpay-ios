@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "75A2A78F1DA5934300A983D8"
                BuildableName = "Eacpay.app"
-               BlueprintName = "eacpay"
-               ReferencedContainer = "container:eacpay.xcodeproj">
+               BlueprintName = "EACPay"
+               ReferencedContainer = "container:EACPay.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,8 +32,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "75A2A78F1DA5934300A983D8"
             BuildableName = "Eacpay.app"
-            BlueprintName = "eacpay"
-            ReferencedContainer = "container:eacpay.xcodeproj">
+            BlueprintName = "EACPay"
+            ReferencedContainer = "container:EACPay.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <Testables>
@@ -42,9 +42,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2465873523A5AAD000A32E9E"
-               BuildableName = "eacpayTests.xctest"
-               BlueprintName = "eacpayTests"
-               ReferencedContainer = "container:eacpay.xcodeproj">
+               BuildableName = "EACPayTests.xctest"
+               BlueprintName = "EACPayTests"
+               ReferencedContainer = "container:EACPay.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -54,7 +54,7 @@
                BlueprintIdentifier = "2465872523A5AAC200A32E9E"
                BuildableName = "loafwalletUITests.xctest"
                BlueprintName = "loafwalletUITests"
-               ReferencedContainer = "container:eacpay.xcodeproj">
+               ReferencedContainer = "container:EACPay.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -64,7 +64,7 @@
                BlueprintIdentifier = "2465870523A496CD00A32E9E"
                BuildableName = "LitewalletUITests.xctest"
                BlueprintName = "LitewalletUITests"
-               ReferencedContainer = "container:eacpay.xcodeproj">
+               ReferencedContainer = "container:EACPay.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -74,7 +74,7 @@
                BlueprintIdentifier = "2465871523A496D400A32E9E"
                BuildableName = "LitewalletTests.xctest"
                BlueprintName = "LitewalletTests"
-               ReferencedContainer = "container:eacpay.xcodeproj">
+               ReferencedContainer = "container:EACPay.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -84,7 +84,7 @@
                BlueprintIdentifier = "24470E1223A5D7C800ADDA27"
                BuildableName = "MainNavigationIUITests.xctest"
                BlueprintName = "MainNavigationIUITests"
-               ReferencedContainer = "container:eacpay.xcodeproj">
+               ReferencedContainer = "container:EACPay.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -105,8 +105,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "75A2A78F1DA5934300A983D8"
             BuildableName = "Eacpay.app"
-            BlueprintName = "eacpay"
-            ReferencedContainer = "container:eacpay.xcodeproj">
+            BlueprintName = "EACPay"
+            ReferencedContainer = "container:EACPay.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -122,8 +122,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "75A2A78F1DA5934300A983D8"
             BuildableName = "Eacpay.app"
-            BlueprintName = "eacpay"
-            ReferencedContainer = "container:eacpay.xcodeproj">
+            BlueprintName = "EACPay"
+            ReferencedContainer = "container:EACPay.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

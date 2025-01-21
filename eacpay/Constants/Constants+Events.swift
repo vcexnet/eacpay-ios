@@ -1,3 +1,4 @@
+import SwiftUI
 import UIKit
 
 let π: CGFloat = .pi
@@ -6,11 +7,19 @@ let swiftUICellPadding = 12.0
 let bigButtonCornerRadius = 15.0
 
 struct FoundationSupport {
-	static let dashboard = "https://support.litewallet.io/"
+	static let dashboard = "https://support.earthcoin.online/"
 }
 
 struct APIServer {
-	static let baseUrl = "https://api-prod.lite-wallet.org/"
+	let appDelegate = UIApplication.shared.delegate as! AppDelegate
+	let baseUrl: String
+	let devBaseUrl: String
+	init() {
+		baseUrl = appDelegate.remoteConfigurationHelper?
+			.getString(key: RemoteConfigKeys.KEY_PROD_API_BASEURL.rawValue) ?? ""
+		devBaseUrl = appDelegate.remoteConfigurationHelper?
+			.getString(key: RemoteConfigKeys.KEY_DEV_API_BASEURL.rawValue) ?? ""
+	}
 }
 
 struct Padding {
@@ -38,11 +47,11 @@ struct C {
 	static let secondsInDay: TimeInterval = 86400
 	static let maxMoney: UInt64 = 13_500_000_000 * 100_000_000
 	static let satoshis: UInt64 = 100_000_000
-	static let walletQueue = "com.litecoin.walletqueue"
+	static let walletQueue = "com.earthcoin.walletqueue"
 	static let btcCurrencyCode = "EAC"
 	static let null = "(null)"
 	static let maxMemoLength = 250
-	static let feedbackEmail = "feedback@eacpay.com"
+	static let feedbackEmail = "dev@eacpay.com"
 	static let supportEmail = "dev@eacpay.com"
 
 	static let reviewLink = "https://itunes.apple.com/app/loafwallet-litecoin-wallet/id1119332592?action=write-review"
@@ -88,7 +97,7 @@ struct C {
 	                     <div>1. What version of software running on your mobile device (e.g.; iOS 13.7 or iOS 14)?</div>
 	                      <br>
 	                      <br>
-	                        <div>2. What version of Litewallet software is on your mobile device (found on the login view)?</div>
+	                        <div>2. What version of EACPAY software is on your mobile device (found on the login view)?</div>
 	                      <br>
 	                      <br>
 	                        <div>3. What type of iPhone do you have?</div>
@@ -127,8 +136,8 @@ enum FalsePositiveRates: Double {
 }
 
 enum LWBGTaskidentifier: String {
-	case fetch = "com.litecoin.fetchLitewallet"
-	case backup = "com.litecoin.backupLitewallet"
+	case fetch = "com.earthcoin.fetchLitewallet"
+	case backup = "com.earthcoin.backupLitewallet"
 }
 
 /// Custom Event Enum: Events related to different user based actions
@@ -240,4 +249,7 @@ enum CustomEvent: String {
 
 	/// Unsupported by Moonpay
 	case _20240527_UBM = "unsupported_by_moonpay"
+
+	/// Remote Config Changed
+	case _20241213_RCC = "remote_config_changed"
 }

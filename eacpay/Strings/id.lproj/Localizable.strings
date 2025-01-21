@@ -274,6 +274,9 @@
 /* Fee Selector title */
 "FeeSelector.title" = "Kecepatan pemrosesan";
 
+/* "Fragment.back" */
+"Fragment.back" = "Kembali";
+
 /* Confirm */
 "Fragment.confirm" = "Mengonfirmasi";
 
@@ -906,6 +909,11 @@
 
 /* Share data header */
 "ShareData.header" = "Bagikan Data?";
+
+/* "ShowWords.modalTitle" */
+"ShowWords.modalTitle" = "Tampilkan frase awal";
+/* "ShowWords.titleWarning" */
+"ShowWords.titleWarning" = "Ini adalah kata-kata benih Anda. Jika Anda menunjukkannya kepada siapa pun, mereka dapat mengambil Earthcoin Anda";
 
 /* Share data switch label. */
 "ShareData.toggleLabel" = "Bagikan Data Anonim?";

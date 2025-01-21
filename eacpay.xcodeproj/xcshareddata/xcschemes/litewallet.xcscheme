@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "75A2A78F1DA5934300A983D8"
                BuildableName = "Eacpay.app"
-               BlueprintName = "eacpay"
-               ReferencedContainer = "container:eacpay.xcodeproj">
+               BlueprintName = "EACPay"
+               ReferencedContainer = "container:EACPay.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -42,8 +42,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "75A2A78F1DA5934300A983D8"
             BuildableName = "Eacpay.app"
-            BlueprintName = "eacpay"
-            ReferencedContainer = "container:eacpay.xcodeproj">
+            BlueprintName = "EACPay"
+            ReferencedContainer = "container:EACPay.xcodeproj">
          </BuildableReference>
       </CodeCoverageTargets>
       <Testables>
@@ -53,15 +53,15 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2465873523A5AAD000A32E9E"
-               BuildableName = "eacpayTests.xctest"
-               BlueprintName = "eacpayTests"
-               ReferencedContainer = "container:eacpay.xcodeproj">
+               BuildableName = "EACPayTests.xctest"
+               BlueprintName = "EACPayTests"
+               ReferencedContainer = "container:EACPay.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Debug"
+      buildConfiguration = "Release"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       language = "en"
@@ -78,8 +78,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "75A2A78F1DA5934300A983D8"
             BuildableName = "Eacpay.app"
-            BlueprintName = "eacpay"
-            ReferencedContainer = "container:eacpay.xcodeproj">
+            BlueprintName = "EACPay"
+            ReferencedContainer = "container:EACPay.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <LocationScenarioReference
@@ -99,8 +99,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "75A2A78F1DA5934300A983D8"
             BuildableName = "Eacpay.app"
-            BlueprintName = "eacpay"
-            ReferencedContainer = "container:eacpay.xcodeproj">
+            BlueprintName = "EACPay"
+            ReferencedContainer = "container:EACPay.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

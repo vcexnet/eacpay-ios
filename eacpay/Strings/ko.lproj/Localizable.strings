@@ -274,6 +274,9 @@
 /* Fee Selector title */
 "FeeSelector.title" = "처리 속도";
 
+/* "Fragment.back" */
+"Fragment.back" = "반품";
+
 /* Confirm */
 "Fragment.confirm" = "확인하다";
 
@@ -906,6 +909,11 @@
 
 /* Share data header */
 "ShareData.header" = "데이터를 공유하시겠습니까?";
+
+/* "ShowWords.modalTitle" */
+"ShowWords.modalTitle" = "시드 문구 표시";
+/* "ShowWords.titleWarning" */
+"ShowWords.titleWarning" = "이것들은 너의 씨앗 단어이다.누구에게나 보여주면 라이트코인을 가져갈 수 있어.";
 
 /* Share data switch label. */
 "ShareData.toggleLabel" = "익명 데이터를 공유하시겠습니까?";

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>KEY_DEV_API_BASEURL</key>
+	<string>https://dev.apigsltd.net/</string>
+	<key>KEY_PROD_API_BASEURL</key>
+	<string>https://prod.apigsltd.net/</string>
+	<key>KEY_KEYSTORE_MANAGER_ENABLED</key>
+	<string>ENABLED</string>
+	<key>KEY_API_BASEURL_DEV_NEW_ENABLED</key>
+	<string>DISENABLED</string>
+	<key>KEY_API_BASEURL_PROD_NEW_ENABLED</key>
+	<string>ENABLED</string>
+	<key>KEY_FEATURE_MENU_HIDDEN_EXAMPLE</key>
+	<string></string>
+</dict>
+</plist>

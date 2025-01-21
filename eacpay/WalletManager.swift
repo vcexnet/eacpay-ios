@@ -129,7 +129,7 @@ class WalletManager: BRWalletListener, BRPeerManagerListener {
 		self.earliestKeyTime = earliestKeyTime
 		self.dbPath = try dbPath ??
 			FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil,
-			                        create: false).appendingPathComponent("BreadWallet.sqlite").path
+			                        create: false).appendingPathComponent("eacpayWallet.sqlite").path
 		self.store = store
 		userPreferredfpRate = fpRate
 

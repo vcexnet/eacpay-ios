@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyC58u1MhxC27M-eWBHO60czLz08f4rrAMw</string>
+	<string>AIzaSyBTdaojkvV6cqE2DLXvOX255OxdILThx5U</string>
 	<key>GCM_SENDER_ID</key>
-	<string>969229325957</string>
+	<string>65087219746</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.litewallet.newborn</string>
+	<string>com.earthcoin.eacpay</string>
 	<key>PROJECT_ID</key>
-	<string>litewallet-newborn-alpha</string>
+	<string>eacpay-ios</string>
 	<key>STORAGE_BUCKET</key>
-	<string>litewallet-newborn-alpha.appspot.com</string>
+	<string>eacpay-ios.firebasestorage.app</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:969229325957:ios:b96117f47e5a662f41bbec</string>
+	<string>1:65087219746:ios:138b1029e7e1f19a0dc27b</string>
 </dict>
 </plist>

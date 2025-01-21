@@ -274,6 +274,9 @@
 /* password textfield placeholder */
 "Import.passwordPlaceholder" = "password";
 
+/* "Fragment.back" */
+"Fragment.back" = "Back";
+
 /* Caption for graphics */
 "Import.rightCaption" = "Your Eacpay Wallet";
 
@@ -909,6 +912,11 @@
 
 /* (this transaction was) Sent to this address: */
 "TransactionDirection.to" = "Sent to this Address";
+
+/* "ShowWords.modalTitle" */
+"ShowWords.modalTitle" = "Show seed phrase";
+/* "ShowWords.titleWarning" */
+"ShowWords.titleWarning" = "These are your seed words. If you show them to anyone, they can take your Earthcoin";
 
 /* Disabled until date */
 "UnlockScreen.disabled" = "Disabled until: %1$@";

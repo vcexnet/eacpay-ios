@@ -18,7 +18,7 @@
                BlueprintIdentifier = "75A2A8071DA5936F00A983D8"
                BuildableName = "TodayExtension.appex"
                BlueprintName = "TodayExtension"
-               ReferencedContainer = "container:eacpay.xcodeproj">
+               ReferencedContainer = "container:EACPay.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -31,8 +31,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "75A2A78F1DA5934300A983D8"
                BuildableName = "Eacpay.app"
-               BlueprintName = "eacpay"
-               ReferencedContainer = "container:eacpay.xcodeproj">
+               BlueprintName = "EACPay"
+               ReferencedContainer = "container:EACPay.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -62,8 +62,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "75A2A78F1DA5934300A983D8"
             BuildableName = "Eacpay.app"
-            BlueprintName = "eacpay"
-            ReferencedContainer = "container:eacpay.xcodeproj">
+            BlueprintName = "EACPay"
+            ReferencedContainer = "container:EACPay.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "75A2A78F1DA5934300A983D8"
             BuildableName = "Eacpay.app"
-            BlueprintName = "eacpay"
-            ReferencedContainer = "container:eacpay.xcodeproj">
+            BlueprintName = "EACPay"
+            ReferencedContainer = "container:EACPay.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

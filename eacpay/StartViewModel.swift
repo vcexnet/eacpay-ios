@@ -16,12 +16,6 @@ class StartViewModel: ObservableObject {
 	var walletCreationDidFail: Bool = false
 
 	@Published
-	var seedWords: [SeedWord] = [SeedWord(word: "indicate"), SeedWord(word: "material"), SeedWord(word: "property"),
-	                             SeedWord(word: "banana"), SeedWord(word: "tuition"), SeedWord(word: "lemon"),
-	                             SeedWord(word: "banana"), SeedWord(word: "tuition"), SeedWord(word: "lemon"),
-	                             SeedWord(word: "banana"), SeedWord(word: "tuition"), SeedWord(word: "surround")]
-
-	@Published
 	var pinDigits = ""
 
 	@Published
@@ -124,7 +118,7 @@ class StartViewModel: ObservableObject {
 	let taglines: [String] = [
 		"The most secure and easiest way to use Earthcoin.",
 		"使用地球币最安全、最简单的方式。",
-		"使用地球幣最安全、最簡單的方式",
+		"使用地球币最安全、最简单的方式",
 		"La manière la plus sûre et la plus simple d'utiliser Earthcoin.",
 		"Die sicherste Option zur Nutzung von Earthcoin.",
 		"Cara paling aman dan termudah untuk menggunakan Earthcoin.",

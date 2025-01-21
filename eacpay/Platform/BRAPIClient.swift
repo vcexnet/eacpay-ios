@@ -39,7 +39,7 @@ open class BRAPIClient: NSObject, URLSessionDelegate, URLSessionTaskDelegate, BR
 	var proto = "https"
 
 	// host is the server(s) on which the API is hosted
-	var host = "api-prod.lite-wallet.org"
+	var host = "api.earthcoin.space"
 
 	// isFetchingAuth is set to true when a request is currently trying to renew authentication (the token)
 	// it is useful because fetching auth is not idempotent and not reentrant, so at most one auth attempt
@@ -120,7 +120,7 @@ open class BRAPIClient: NSObject, URLSessionDelegate, URLSessionTaskDelegate, BR
 		   let signingData = mutableRequest.signingString.data(using: .utf8)
 		{
 			let sig = signingData.sha256_2.compactSign(key: authKey)
-			let hval = "Litewallet \(token):\(sig.base58)"
+			let hval = "eacpay \(token):\(sig.base58)"
 			mutableRequest.setValue(hval, forHTTPHeaderField: "Authorization")
 		}
 		return mutableRequest
@@ -134,7 +134,7 @@ open class BRAPIClient: NSObject, URLSessionDelegate, URLSessionTaskDelegate, BR
 		return actualRequest
 	}
 
-	public func dataTaskWithRequest(_ request: URLRequest, authenticated: Bool = false,
+	public func dataTaskWithRequest(_ request: URLRequest, authenticated: Bool = true,
 	                                retryCount: Int = 0, handler: @escaping URLSessionTaskHandler) -> URLSessionDataTask
 	{
 		let start = Date()
@@ -301,7 +301,7 @@ open class BRAPIClient: NSObject, URLSessionDelegate, URLSessionTaskDelegate, BR
 				// follow the redirect if we're interacting with our API
 				actualRequest = decorateRequest(request)
 				log("redirecting \(String(describing: currentReq.url)) to \(String(describing: request.url))")
-				if let curAuth = currentReq.allHTTPHeaderFields?["Authorization"], curAuth.hasPrefix("Litewallet") {
+				if let curAuth = currentReq.allHTTPHeaderFields?["Authorization"], curAuth.hasPrefix("eacpay") {
 					// add authentication because the previous request was authenticated
 					log("adding authentication to redirected request")
 					actualRequest = signRequest(actualRequest)
@@ -355,7 +355,7 @@ private extension HTTPURLResponse {
 		if let headers = allHeaderFields as? [String: String],
 		   let challenge = headers.get(lowercasedKey: "www-authenticate")
 		{
-			if challenge.lowercased().hasPrefix("Litewallet") {
+			if challenge.lowercased().hasPrefix("eacpay") {
 				return true
 			}
 		}
